@@ -1,2 +1,4 @@
 # BotanicalNER
-Named entity recognition for scientific and vernacular plant names
+Named entity recognition for scientific and vernacular plant names.
+
+
