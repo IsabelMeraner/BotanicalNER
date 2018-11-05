@@ -1,7 +1,6 @@
 Der	die	ART	O
-Gefleckte	gefleckt	ADJA	O
-Schierling	<unknown>	NN	B-de_species
-(	(	$(	O
+Gefleckte	gefleckt	ADJA	B-de_species
+Schierling	<unknown>	NN	I-de_species
 Conium	<unknown>	NN	B-lat_species
 maculatum	<unknown>	NN	I-lat_species
 gehört	gehören	VVFIN	O
@@ -14,7 +13,7 @@ Hundspetersilie	<unknown>	NN	B-de_species
 zu	zu	APPR	O
 den	die	ART	O
 giftigsten	giftig	ADJA	O
-Doldenblütlern	<unknown>	NN	O
+Doldenblütlern	<unknown>	NN	B-de_fam
 .	.	$.	O
 
 Die	die	ART	O
@@ -158,7 +157,7 @@ durch	durch	APPR	O
 Verwechslung	Verwechslung	NN	O
 mit	mit	APPR	O
 anderen	andere	PIS	O
-Doldengewächsen	<unknown>	NN	O
+Doldengewächsen	<unknown>	NN	B-de_fam
 ,	,	$,	O
 wie	wie	KOUS	O
 dem	die	ART	O
@@ -283,9 +282,8 @@ Atemlähmung	Atemlähmung	NN	O
 .	.	$.	O
 
 Das	die	ART	O
-Schwarze	schwarz	ADJA	O
-Bilsenkraut	Bilsenkraut	NN	B-de_species
-(	(	$(	O
+Schwarze	schwarz	ADJA	B-de_species
+Bilsenkraut	Bilsenkraut	NN	I-de_species
 Hyoscyamus	<unknown>	NN	B-lat_species
 niger	<unknown>	VVFIN	I-lat_species
 ist	sein	VAFIN	O
@@ -412,7 +410,7 @@ Stechapfels	<unknown>	NN	O
 enthalten	enthalten	VVFIN	O
 die	die	ART	O
 für	für	APPR	O
-Nachtschattengewächse	Nachtschattengewächs	NN	B-de_species
+Nachtschattengewächse	Nachtschattengewächs	NN	B-de_fam
 typischen	typisch	ADJA	O
 giftigen	giftig	ADJA	O
 Tropanalkaloide	<unknown>	NN	O
@@ -445,7 +443,7 @@ eingewanderte	eingewandert	ADJA	O
 Pflanze	Pflanze	NN	O
 ,	,	$,	O
 auch	auch	ADV	O
-Herkulesstaude	<unknown>	NN	O
+Herkulesstaude	<unknown>	NN	B-de_species
 genannt	nennen	VVPP	O
 ,	,	$,	O
 hat	haben	VAFIN	O
@@ -477,7 +475,7 @@ ist	sein	VAFIN	O
 .	.	$.	O
 
 Der	die	ART	O
-Doldenblütler	<unknown>	NN	B-de_species
+Doldenblütler	<unknown>	NN	B-de_fam
 wird	werden	VAFIN	O
 in	in	APPR	O
 wenigen	wenige	PIAT	O
@@ -607,14 +605,14 @@ Die	die	ART	O
 Gattung	Gattung	NN	O
 Nachtschatten	Nachtschatten	NN	B-de_species
 (	(	$(	O
-Solanum	<unknown>	NN	O
+Solanum	<unknown>	NN	B-lat_genus
 )	)	$(	O
 gehört	gehören	VVFIN	O
 zur	zu	APPRART	O
 grossen	groß	ADJA	O
 Familie	Familie	NN	O
 der	die	ART	O
-Nachtschattengewächse	Nachtschattengewächs	NN	B-de_species
+Nachtschattengewächse	Nachtschattengewächs	NN	B-de_fam
 .	.	$.	O
 
 Heimisch	<unknown>	NN	O
@@ -918,14 +916,13 @@ Gärten	Garten	NN	O
 fällt	fallen|fällen	VVFIN	O
 der	die	ART	O
 Gewöhnliche	gewöhnlich	ADJA	O
-Spindelstrauch	Spindelstrauch	NN	O
+Spindelstrauch	Spindelstrauch	NN	B-de_species
 (	(	$(	O
-Euonymus	<unknown>	NE	O
-europaeus	<unknown>	NE	O
-)	)	$(	O
+Euonymus	<unknown>	NE	B-lat_species
+europaeus	<unknown>	NE	I-lat_species
 ,	,	$,	O
 auch	auch	ADV	O
-Pfaffenhütchen	Pfaffenhütchen	NN	B-de_species
+Pfaffenhütchen	Pfaffenhütchen	NN	O
 genannt	nennen	VVPP	O
 ,	,	$,	O
 durch	durch	APPR	O
@@ -1008,7 +1005,7 @@ noch	noch	ADV	O
 Stunden	Stunde|Stunden	NN	O
 nach	nach	APPR	O
 dem	die	ART	O
-Verzehr	Verzehr	NN	O
+Verzehr	Verzehr	NN	B-de_species
 der	die	ART	O
 giftigen	giftig	ADJA	O
 Pflanzenteile	Pflanzenteil	NN	O
@@ -1150,9 +1147,8 @@ der	die	ART	O
 Zimmerpflanze	Zimmerpflanze	NN	O
 Christusdorn	Christusdorn	NN	B-de_species
 (	(	$(	O
-Euphorbia	Euphorbia	NE	O
-milii	<unknown>	NE	O
-)	)	$(	O
+Euphorbia	Euphorbia	NE	B-lat_species
+milii	<unknown>	NE	I-lat_species
 ist	sein	VAFIN	O
 ebenfalls	ebenfalls	ADV	O
 giftig	giftig	ADJD	O
@@ -1160,9 +1156,8 @@ giftig	giftig	ADJD	O
 
 Die	die	ART	O
 Wiesenpflanze	<unknown>	NN	O
-Scharfer	scharf	ADJA	O
-Hahnenfuss	Hahnenfuß	NN	O
-(	(	$(	O
+Scharfer	scharf	ADJA	B-de_species
+Hahnenfuss	Hahnenfuß	NN	I-de_species
 Ranunculus	<unknown>	NE	B-lat_species
 acris	<unknown>	NE	I-lat_species
 ist	sein	VAFIN	O
@@ -1192,7 +1187,7 @@ heisst	heißen	VVFIN	O
 die	die	ART	O
 Pflanze	Pflanze	NN	O
 auch	auch	ADV	O
-Butterblume	Butterblume	NN	O
+Butterblume	Butterblume	NN	B-de_species
 .	.	$.	O
 
 Die	die	ART	O
@@ -1216,10 +1211,10 @@ sind	sein	VAFIN	O
 viele	viele	PIAT	O
 Wiesen	Wiese	NN	O
 und	und	KON	O
-Weiden	Weide|Weiden	NN	O
+Weiden	Weide|Weiden	NN	B-de_species
 vom	von	APPRART	O
 Scharfen	scharf	ADJA	O
-Hahnenfuss	Hahnenfuß	NN	O
+Hahnenfuss	Hahnenfuß	NN	B-de_species
 gelb	gelb	ADJD	O
 gefärbt	färben	VVPP	O
 .	.	$.	O
@@ -1239,7 +1234,7 @@ einen	eine	ART	O
 Bogen	Bogen	NN	O
 um	um	APPR	O
 die	die	ART	O
-Butterblume	Butterblume	NN	O
+Butterblume	Butterblume	NN	B-de_species
 .	.	$.	O
 
 Beim	bei	APPRART	O
@@ -1266,7 +1261,7 @@ sehr	sehr	ADV	O
 ähnlich	ähnlich	ADJD	O
 aussehende	aussehend	ADJA	O
 Knollige	<unknown>	NN	O
-Hahnenfuss	Hahnenfuß	NN	O
+Hahnenfuss	Hahnenfuß	NN	B-de_species
 (	(	$(	O
 Ranunculus	<unknown>	NE	B-lat_species
 bulbosus	<unknown>	NE	I-lat_species
@@ -1284,7 +1279,7 @@ der	die	ART	O
 Baumgrenze	Baumgrenze	NN	O
 lebt	leben	VVFIN	O
 der	die	ART	O
-Gletscher-Hahnenfuss	<unknown>	NN	O
+Gletscher-Hahnenfuss	<unknown>	NN	B-de_species
 (	(	$(	O
 Ranunculus	<unknown>	NE	B-lat_species
 glacialis	<unknown>	NE	I-lat_species
@@ -1336,7 +1331,7 @@ Protoanemonin	<unknown>	NN	O
 verursacht	verursachen	VVFIN	O
 nach	nach	APPR	O
 dem	die	ART	O
-Verzehr	Verzehr	NN	O
+Verzehr	Verzehr	NN	B-de_species
 von	von	APPR	O
 Pflanzenteilen	Pflanzenteil	NN	O
 Brennen	Brennen	NN	O
@@ -1399,7 +1394,7 @@ gehört	gehören	VVFIN	O
 zur	zu	APPRART	O
 Familie	Familie	NN	O
 der	die	ART	O
-Hahnenfussgewächse	<unknown>	NN	O
+Hahnenfussgewächse	<unknown>	NN	B-de_fam
 (	(	$(	O
 Ranunculaceae	<unknown>	NE	B-lat_fam
 )	)	$(	O
@@ -1630,16 +1625,15 @@ gesehen	sehen	VVPP	O
 sind	sein	VAFIN	O
 abgebildet	abbilden	VVPP	O
 :	:	$.	O
-Küchenschelle	Küchenschelle	NN	O
+Küchenschelle	Küchenschelle	NN	B-de_species
 (	(	$(	O
 Pulsatilla	<unknown>	NE	B-lat_species
 vulgaris	<unknown>	NE	I-lat_species
 ,	,	$,	O
-Ginkgobaum	<unknown>	NE	O
+Ginkgobaum	<unknown>	NE	B-de_species
 (	(	$(	O
-Ginkgo	<unknown>	NE	B-de_species
-biloba	<unknown>	NE	O
-)	)	$(	O
+Ginkgo	<unknown>	NE	B-lat_species
+biloba	<unknown>	NE	I-lat_species
 ,	,	$,	O
 Schlafmohn	Schlafmohn	NN	B-de_species
 (	(	$(	O
@@ -1648,9 +1642,8 @@ somniferum	<unknown>	NN	I-lat_species
 ,	,	$,	O
 Sonnenhut	Sonnenhut	NN	B-de_species
 (	(	$(	O
-Echinacea	<unknown>	NE	O
-purpurea	<unknown>	NE	O
-)	)	$(	O
+Echinacea	<unknown>	NE	B-lat_species
+purpurea	<unknown>	NE	I-lat_species
 und	und	KON	O
 das	die	ART	O
 Johanniskraut	<unknown>	NN	B-de_species
@@ -1875,7 +1868,7 @@ jedoch	jedoch	ADV	O
 ,	,	$,	O
 die	die	PRELS	O
 in	in	APPR	O
-Form	Form	NN	O
+Form	Form	NN	B-de_species
 natürlicher	natürlich	ADJA	O
 Zubereitungen	Zubereitung	NN	O
 verwendet	verwenden	VVPP	O
@@ -2071,7 +2064,7 @@ Heilpflanze	Heilpflanze	NN	O
 ist	sein	VAFIN	O
 der	die	ART	O
 gemeine	gemein	ADJA	O
-Beifuss	Beifuß	NN	O
+Beifuss	Beifuß	NN	B-de_species
 (	(	$(	O
 Artemisia	<unknown>	NE	B-lat_species
 vulgaris	<unknown>	NE	I-lat_species
@@ -2083,7 +2076,7 @@ Wermut	Wermut	NN	B-de_species
 .	.	$.	O
 
 Der	die	ART	O
-Beifuss	Beifuß	NN	O
+Beifuss	Beifuß	NN	B-de_species
 ist	sein	VAFIN	O
 in	in	APPR	O
 Mitteleuropa	Mitteleuropa	NE	O
@@ -2139,7 +2132,7 @@ oder	oder	KON	O
 Gallenleiden	Gallenleiden	NN	O
 ,	,	$,	O
 der	die	ART	O
-Beifuss	Beifuß	NN	O
+Beifuss	Beifuß	NN	B-de_species
 hilft	helfen	VVFIN	O
 hier	hier	ADV	O
 genauso	genauso	ADV	O
@@ -2160,7 +2153,7 @@ Beifusses	<unknown>	NN	O
 ist	sein	VAFIN	O
 der	die	ART	O
 einjährige	einjährig	ADJA	O
-Beifuss	Beifuß	NN	O
+Beifuss	Beifuß	NN	B-de_species
 (	(	$(	O
 Artemisia	<unknown>	NE	B-lat_species
 annua	<unknown>	NE	I-lat_species
@@ -2206,14 +2199,14 @@ gibt	geben	VVFIN	O
 Nähere	nah	ADJA	O
 Informationen	Information	NN	O
 zum	zu	APPRART	O
-Beifuss	Beifuß	NN	O
+Beifuss	Beifuß	NN	B-de_species
 finden	finden	VVFIN	O
 Sie	Sie	PPER	O
 hier	hier	ADV	O
 :	:	$.	O
-Beifuss	Beifuß	NN	O
+Beifuss	Beifuß	NN	B-de_species
 –	<unknown>	ADJA	O
-Frauenkraut	<unknown>	NN	O
+Frauenkraut	<unknown>	NN	B-de_species
 und	und	KON	O
 Verdauungselixier	<unknown>	NN	O
 .	.	$.	O
@@ -2260,7 +2253,7 @@ Nur	nur	ADV	O
 ein	eine	ART	O
 Teelöffel	Teelöffel	NN	O
 mit	mit	APPR	O
-Flohsamen	<unknown>	NN	O
+Flohsamen	<unknown>	NN	B-de_species
 lässt	lassen	VVFIN	O
 eine	eine	ART	O
 Tasse	Tasse	NN	O
@@ -2295,7 +2288,7 @@ Darminhalt	<unknown>	NN	O
 wird	werden	VAFIN	O
 durch	durch	APPR	O
 den	die	ART	O
-Flohsamen	<unknown>	NN	O
+Flohsamen	<unknown>	NN	B-de_species
 vermehrt	vermehren	VVPP	O
 ,	,	$,	O
 ein	eine	ART	O
@@ -2324,7 +2317,7 @@ Darmwänden	<unknown>	NN	O
 gefegt	fegen	VVPP	O
 ,	,	$,	O
 weshalb	weshalb	PWAV	O
-Flohsamen	<unknown>	NN	O
+Flohsamen	<unknown>	NN	B-de_species
 zu	zu	APPR	O
 den	die	ART	O
 Bestandteilen	Bestandteil	NN	O
@@ -2349,7 +2342,7 @@ man	man	PIS	O
 nicht	nicht	PTKNEG	O
 den	die	ART	O
 ganzen	ganz	ADJA	O
-Flohsamen	<unknown>	NN	O
+Flohsamen	<unknown>	NN	B-de_species
 ,	,	$,	O
 sondern	sondern	KON	O
 Flohsamenschalen	<unknown>	NN	O
@@ -2406,7 +2399,7 @@ kommen	kommen	VVINF	O
 kann	können	VMFIN	O
 .	.	$.	O
 
-Flohsamen	<unknown>	NN	O
+Flohsamen	<unknown>	NN	B-de_species
 werden	werden	VAFIN	O
 aufgrund	aufgrund	APPR	O
 ihres	ihr	PPOSAT	O
@@ -2425,7 +2418,7 @@ verwendet	verwenden	VVPP	O
 .	.	$.	O
 
 Der	die	ART	O
-Schleim	Schleim	NN	O
+Schleim	Schleim	NN	B-de_species
 legt	legen	VVFIN	O
 sich	sich	PRF	O
 schützend	schützend	ADJD	O
@@ -2448,7 +2441,7 @@ einem	eine	ART	O
 Darmverschluss	Darmverschluss	NN	O
 sollte	sollen	VMFIN	O
 man	man	PIS	O
-Flohsamen	<unknown>	NN	O
+Flohsamen	<unknown>	NN	B-de_species
 natürlich	natürlich	ADV	O
 nicht	nicht	PTKNEG	O
 einnehmen	einnehmen	VVINF	O
@@ -2489,7 +2482,7 @@ eine	eine	ART	O
 Klette	Klette	NN	B-de_species
 im	in	APPRART	O
 langen	lang	ADJA	O
-Haar	Haar	NN	O
+Haar	Haar	NN	B-de_species
 verfängt	verfangen	VVFIN	O
 ,	,	$,	O
 da	da	KOUS	O
@@ -2534,7 +2527,7 @@ haben	haben	VAFIN	O
 
 Auch	auch	ADV	O
 die	die	ART	O
-Wurzel	Wurzel	NN	O
+Wurzel	Wurzel	NN	B-de_species
 der	die	ART	O
 Klette	Klette	NN	B-de_species
 kann	können	VMFIN	O
@@ -2571,7 +2564,7 @@ ausgeschwemmt	ausschwemmen	VVPP	O
 .	.	$.	O
 
 Die	die	ART	O
-Klettenwurzel	<unknown>	NN	O
+Klettenwurzel	<unknown>	NN	B-de_species
 wirkt	wirken	VVFIN	O
 ausserdem	außerdem	ADV	O
 harntreibend	<unknown>	ADJD	O
@@ -2634,7 +2627,7 @@ wird	werden	VAFIN	O
 Die	die	ART	O
 Haupt-Inhaltsstoffe	<unknown>	NN	O
 der	die	ART	O
-Klettenwurzel	<unknown>	NN	O
+Klettenwurzel	<unknown>	NN	B-de_species
 sind	sein	VAFIN	O
 Inulin	<unknown>	NN	O
 ,	,	$,	O
@@ -2733,7 +2726,7 @@ Bärentraubenblättertees	<unknown>	NN	O
 ist	sein	VAFIN	O
 die	die	ART	O
 richtige	richtig	ADJA	O
-Zubereitung	Zubereitung	NN	O
+Zubereitung	Zubereitung	NN	B-de_species
 .	.	$.	O
 
 Durch	durch	APPR	O
@@ -2814,7 +2807,7 @@ Allerdings	allerdings	ADV	O
 sollte	sollen	VMFIN	O
 man	man	PIS	O
 den	die	ART	O
-Tee	Tee	NN	O
+Tee	Tee	NN	B-de_species
 -	-	$(	O
 wie	wie	KOUS	O
 alle	alle	PIS	O
@@ -2844,7 +2837,7 @@ nachlassen	nachlassen	VVFIN	O
 .	.	$.	O
 
 Als	als	KOKOM	O
-Tee	Tee	NN	O
+Tee	Tee	NN	B-de_species
 für	für	APPR	O
 jeden	jede	PIAT	O
 Tag	Tag	NN	O
@@ -2858,9 +2851,9 @@ nicht	nicht	PTKNEG	O
 Beheimatet	<unknown>	NN	O
 ist	sein	VAFIN	O
 die	die	ART	O
-Stechwinde	<unknown>	NN	O
+Stechwinde	<unknown>	NN	B-de_species
 (	(	$(	O
-Sarsaparille	<unknown>	NE	O
+Sarsaparille	<unknown>	NE	B-de_species
 )	)	$(	O
 in	in	APPR	O
 den	die	ART	O
@@ -2890,7 +2883,7 @@ Wirkungen	Wirkung	NN	O
 hin	hin	PTKVZ	O
 :	:	$.	O
 Die	die	ART	O
-Stechwinde	<unknown>	NN	O
+Stechwinde	<unknown>	NN	B-de_species
 sticht	stechen	VVFIN	O
 –	<unknown>	NN	O
 und	und	KON	O
@@ -2900,7 +2893,7 @@ wenig	wenige	PIS	O
 .	.	$.	O
 
 Ihre	ihr	PPOSAT	O
-Wurzel	Wurzel	NN	O
+Wurzel	Wurzel	NN	B-de_species
 soll	sollen	VMFIN	O
 nun	nun	ADV	O
 unter	unter	APPR	O
@@ -2929,7 +2922,7 @@ eingesetzt	einsetzen	VVPP	O
 .	.	$.	O
 
 Die	die	ART	O
-Stechwinde	<unknown>	NN	O
+Stechwinde	<unknown>	NN	B-de_species
 enthält	enthalten	VVFIN	O
 1	1	CARD	O
 -	-	$(	O
@@ -2994,7 +2987,7 @@ kann	können	VMFIN	O
 .	.	$.	O
 
 Die	die	ART	O
-Stechwinde	<unknown>	NN	O
+Stechwinde	<unknown>	NN	B-de_species
 kann	können	VMFIN	O
 auch	auch	ADV	O
 bei	bei	APPR	O
@@ -3021,9 +3014,9 @@ Allergien	Allergie	NN	O
 .	.	$.	O
 
 Die	die	ART	O
-Wurzel	Wurzel	NN	O
+Wurzel	Wurzel	NN	B-de_species
 der	die	ART	O
-Stechwinde	<unknown>	NN	O
+Stechwinde	<unknown>	NN	B-de_species
 soll	sollen	VMFIN	O
 ausserdem	außerdem	PAV	O
 die	die	ART	O
@@ -3057,7 +3050,7 @@ Die	die	ART	O
 blutreinigende	<unknown>	ADJA	O
 Wirkung	Wirkung	NN	O
 der	die	ART	O
-Stechwinde	<unknown>	NN	O
+Stechwinde	<unknown>	NN	B-de_species
 ist	sein	VAFIN	O
 folglich	folglich	ADV	O
 hilfreich	hilfreich	ADJD	O
@@ -3071,7 +3064,7 @@ Ekzeme	Ekzem	NN	O
 ,	,	$,	O
 Milchschorf	<unknown>	NN	O
 ,	,	$,	O
-Schuppenflechte	Schuppenflechte	NN	O
+Schuppenflechte	Schuppenflechte	NN	B-de_species
 ,	,	$,	O
 Akne	Akne	NN	O
 ,	,	$,	O
@@ -3090,7 +3083,7 @@ den	die	ART	O
 Mann	Mann	NN	O
 wird	werden	VAFIN	O
 die	die	ART	O
-Stechwinde	<unknown>	NN	O
+Stechwinde	<unknown>	NN	B-de_species
 traditionell	traditionell	ADJD	O
 eingesetzt	einsetzen	VVPP	O
 .	.	$.	O
@@ -3162,7 +3155,7 @@ und	und	KON	O
 (	(	$(	O
 in	in	APPR	O
 der	die	ART	O
-Wurzel	Wurzel	NN	O
+Wurzel	Wurzel	NN	B-de_species
 )	)	$(	O
 mit	mit	APPR	O
 Inulin	<unknown>	NN	O
@@ -3343,13 +3336,13 @@ wird	werden	VAFIN	O
 der	die	ART	O
 Löwenzahn	Löwenzahn	NN	B-de_species
 in	in	APPR	O
-Form	Form	NN	O
+Form	Form	NN	B-de_species
 der	die	ART	O
 frischen	frisch	ADJA	O
 Pflanze	Pflanze	NN	O
 ,	,	$,	O
 als	als	KOKOM	O
-Tee	Tee	NN	O
+Tee	Tee	NN	B-de_species
 ,	,	$,	O
 als	als	KOKOM	O
 Löwenzahnwurzelextrakt	<unknown>	NN	O
@@ -3587,7 +3580,7 @@ werden	werden	VAFIN	O
 die	die	ART	O
 Blätter	Blatt	NN	O
 der	die	ART	O
-Birke	Birke	NN	B-de_species
+Birke	Birke	NN	O
 .	.	$.	O
 
 Sie	Sie	PPER	O
@@ -3612,14 +3605,14 @@ Harnwege	Harnweg	NN	O
 Birkenblätter	<unknown>	NN	O
 können	können	VMFIN	O
 als	als	KOKOM	O
-Tee	Tee	NN	O
+Tee	Tee	NN	B-de_species
 oder	oder	KON	O
 als	als	KOKOM	O
 Frischpflanzensaft	<unknown>	NN	O
 getrunken	trinken	VVPP	O
 oder	oder	KON	O
 in	in	APPR	O
-Form	Form	NN	O
+Form	Form	NN	B-de_species
 von	von	APPR	O
 Tabletten	Tablett|Tablette	NN	O
 oder	oder	KON	O
@@ -3676,7 +3669,7 @@ Staude	Staude	NN	O
 .	.	$.	O
 
 Ihre	ihr	PPOSAT	O
-Blütenknospen	Blütenknospe	NN	O
+Blütenknospen	Blütenknospe	NN	B-de_species
 werden	werden	VAINF	O
 als	als	KOKOM	O
 Gemüse	Gemüse	NN	O
@@ -3824,14 +3817,14 @@ Böden	Boden	NN	O
 enthalten	enthalten	VVPP	O
 Samen	Same	NN	O
 verschiedener	verschieden	ADJA	O
-Gräser	Gras	NN	O
+Gräser	Gras	NN	B-de_species
 oder	oder	KON	O
 sogenannter	sogenannt	ADJA	O
 Unkräuter	Unkraut	NN	O
 wie	wie	KOKOM	O
 Quecke	Quecke	NN	B-de_species
 ,	,	$,	O
-Disteln	Distel	NN	O
+Disteln	Distel	NN	B-de_species
 oder	oder	KON	O
 Ampfer	Ampfer	NN	B-de_species
 ,	,	$,	O
@@ -3857,7 +3850,7 @@ sollten	sollen	VMFIN	O
 derartige	derartig	ADJA	O
 Unkräuter	Unkraut	NN	O
 sowie	sowie	KON	O
-Steine	Stein	NN	O
+Steine	Stein	NN	B-de_species
 und	und	KON	O
 Wurzelreste	<unknown>	NN	O
 zunächst	zunächst	ADV	O
@@ -3948,21 +3941,21 @@ zusammenstellen	zusammenstellen	VVINF	O
 ,	,	$,	O
 beispielsweise	beispielsweise	ADV	O
 mit	mit	APPR	O
-Wiesenmargerite	<unknown>	TRUNC	O
+Wiesenmargerite	<unknown>	TRUNC	B-de_species
 ,	,	$,	O
 Wiesen-	Wiesen-	TRUNC	O
 oder	oder	KON	O
-Blutstorchschnabel	<unknown>	NN	O
+Blutstorchschnabel	<unknown>	NN	B-de_species
 ,	,	$,	O
 Wiesenschaumkraut	Wiesenschaumkraut	NN	B-de_species
 ,	,	$,	O
 Blutweiderich	Blutweiderich	NN	B-de_species
 ,	,	$,	O
-Glockenblume	<unknown>	NN	B-de_species
+Glockenblume	<unknown>	NN	O
 ,	,	$,	O
 Färberkamille	Färberkamille	NN	B-de_species
 ,	,	$,	O
-Gänseblümchen	Gänseblümchen	NN	B-de_species
+Gänseblümchen	Gänseblümchen	NN	O
 ,	,	$,	O
 Grasnelke	<unknown>	NN	B-de_species
 ,	,	$,	O
@@ -3971,7 +3964,7 @@ Kronwicke	Kronwicke	NN	B-de_species
 Großer	groß	ADJA	O
 Bibernelle	<unknown>	NN	B-de_species
 ,	,	$,	O
-Knäuelglockenblume	<unknown>	NN	O
+Knäuelglockenblume	<unknown>	NN	B-de_species
 ,	,	$,	O
 Kleiner	klein	ADJA	O
 Braunelle	<unknown>	NN	B-de_species
@@ -3983,15 +3976,15 @@ Lichtnelke	<unknown>	NN	B-de_species
 ,	,	$,	O
 Silberdistel	Silberdistel	NN	B-de_species
 ,	,	$,	O
-Flockenblume	Flockenblume	NN	B-de_species
+Flockenblume	Flockenblume	NN	O
 ,	,	$,	O
 Wiesensalbei	<unknown>	NN	B-de_species
 ,	,	$,	O
 Wiesenkerbel	<unknown>	NN	B-de_species
 ,	,	$,	O
-Wiesenknöterich	<unknown>	NN	O
+Wiesenknöterich	<unknown>	NN	B-de_species
 oder	oder	KON	O
-Vogelwicke	<unknown>	NN	O
+Vogelwicke	<unknown>	NN	B-de_species
 .	.	$.	O
 
 Besonders	besonders	ADV	O
@@ -4004,11 +3997,11 @@ Diese	diese	PDS	O
 beinhalten	beinhalten	VVFIN	O
 Samen	Same	NN	O
 von	von	APPR	O
-Kornblumen	Kornblume	NN	O
+Kornblumen	Kornblume	NN	B-de_species
 ,	,	$,	O
 Klatschmohn	Klatschmohn	NN	B-de_species
 ,	,	$,	O
-Margeriten	Margerite	NN	O
+Margeriten	Margerite	NN	B-de_species
 oder	oder	KON	O
 rotem	rot	ADJA	O
 Lein	Lein	NN	B-de_species
@@ -4026,7 +4019,7 @@ eignen	eignen	VVFIN	O
 sich	sich	PRF	O
 Duftnessel	<unknown>	NN	B-de_species
 ,	,	$,	O
-Skabiose	<unknown>	NN	B-de_species
+Skabiose	<unknown>	NN	O
 ,	,	$,	O
 Ringelblume	Ringelblume	NN	B-de_species
 und	und	KON	O
@@ -4040,7 +4033,7 @@ auch	auch	ADV	O
 typische	typisch	ADJA	O
 Bauerngartenblumen	<unknown>	NN	O
 wie	wie	KOKOM	O
-Seidenmohn	<unknown>	NN	O
+Seidenmohn	<unknown>	NN	B-de_species
 und	und	KON	O
 Schleifenblume	<unknown>	NN	B-de_species
 oder	oder	KON	O
@@ -4048,9 +4041,9 @@ Frühjahrsblüher	<unknown>	NN	O
 wie	wie	KOKOM	O
 Krokusse	Krokus	NN	O
 ,	,	$,	O
-Tulpen	Tulpe	NN	O
+Tulpen	Tulpe	NN	B-de_species
 oder	oder	KON	O
-Traubenhyazinthen	<unknown>	NN	O
+Traubenhyazinthen	<unknown>	NN	B-de_species
 .	.	$.	O
 
 BlumenwieseBei	<unknown>	NN	O
@@ -4103,7 +4096,7 @@ werden	werden	VAINF	O
 
 Möchte	mögen	VVFIN	O
 man	man	PIS	O
-Gräser	Gras	NN	O
+Gräser	Gras	NN	B-de_species
 in	in	APPR	O
 die	die	ART	O
 Blumenwiese	Blumenwiese	NN	O
@@ -4118,7 +4111,7 @@ schwachwüchsige	<unknown>	ADJA	O
 Arten	Art	NN	O
 verwenden	verwenden	VVFIN	O
 wie	wie	KOKOM	O
-Rotschwingel	<unknown>	NN	O
+Rotschwingel	<unknown>	NN	B-de_species
 ,	,	$,	O
 Zittergras	<unknown>	NN	B-de_species
 ,	,	$,	O
@@ -4176,7 +4169,7 @@ funktioniert	funktionieren	VVFIN	O
 übrigens	übrigens	ADV	O
 auch	auch	ADV	O
 mit	mit	APPR	O
-Sonnenblumen	Sonnenblume	NN	O
+Sonnenblumen	Sonnenblume	NN	B-de_species
 ,	,	$,	O
 die	die	PRELS	O
 man	man	PIS	O
@@ -4196,9 +4189,9 @@ Leitstauden	<unknown>	NN	O
 (	(	$(	O
 Muskatellersalbei	<unknown>	NN	B-de_species
 ,	,	$,	O
-Waldgeissbart	<unknown>	NN	O
+Waldgeissbart	<unknown>	NN	B-de_species
 ,	,	$,	O
-Königskerzen	Königskerze	NN	O
+Königskerzen	Königskerze	NN	B-de_species
 etc.	etc.	ADV	O
 )	)	$(	O
 geplant	planen	VVPP	O
@@ -4236,13 +4229,13 @@ die	die	ART	O
 kleineren	klein	ADJA	O
 Begleitstauden	<unknown>	NN	O
 (	(	$(	O
-Glockenblumen	Glockenblume	NN	O
+Glockenblumen	Glockenblume	NN	B-de_species
 ,	,	$,	O
 Akeleien	<unknown>	NN	O
 ,	,	$,	O
-Flockenblumen	<unknown>	NN	O
+Flockenblumen	<unknown>	NN	B-de_species
 ,	,	$,	O
-Skabiosen	<unknown>	NN	O
+Skabiosen	<unknown>	NN	B-de_species
 ,	,	$,	O
 Ochsenauge	<unknown>	NN	B-de_species
 etc.	etc.	ADV	O
@@ -4265,17 +4258,19 @@ Die	die	ART	O
 kleinen	klein	ADJA	O
 Flächendecker	<unknown>	NN	O
 (	(	$(	O
-Kriechender	<unknown>	NE	B-de_species
-Günsel	Günsel	NE	I-de_species
-Gelber	gelb	ADJA	B-de_species
-Lerchensporn	Lerchensporn	NN	I-de_species
+Kriechender	<unknown>	NE	O
+Günsel	Günsel	NE	O
+,	,	$,	O
+Gelber	gelb	ADJA	O
+Lerchensporn	Lerchensporn	NN	B-de_species
+,	,	$,	O
 Sonnenröschen	Sonnenröschen	NN	B-de_species
 ,	,	$,	O
 grosse	groß	ADJA	O
 Brunelle	<unknown>	NN	O
 ,	,	$,	O
 kleine	klein	ADJA	O
-Glockenblumen	Glockenblume	NN	O
+Glockenblumen	Glockenblume	NN	B-de_species
 ,	,	$,	O
 Thymian	Thymian	NN	B-de_species
 etc.	etc.	ADV	O
@@ -4294,13 +4289,13 @@ Wältis	<unknown>	NN	O
 Parzelle	Parzelle	NN	O
 .	.	$.	O
 
-Margeriten	Margerite	NN	O
+Margeriten	Margerite	NN	B-de_species
 ,	,	$,	O
-Flockenblumen	<unknown>	NN	O
+Flockenblumen	<unknown>	NN	B-de_species
 ,	,	$,	O
 Mohnblumen	Mohnblume	NN	O
 ,	,	$,	O
-Königskerzen	Königskerze	NN	O
+Königskerzen	Königskerze	NN	B-de_species
 ,	,	$,	O
 Oregano	<unknown>	NN	B-de_species
 :	:	$.	O
@@ -4342,11 +4337,11 @@ Und	und	KON	O
 auch	auch	ADV	O
 Unkräuter	Unkraut	NN	O
 wie	wie	KOKOM	O
-Blacken	<unknown>	NN	O
+Blacken	<unknown>	NN	B-de_species
 ,	,	$,	O
-Disteln	Distel	NN	O
+Disteln	Distel	NN	B-de_species
 oder	oder	KON	O
-Winden	Wind|Winde|Winden	NN	O
+Winden	Wind|Winde|Winden	NN	B-de_species
 gibt	geben	VVFIN	O
 es	es	PPER	O
 nicht	nicht	PTKNEG	O
@@ -4357,7 +4352,7 @@ schönste	schön	ADJA	O
 Wildblumen-Wanderung	<unknown>	NN	O
 auf	auf	APPR	O
 Gran	<unknown>	ADJA	O
-Canaria	<unknown>	NN	O
+Canaria	<unknown>	NN	B-lat_genus
 führt	führen	VVFIN	O
 durch	durch	APPR	O
 einen	eine	ART	O
@@ -4390,7 +4385,7 @@ Grande	<unknown>	NN	O
 .	.	$.	O
 
 Die	die	ART	O
-Strauchflechten	<unknown>	NN	O
+Strauchflechten	<unknown>	NN	B-de_species
 auf	auf	APPR	O
 den	die	ART	O
 Kiefernrinden	<unknown>	NN	O
@@ -4412,12 +4407,11 @@ ist	sein	VAFIN	O
 .	.	$.	O
 
 Der	die	ART	O
-Blaue	blau	ADJA	O
+Blaue	blau	ADJA	B-de_species
 Natternkopf	Natternkopf	NN	B-de_species
 –	<unknown>	ADJA	O
-Echium	<unknown>	NN	O
-callithyrsum	<unknown>	ADJA	O
-–	<unknown>	NN	O
+Echium	<unknown>	NN	B-lat_species
+callithyrsum	<unknown>	ADJA	I-lat_species
 ist	sein	VAFIN	O
 der	die	ART	O
 Star	Star	NN	B-de_species
@@ -4472,9 +4466,8 @@ minder	minder	ADJD	O
 schönen	schön	ADJA	O
 Sträucher	Strauch	NN	O
 werden	werden	VAFIN	O
-Kanarischer	<unknown>	ADJA	O
-Geißklee	<unknown>	NN	B-de_species
-genannt	nennen	VVPP	O
+Kanarischer	<unknown>	ADJA	B-de_species
+Geißklee	<unknown>	NN	I-de_species
 und	und	KON	O
 gehören	gehören	VVFIN	O
 zur	zu	APPRART	O
@@ -4491,11 +4484,10 @@ Bildvordergrund	Bildvordergrund	NN	O
 sind	sein	VAFIN	O
 die	die	ART	O
 Tenteniguada	<unknown>	NE	O
-Disteln	Distel	NN	O
+Disteln	Distel	NN	B-de_species
 (	(	$(	O
-Onopordum	<unknown>	NN	O
-carduelinum	<unknown>	NN	O
-)	)	$(	O
+Onopordum	<unknown>	NN	B-lat_species
+carduelinum	<unknown>	NN	I-lat_species
 ,	,	$,	O
 die	die	PRELS	O
 ihren	ihr	PPOSAT	O
@@ -4531,11 +4523,10 @@ für	für	APPR	O
 diese	dies	PDAT	O
 wunderschöne	wunderschön	ADJA	O
 Webbs	<unknown>	NN	O
-Cinerarie	<unknown>	NN	O
+Cinerarie	<unknown>	NN	B-de_species
 oder	oder	KON	O
-Pericallis	<unknown>	NE	O
-webbii	<unknown>	NE	O
-,	,	$,	O
+Pericallis	<unknown>	NE	B-lat_species
+webbii	<unknown>	NE	I-lat_species
 die	die	PRELS	O
 eine	eine	PIS	O
 der	die	ART	O
@@ -4543,7 +4534,7 @@ auffälligsten	auffällig	ADJA	O
 Wildblumen	Wildblume	NN	O
 von	von	APPR	O
 Gran	<unknown>	ADJA	O
-Canaria	<unknown>	NN	O
+Canaria	<unknown>	NN	B-lat_genus
 ist	sein	VAFIN	O
 .	.	$.	O
 
@@ -4555,13 +4546,12 @@ Wildblumen	Wildblume	NN	O
 taucht	tauchen	VVFIN	O
 auch	auch	ADV	O
 dieses	dies	PDAT	O
-Liliengewächs	Liliengewächs	NN	O
+Liliengewächs	Liliengewächs	NN	B-de_fam
 mit	mit	APPR	O
 dem	die	ART	O
 Namen	Name	NN	O
-Asphodelus	<unknown>	NN	O
-aestivus	<unknown>	ADJD	O
-(	(	$(	O
+Asphodelus	<unknown>	NN	B-lat_species
+aestivus	<unknown>	ADJD	I-lat_species
 Gamona	<unknown>	NE	O
 )	)	$(	O
 auf	auf	PTKVZ	O
@@ -4579,21 +4569,20 @@ aus	aus	APPR	O
 der	die	ART	O
 Familie	Familie	NN	O
 der	die	ART	O
-Schwertlilien	Schwertlilie	NN	O
+Schwertlilien	Schwertlilie	NN	B-de_species
 Gewächse	Gewächs	NN	O
 .	.	$.	O
 
 Der	die	ART	O
-Riesenfenchel	<unknown>	NN	O
+Riesenfenchel	<unknown>	NN	B-de_species
 –	<unknown>	ADJD	O
 auch	auch	ADV	O
-Ferula	<unknown>	NE	O
-linkii	<unknown>	ADJA	O
-–	<unknown>	NN	O
+Ferula	<unknown>	NE	B-lat_species
+linkii	<unknown>	ADJA	I-lat_species
 gehört	gehören	VVFIN	O
 zu	zu	APPR	O
 den	die	ART	O
-Doldenblütlern	<unknown>	NN	O
+Doldenblütlern	<unknown>	NN	B-de_fam
 und	und	KON	O
 ist	sein	VAFIN	O
 auf	auf	APPR	O
@@ -4624,9 +4613,8 @@ Schwarzer	schwarz	ADJA	O
 Natternkopf	Natternkopf	NN	B-de_species
 “	<unknown>	ADJD	O
 –	<unknown>	ADJA	O
-Echium	<unknown>	NN	O
-onosmifolium	<unknown>	ADJD	O
-oder	oder	KON	O
+Echium	<unknown>	NN	B-lat_species
+onosmifolium	<unknown>	ADJD	I-lat_species
 spanisch	spanisch	ADJD	O
 :	:	$.	O
 Taginaste	<unknown>	ADJA	O
@@ -4645,15 +4633,15 @@ Attraktive	attraktiv	ADJA	O
 Wildstauden	Wildstaude	NN	O
 sind	sein	VAFIN	O
 beispielsweise	beispielsweise	ADV	O
-Steppen-Salbei	<unknown>	ADV	O
+Steppen-Salbei	<unknown>	ADV	B-de_species
 ,	,	$,	O
-Wiesen-Schafgarbe	<unknown>	NN	O
+Wiesen-Schafgarbe	<unknown>	NN	B-de_species
 ,	,	$,	O
 Blauer	blau	ADJA	B-de_species
 Eisenhut	Eisenhut	NN	I-de_species
 Fingerhut	Fingerhut	NN	B-de_species
 und	und	KON	O
-Wiesen-Margerite	<unknown>	NN	O
+Wiesen-Margerite	<unknown>	NN	B-de_species
 .	.	$.	O
 
 Kurz	Kurz	NE	O
@@ -4702,7 +4690,7 @@ hier	hier	ADV	O
 Zum	zu	APPRART	O
 Beispiel	Beispiel	NN	O
 das	die	ART	O
-Edelweiss	Edelweiß	NN	O
+Edelweiss	Edelweiß	NN	B-de_species
 ist	sein	VAFIN	O
 erst	erst	ADV	O
 nach	nach	APPR	O
@@ -4751,7 +4739,7 @@ die	die	ART	O
 Fensterbank	Fensterbank	NN	O
 ,	,	$,	O
 die	die	ART	O
-Orchidee	Orchidee	NN	O
+Orchidee	Orchidee	NN	B-de_species
 ,	,	$,	O
 gibt	geben	VVFIN	O
 es	es	PPER	O
@@ -4771,7 +4759,7 @@ ist	sein	VAFIN	O
 so	so	ADV	O
 eine	eine	ART	O
 wilde	wild	ADJA	O
-Orchidee	Orchidee	NN	O
+Orchidee	Orchidee	NN	B-de_species
 ,	,	$,	O
 die	die	PRELS	O
 durch	durch	APPR	O
@@ -4796,7 +4784,7 @@ Oberland	Oberland	NN	O
 Einige	einigen	VVFIN	O
 andere	andere	PIS	O
 wilde	wild	ADJA	O
-Orchideen	Orchidee	NN	B-de_species
+Orchideen	Orchidee	NN	B-de_fam
 in	in	APPR	O
 der	die	ART	O
 Schweiz	Schweiz	NE	O
@@ -4805,7 +4793,7 @@ etwa	etwa	ADV	O
 das	die	ART	O
 rosa	rosa	ADJD	O
 blühende	<unknown>	ADJA	O
-Fuchsknabenkraut	<unknown>	NN	O
+Fuchsknabenkraut	<unknown>	NN	B-de_species
 .	.	$.	O
 
 Weitere	weit	ADJA	O
@@ -4820,7 +4808,7 @@ Arnika	<unknown>	NE	B-de_species
 ,	,	$,	O
 Schlangenknöterich	<unknown>	NE	B-de_species
 ,	,	$,	O
-Fingerkraut	<unknown>	NN	B-de_species
+Fingerkraut	<unknown>	NN	O
 ,	,	$,	O
 Waldweidenröschen	<unknown>	NN	B-de_species
 ,	,	$,	O
@@ -4829,7 +4817,7 @@ Distelarten	<unknown>	NN	O
 ,	,	$,	O
 Trollblume	Trollblume	NN	B-de_species
 ,	,	$,	O
-Skabiosen	<unknown>	NN	O
+Skabiosen	<unknown>	NN	B-de_species
 ,	,	$,	O
 Alpenmilchlattich	<unknown>	NN	B-de_species
 ,	,	$,	O
@@ -4851,7 +4839,7 @@ als	als	KOKOM	O
 Zuchtware	<unknown>	NN	O
 für	für	APPR	O
 den	die	ART	O
-Garten	Garten	NN	O
+Garten	Garten	NN	B-de_species
 und	und	KON	O
 Balkon	Balkon	NN	O
 .	.	$.	O
@@ -4861,14 +4849,14 @@ wir	wir	PPER	O
 unter	unter	APPR	O
 dem	die	ART	O
 Namen	Name	NN	O
-Geranie	Geranie	NN	O
+Geranie	Geranie	NN	B-de_species
 verstehen	verstehen	VVINF	O
 ,	,	$,	O
 müsste	müssen	VMFIN	O
 korrekterweise	korrekterweise	ADV	O
 eigentlich	eigentlich	ADV	O
 als	als	KOKOM	O
-Pelargonie	<unknown>	NN	O
+Pelargonie	<unknown>	NN	B-de_species
 bezeichnet	bezeichnen	VVPP	O
 werden	werden	VAINF	O
 .	.	$.	O
@@ -4876,7 +4864,7 @@ werden	werden	VAINF	O
 „	<unknown>	NN	O
 Unsere	unser	PPOSAT	O
 “	<unknown>	ADJA	O
-Geranie	Geranie	NN	O
+Geranie	Geranie	NN	B-de_species
 gehört	gehören	VVFIN	O
 nämlich	nämlich	ADV	O
 nicht	nicht	PTKNEG	O
@@ -4884,7 +4872,7 @@ zur	zu	APPRART	O
 einheimischen	einheimisch	ADJA	O
 Pflanzengattung	<unknown>	NN	O
 namens	namens	APPR	O
-Geranium	<unknown>	NN	O
+Geranium	<unknown>	NN	B-de_species
 ,	,	$,	O
 sondern	sondern	KON	O
 bildet	bilden	VVFIN	O
@@ -4908,12 +4896,12 @@ stiftet	stiften	VVFIN	O
 .	.	$.	O
 
 Der	die	ART	O
-Husarenknopf	<unknown>	NN	O
+Husarenknopf	<unknown>	NN	B-de_species
 bildet	bilden	VVFIN	O
 zwar	zwar	ADV	O
 nur	nur	ADV	O
 kleinere	klein	ADJA	O
-gelbe	gelb	ADJA	O
+gelbe	gelb	ADJA	B-de_species
 Blüten	Blüte	NN	O
 ,	,	$,	O
 davon	davon	PAV	O
@@ -4954,7 +4942,7 @@ hat	haben	VAFIN	O
 ist	sein	VAFIN	O
 mit	mit	APPR	O
 einer	eine	ART	O
-Petunie	<unknown>	NN	O
+Petunie	<unknown>	NN	B-de_species
 gut	gut	ADJD	O
 beraten	beraten	VVPP	O
 .	.	$.	O
@@ -4964,19 +4952,19 @@ großen	groß	ADJA	O
 Schwester	Schwester	NN	O
 ,	,	$,	O
 der	die	ART	O
-Petunie	<unknown>	NN	O
+Petunie	<unknown>	NN	B-de_species
 ,	,	$,	O
 steht	stehen	VVFIN	O
 das	die	ART	O
 schöne	schön	ADJA	O
-Zauberglöckchen	<unknown>	NN	O
+Zauberglöckchen	<unknown>	NN	B-de_species
 in	in	APPR	O
 nichts	nichts	PIS	O
 nach	nach	PTKVZ	O
 .	.	$.	O
 
 Die	die	ART	O
-Calibrachoa	<unknown>	NN	O
+Calibrachoa	<unknown>	NN	B-lat_genus
 ist	sein	VAFIN	O
 eine	eine	ART	O
 sehr	sehr	ADV	O
@@ -4993,7 +4981,7 @@ dem	die	ART	O
 Zweizahn	<unknown>	NN	B-de_species
 ,	,	$,	O
 auch	auch	ADV	O
-Goldmarie	Goldmarie	NE	O
+Goldmarie	Goldmarie	NE	B-de_species
 genannt	nennen	VVPP	O
 ,	,	$,	O
 holen	holen	VVFIN	O
@@ -5012,7 +5000,7 @@ ursprünglich	ursprünglich	ADJD	O
 aus	aus	APPR	O
 Mexiko	Mexiko	NE	O
 stammende	stammend	ADJA	O
-Korbblütler	<unknown>	NN	B-de_species
+Korbblütler	<unknown>	NN	B-de_fam
 besitzt	besitzen	VVFIN	O
 eine	eine	ART	O
 ausgesprochen	ausgesprochen	ADJD	O
@@ -5033,10 +5021,10 @@ schmücken	schmücken	VVFIN	O
 ,	,	$,	O
 stammt	stammen	VVFIN	O
 das	die	ART	O
-Kapkörbchen	<unknown>	NN	O
+Kapkörbchen	<unknown>	NN	B-de_species
 ,	,	$,	O
 auch	auch	ADV	O
-Kapmargerite	<unknown>	NN	O
+Kapmargerite	<unknown>	NN	B-de_species
 genannt	nennen	VVPP	O
 ,	,	$,	O
 ursprünglich	ursprünglich	ADJD	O
@@ -5052,7 +5040,7 @@ Lagen	Lage	NN	O
 zeigen	zeigen	VVFIN	O
 die	die	ART	O
 Fleißigen	Fleißige	NN	O
-Lieschen	Lieschen	NE	O
+Lieschen	Lieschen	NE	B-de_species
 ,	,	$,	O
 was	was	PRELS	O
 ihn	er	PPER	O
@@ -5077,7 +5065,7 @@ den	die	PRELS	O
 ist	sein	VAFIN	O
 das	die	ART	O
 Fleißige	Fleißige	NN	O
-Lieschen	Lieschen	NE	O
+Lieschen	Lieschen	NE	B-de_species
 die	die	ART	O
 richtige	richtig	ADJA	O
 Wahl	Wahl	NN	O
@@ -5096,7 +5084,7 @@ nach	nach	PTKVZ	O
 wie	wie	KOKOM	O
 vor	vor	APPR	O
 die	die	ART	O
-Fuchsie	<unknown>	NN	O
+Fuchsie	<unknown>	NN	B-de_species
 .	.	$.	O
 
 Zwar	zwar	ADV	O
@@ -5110,7 +5098,7 @@ Schattenplatz	Schattenplatz	NN	O
 verstecken	verstecken	VVINF	O
 müssen	müssen	VMINF	O
 sich	sich	PRF	O
-Fuchsien	<unknown>	NN	O
+Fuchsien	<unknown>	NN	B-de_species
 aber	aber	ADV	O
 keinesfalls	keinesfalls	ADV	O
 .	.	$.	O
@@ -5128,12 +5116,11 @@ Balkon	Balkon	NN	O
 sorgt	sorgen	VVFIN	O
 das	die	ART	O
 pflegeleichte	pflegeleicht	ADJA	O
-Männertreu	Männertreu	NN	O
+Männertreu	Männertreu	NN	B-de_species
 ,	,	$,	O
 auch	auch	ADV	O
-Blaue	blau	ADJA	O
-Lobelie	<unknown>	NN	B-de_species
-genannt	nennen	VVPP	O
+Blaue	blau	ADJA	B-de_species
+Lobelie	<unknown>	NN	I-de_species
 .	.	$.	O
 
 Mit	mit	APPR	O
@@ -5141,7 +5128,7 @@ ihren	ihr	PPOSAT	O
 dickfleischigen	<unknown>	ADJA	O
 Blättern	Blatt|Blättern	NN	O
 vertragen	vertragen	VVPP	O
-Begonien	Begonie	NN	O
+Begonien	Begonie	NN	B-de_species
 die	die	ART	O
 direkte	direkt	ADJA	O
 Mittagssonne	Mittagssonne	NN	O
@@ -5164,7 +5151,7 @@ Hauswand	Hauswand	NN	O
 fühlt	fühlen	VVFIN	O
 sich	sich	PRF	O
 die	die	ART	O
-Schneeflockenblume	<unknown>	NN	O
+Schneeflockenblume	<unknown>	NN	B-de_species
 wohl	wohl	ADV	O
 .	.	$.	O
 
@@ -5246,7 +5233,7 @@ Polsterbildung	<unknown>	NN	O
 ,	,	$,	O
 beispielsweise	beispielsweise	ADV	O
 die	die	ART	O
-Gletschernelke	<unknown>	NN	O
+Gletschernelke	<unknown>	NN	B-de_species
 oder	oder	KON	O
 der	die	ART	O
 Gletscher-Mannsschild	<unknown>	NN	O
@@ -5256,7 +5243,7 @@ Andere	andere	PIAT	O
 Arten	Art	NN	O
 sind	sein	VAFIN	O
 wahre	wahr	ADJA	O
-Meister	Meister	NN	O
+Meister	Meister	NN	B-de_species
 im	in	APPRART	O
 Speichern	Speicher|Speichern	NN	O
 von	von	APPR	O
@@ -5282,7 +5269,7 @@ werden	werden	VAFIN	O
 von	von	APPR	O
 Storchschnabel	<unknown>	NN	B-de_species
 und	und	KON	O
-Glockenblumen	Glockenblume	NN	O
+Glockenblumen	Glockenblume	NN	B-de_species
 bevölkert	bevölkern	VVPP	O
 .	.	$.	O
 
@@ -5293,8 +5280,9 @@ finden	finden	VVFIN	O
 sich	sich	PRF	O
 beispielsweise	beispielsweise	ADV	O
 die	die	ART	O
-Große	groß	ADJA	B-de_species
-Sterndolde	<unknown>	NN	I-de_species
+Große	groß	ADJA	O
+Sterndolde	<unknown>	NN	B-de_species
+und	und	KON	O
 an	an	APPR	O
 feuchten	feucht	ADJA	O
 ,	,	$,	O
@@ -5340,11 +5328,11 @@ gemäht	mähen	VVPP	O
 werden	werden	VAFIN	O
 .	.	$.	O
 
-Dort	dort	ADV	O
+Dort	dort	ADV	B-de_species
 entfalten	entfalten	VVFIN	O
 sich	sich	PRF	O
 viele	viele	PIAT	O
-Wiesenblumen	Wiesenblume	NN	O
+Wiesenblumen	Wiesenblume	NN	B-de_species
 ,	,	$,	O
 die	die	PRELS	O
 dem	die	ART	O
@@ -5369,7 +5357,7 @@ Bergflockenblume	<unknown>	NN	B-de_species
 ,	,	$,	O
 Trollblume	Trollblume	NN	B-de_species
 ,	,	$,	O
-Türkenbund-Lilie	<unknown>	NN	O
+Türkenbund-Lilie	<unknown>	NN	B-de_species
 .	.	$.	O
 
 Der	die	ART	O
@@ -5418,7 +5406,7 @@ Flora	Flora	NN	O
 ,	,	$,	O
 beispielsweise	beispielsweise	ADV	O
 mit	mit	APPR	O
-Alpenklee	<unknown>	NN	O
+Alpenklee	<unknown>	NN	B-de_species
 oder	oder	KON	O
 mit	mit	APPR	O
 verschiedenen	verschieden	ADJA	O
@@ -5428,7 +5416,7 @@ Enzian-Arten	<unknown>	NN	O
 Hier	hier	ADV	O
 kommen	kommen	VVFIN	O
 auch	auch	ADV	O
-Orchideen	Orchidee	NN	B-de_species
+Orchideen	Orchidee	NN	B-de_fam
 ausgiebig	ausgiebig	ADJD	O
 vor	vor	PTKVZ	O
 .	.	$.	O
@@ -5447,7 +5435,7 @@ Boden	Boden	NN	O
 .	.	$.	O
 
 Am	an	APPRART	O
-Rande	Rand	NN	O
+Rande	Rand	NN	B-de_species
 von	von	APPR	O
 den	die	ART	O
 Quellen	Quelle	NN	O
@@ -5483,7 +5471,7 @@ Anemonen-Arten	<unknown>	NN	O
 ,	,	$,	O
 beispielsweise	beispielsweise	ADV	O
 die	die	ART	O
-Alpenanemone	<unknown>	NN	O
+Alpenanemone	<unknown>	NN	B-de_species
 .	.	$.	O
 
 Trotzdem	trotzdem	PAV	O
@@ -5523,7 +5511,7 @@ seltene	selten	ADJA	O
 Alpenaster	<unknown>	NN	B-de_species
 ,	,	$,	O
 die	die	ART	O
-Gletschernelke	<unknown>	NN	O
+Gletschernelke	<unknown>	NN	B-de_species
 oder	oder	KON	O
 der	die	ART	O
 Gletscherhahnenfuß	<unknown>	NN	B-de_species
@@ -5558,7 +5546,7 @@ verfügen	verfügen	VVFIN	O
 Für	für	APPR	O
 Kohlköpfe	Kohlkopf	NN	O
 oder	oder	KON	O
-Kürbisse	Kürbis	NN	O
+Kürbisse	Kürbis	NN	B-de_species
 gilt	gelten	VVFIN	O
 als	als	KOKOM	O
 Faustregel	Faustregel	NN	O
@@ -5627,9 +5615,9 @@ positiven	positiv	ADJA	O
 Geschmack	Geschmack	NN	O
 auslöst	auslösen	VVFIN	O
 (	(	$(	O
-Zuckermais	<unknown>	NN	O
+Zuckermais	<unknown>	NN	B-de_species
 ,	,	$,	O
-Zuckererbsen	Zuckererbse	NN	O
+Zuckererbsen	Zuckererbse	NN	B-de_species
 ,	,	$,	O
 Tomaten	Tomate	NN	B-de_species
 ,	,	$,	O
@@ -5645,7 +5633,7 @@ Frühkartoffel	<unknown>	NN	O
 ,	,	$,	O
 die	die	PRELS	O
 mit	mit	APPR	O
-Kümmel	Kümmel	NN	B-de_species
+Kümmel	Kümmel	NN	O
 oder	oder	KON	O
 Koriander	<unknown>	NN	B-de_species
 gepflanzt	pflanzen	VVPP	O
@@ -5655,7 +5643,7 @@ wird	werden	VAFIN	O
 Klassisches	klassisch	ADJA	O
 Beispiel	Beispiel	NN	O
 sind	sein	VAFIN	O
-Möhren	<unknown>	NN	O
+Möhren	<unknown>	NN	B-de_species
 und	und	KON	O
 Zwiebeln	Zwiebel	NN	B-de_species
 .	.	$.	O
@@ -5696,7 +5684,7 @@ an	an	PTKVZ	O
 
 Tomatenpflanzen	Tomatenpflanze	NN	O
 und	und	KON	O
-Erdbeeren	Erdbeere	NN	O
+Erdbeeren	Erdbeere	NN	B-de_species
 können	können	VMFIN	O
 nebeneinander	nebeneinander	ADV	O
 gedeihen	gedeihen	VVINF	O
@@ -5732,9 +5720,9 @@ sich	sich	PRF	O
 ,	,	$,	O
 dass	dass	KOUS	O
 für	für	APPR	O
-Zubereitung	Zubereitung	NN	O
+Zubereitung	Zubereitung	NN	B-de_species
 köstlicher	köstlich	ADJA	O
-Salate	Salat	NN	O
+Salate	Salat	NN	B-de_species
 stets	stets	ADV	O
 die	die	ART	O
 passenden	passend	ADJA	O
@@ -5780,7 +5768,7 @@ Pflanzpartner	<unknown>	NN	O
 ,	,	$,	O
 zeichnet	zeichnen	VVFIN	O
 sich	sich	PRF	O
-Salat	Salat	NN	O
+Salat	Salat	NN	B-de_species
 als	als	KOKOM	O
 hervorragende	hervorragend	ADJA	O
 Option	Option	NN	O
@@ -5790,7 +5778,7 @@ aus	aus	PTKVZ	O
 Ähnlich	ähnlich	ADJD	O
 wie	wie	KOKOM	O
 beim	bei	APPRART	O
-Salat	Salat	NN	O
+Salat	Salat	NN	B-de_species
 ist	sein	VAFIN	O
 darauf	darauf	PAV	O
 zu	zu	PTKZU	O
@@ -5840,7 +5828,7 @@ entgegen	entgegen	PTKVZ	O
 
 Mithilfe	Mithilfe	NN	O
 von	von	APPR	O
-Tagetes	Tagetes	NN	O
+Tagetes	Tagetes	NN	B-de_species
 können	können	VMFIN	O
 Gärtner	Gärtner	NN	O
 ihre	ihr	PPOSAT	O
@@ -5852,7 +5840,7 @@ schützen	schützen	VVINF	O
 
 Ebenso	ebenso	ADV	O
 beugen	beugen	VVFIN	O
-Tagetes	Tagetes	NN	O
+Tagetes	Tagetes	NN	B-de_species
 Nematoden	<unknown>	NN	O
 vor	vor	PTKVZ	O
 .	.	$.	O
@@ -5862,7 +5850,7 @@ schützt	<unknown>	ADJA	O
 Tomaten	Tomate	NN	B-de_species
 sowohl	sowohl	KON	O
 vor	vor	APPR	O
-Mehltau	Mehltau	NN	O
+Mehltau	Mehltau	NN	B-de_species
 als	als	KOKOM	O
 auch	auch	ADV	O
 vor	vor	APPR	O
@@ -5925,7 +5913,7 @@ sich	sich	PRF	O
 in	in	APPR	O
 diesem	dies	PDAT	O
 Zusammenhang	Zusammenhang	NN	O
-Ringelblumen	Ringelblume	NN	O
+Ringelblumen	Ringelblume	NN	B-de_species
 .	.	$.	O
 
 Die	die	ART	O
@@ -5937,7 +5925,7 @@ Nachbar	Nachbar	NN	O
 beim	bei	APPRART	O
 Anbau	Anbau	NN	O
 von	von	APPR	O
-Erbsen	Erbse	NN	O
+Erbsen	Erbse	NN	B-de_species
 als	als	KOKOM	O
 auch	auch	ADV	O
 bei	bei	APPR	O
@@ -5964,7 +5952,7 @@ gehören	gehören	VVFIN	O
 der	die	ART	O
 Familie	Familie	NN	O
 der	die	ART	O
-Nachtschattengewächse	Nachtschattengewächs	NN	B-de_species
+Nachtschattengewächse	Nachtschattengewächs	NN	B-de_fam
 an	an	PTKVZ	O
 und	und	KON	O
 sind	sein	VAFIN	O
@@ -6027,7 +6015,7 @@ Es	es	PPER	O
 gibt	geben	VVFIN	O
 Zuckermelonen	<unknown>	NN	O
 und	und	KON	O
-Auberginen	Aubergine	NN	O
+Auberginen	Aubergine	NN	B-de_species
 für	für	APPR	O
 unser	unser	PPOSAT	O
 Klima	Klima	NN	O
@@ -6035,7 +6023,7 @@ Klima	Klima	NN	O
 ,	,	$,	O
 erklärt	erklären	VVFIN	O
 Marianna	Marianna	NE	O
-Serena	Serena	NE	O
+Serena	Serena	NE	B-lat_genus
 .	.	$.	O
 
 Aber	aber	KON	O
@@ -6070,7 +6058,7 @@ bieten	bieten	VVFIN	O
 
 Statt	statt	APPR	O
 hochgezüchteter	hochgezüchtet	ADJA	O
-Edelrosen	Edelrose	NN	O
+Edelrosen	Edelrose	NN	B-de_species
 sind	sein	VAFIN	O
 Wildrosen	Wildrose	NN	O
 empfehlenswert	empfehlenswert	ADJD	O
@@ -6079,7 +6067,7 @@ empfehlenswert	empfehlenswert	ADJD	O
 Findet	finden	VVFIN	O
 man	man	PIS	O
 die	die	ART	O
-Blutbuche	Blutbuche	NN	O
+Blutbuche	Blutbuche	NN	B-de_species
 in	in	APPR	O
 den	die	ART	O
 Alpen	Alp	NN	O
@@ -6099,7 +6087,7 @@ einer	eine	ART	O
 halbe	halb	ADJA	O
 Seite	Seite	NN	O
 einer	eine	ART	O
-Blutbuche	Blutbuche	NN	O
+Blutbuche	Blutbuche	NN	B-de_species
 `	`	$(	O
 `	`	$(	O
 schriftstellerisch	schriftstellerisch	ADJD	O
@@ -6118,7 +6106,7 @@ wird	werden	VAFIN	O
 Hallo	Hallo	NN	O
 ,	,	$,	O
 die	die	ART	O
-Blutbuche	Blutbuche	NN	O
+Blutbuche	Blutbuche	NN	B-de_species
 ist	sein	VAFIN	O
 kein	keine	PIAT	O
 Baum	Baum	NN	O
@@ -6159,7 +6147,7 @@ Meter	Meter	NN	O
 wachsen	wachsen	VVFIN	O
 die	die	ART	O
 letzten	letzt	ADJA	O
-Fichten	Fichte	NN	O
+Fichten	Fichte	NN	B-de_species
 und	und	KON	O
 werden	werden	VAFIN	O
 allmählich	allmählich	ADJD	O
@@ -6206,7 +6194,7 @@ Vogelbeere	Vogelbeere	NN	B-de_species
 und	und	KON	O
 die	die	ART	O
 strauchförmige	<unknown>	ADJA	O
-Grünerle	<unknown>	NN	B-de_species
+Grünerle	<unknown>	NN	O
 kommen	kommen	VVFIN	O
 aber	aber	ADV	O
 höher	hoch	ADJD	O
@@ -6219,7 +6207,7 @@ Baum	Baum	NN	O
 kann	können	VMFIN	O
 die	die	ART	O
 platte	platt	ADJA	O
-Latschenkiefer	<unknown>	NN	O
+Latschenkiefer	<unknown>	NN	B-de_species
 im	in	APPRART	O
 Allgäu	Allgäu	NE	O
 die	die	ART	O
@@ -6229,7 +6217,7 @@ erreichen	erreichen	VVINF	O
 .	.	$.	O
 
 Die	die	ART	O
-Trauerweide	Trauerweide	NN	O
+Trauerweide	Trauerweide	NN	B-de_species
 (	(	$(	O
 Salix	<unknown>	NE	B-lat_species
 alba	Alba	NE	I-lat_species
@@ -6267,15 +6255,15 @@ Dominierend	<unknown>	NE	O
 in	in	APPR	O
 diesem	dies	PDAT	O
 sind	sein	VAFIN	O
-Buchen	Buche|Buchen	NN	O
+Buchen	Buche|Buchen	NN	B-de_species
 ,	,	$,	O
-Fichten	Fichte	NN	O
+Fichten	Fichte	NN	B-de_species
 ,	,	$,	O
-Tannen	Tanne	NN	O
+Tannen	Tanne	NN	B-de_species
 ,	,	$,	O
-Kiefern	Kiefer	NN	O
+Kiefern	Kiefer	NN	B-de_species
 ,	,	$,	O
-Lärchen	Lärche	NN	O
+Lärchen	Lärche	NN	B-de_species
 und	und	KON	O
 Berg-Ahorn	<unknown>	NN	B-de_species
 ,	,	$,	O
@@ -6308,7 +6296,7 @@ gut	gut	ADJD	O
 wächst	wachsen	VVFIN	O
 .	.	$.	O
 
-Buchen	Buche|Buchen	NN	O
+Buchen	Buche|Buchen	NN	B-de_species
 haben	haben	VAFIN	O
 in	in	APPR	O
 den	die	ART	O
@@ -6410,12 +6398,12 @@ den	die	ART	O
 Jahren	Jahr	NN	O
 durch	durch	APPR	O
 einen	eine	ART	O
-Pilz	Pilz	NN	O
+Pilz	Pilz	NN	B-de_species
 bedroht	bedrohen	VVPP	O
 .	.	$.	O
 
 Die	die	ART	O
-Linde	Linde	NE	B-de_species
+Linde	Linde	NE	O
 ist	sein	VAFIN	O
 ein	eine	ART	O
 großer	groß	ADJA	O
@@ -6453,7 +6441,7 @@ Meter	Meter	NN	O
 Höhe	Höhe	NN	O
 .	.	$.	O
 
-Linden	Linden	NE	O
+Linden	Linden	NE	B-de_species
 sind	sein	VAFIN	O
 im	in	APPRART	O
 Bergmischwald	<unknown>	NN	O
@@ -6464,12 +6452,12 @@ häufig	häufig	ADJD	O
 Die	die	ART	O
 Vogelbeere	Vogelbeere	NN	B-de_species
 oder	oder	KON	O
-Eberesche	Eberesche	NN	B-de_species
+Eberesche	Eberesche	NN	O
 ist	sein	VAFIN	O
 nicht	nicht	PTKNEG	O
 mit	mit	APPR	O
 der	die	ART	O
-Esche	Esche	NN	B-de_species
+Esche	Esche	NN	O
 verwandt	verwenden	VVPP	O
 ,	,	$,	O
 sie	sie	PPER	O
@@ -6511,7 +6499,7 @@ Baumarten	Baumart	NN	O
 .	.	$.	O
 
 Die	die	ART	O
-Grün-Erle	<unknown>	NN	B-de_species
+Grün-Erle	<unknown>	NN	O
 ist	sein	VAFIN	O
 eine	eine	ART	O
 in	in	APPR	O
@@ -6602,7 +6590,7 @@ Baum	Baum	NN	O
 
 Ihr	ihr	PPOSAT	O
 hochwertiges	hochwertig	ADJA	O
-Holz	Holz	NN	O
+Holz	Holz	NN	B-de_species
 wurde	werden	VAFIN	O
 über	über	APPR	O
 Jahrhunderte	Jahrhundert	NN	O
@@ -6671,7 +6659,7 @@ robusten	robust	ADJA	O
 Latschenkiefern	<unknown>	NN	O
 .	.	$.	O
 
-Wilde	Wilde	NE	O
+Wilde	Wilde	NE	B-de_species
 Latschenkiefern	<unknown>	NN	O
 sind	sein	VAFIN	O
 geschützt	schützen	VVPP	O
@@ -6696,18 +6684,18 @@ man	man	PIS	O
 in	in	APPR	O
 Höhenlagen	Höhenlage	NN	O
 hochgewachsene	hochgewachst	ADJA	O
-Kiefern	Kiefer	NN	O
+Kiefern	Kiefer	NN	B-de_species
 ,	,	$,	O
 wie	wie	KOUS	O
 die	die	ART	O
-Spirke	<unknown>	TRUNC	O
+Spirke	<unknown>	TRUNC	B-de_species
 bzw.	bzw.	KON	O
 Hakenkiefer	<unknown>	NN	B-de_species
 ,	,	$,	O
 an	an	PTKVZ	O
 .	.	$.	O
 
-Spirke	<unknown>	NN	O
+Spirke	<unknown>	NN	B-de_species
 zwischen	zwischen	APPR	O
 Latschenkiefern	<unknown>	NN	O
 oberhalb	oberhalb	APPR	O
@@ -6765,7 +6753,7 @@ Pastinake	<unknown>	NN	B-de_species
 Nachtkerzenwurzeln	<unknown>	NN	O
 und	und	KON	O
 wilde	wild	ADJA	O
-Möhre	<unknown>	NN	B-de_species
+Möhre	<unknown>	NN	O
 .	.	$.	O
 
 Bald	bald	ADV	O
@@ -6786,7 +6774,7 @@ kommt	kommen	VVFIN	O
 
 Grüne	Grüne	NN	O
 und	und	KON	O
-gelbe	gelb	ADJA	O
+gelbe	gelb	ADJA	B-de_species
 Tomaten	Tomate	NN	B-de_species
 ,	,	$,	O
 gigantische	gigantisch	ADJA	O
@@ -6863,7 +6851,7 @@ Tomaten	Tomate	NN	B-de_species
 :	:	$.	O
 Blumenkohl	Blumenkohl	NN	B-de_species
 ,	,	$,	O
-Erbsen	Erbse	NN	O
+Erbsen	Erbse	NN	B-de_species
 ,	,	$,	O
 Fenchel	Fenchel	NN	B-de_species
 ,	,	$,	O
@@ -6873,9 +6861,9 @@ Mais	Mais	NN	B-de_species
 ,	,	$,	O
 Sellerie	Sellerie	NN	B-de_species
 ,	,	$,	O
-Sonnenblumen	Sonnenblume	NN	O
+Sonnenblumen	Sonnenblume	NN	B-de_species
 und	und	KON	O
-Randen	<unknown>	NN	O
+Randen	<unknown>	NN	B-de_species
 .	.	$.	O
 
 Würde	werden	VAFIN	O
@@ -6884,7 +6872,7 @@ wissen	wissen	VVFIN	O
 was	was	PIS	O
 sich	sich	PRF	O
 mit	mit	APPR	O
-Melonen	Melone	NN	O
+Melonen	Melone	NN	B-de_species
 verträgt	vertragen	VVFIN	O
 und	und	KON	O
 was	was	PWS	O
@@ -6907,7 +6895,7 @@ ob	ob	KOUS	O
 das	die	PDS	O
 für	für	APPR	O
 alle	alle	PIAT	O
-Melonen	Melone	NN	O
+Melonen	Melone	NN	B-de_species
 gilt	gelten	VVFIN	O
 ,	,	$,	O
 aber	aber	ADV	O
@@ -6915,7 +6903,7 @@ abgesehen	absehen	VVPP	O
 davon	davon	PAV	O
 das	die	PDS	O
 die	die	ART	O
-Melonen	Melone	NN	O
+Melonen	Melone	NN	B-de_species
 sehr	sehr	ADV	O
 viel	viele	PIAT	O
 Platz	Platz	NN	O
@@ -6935,16 +6923,16 @@ Ackerbohnen	Ackerbohne	NN	O
 ,	,	$,	O
 Buschbohnen	Buschbohne	NN	O
 ,	,	$,	O
-Erbsen	Erbse	NN	O
+Erbsen	Erbse	NN	B-de_species
 ,	,	$,	O
 Fenchel	Fenchel	NN	B-de_species
 ,	,	$,	O
 Kohlrabi	Kohlrabi	NN	B-de_species
 ,	,	$,	O
-Randen	<unknown>	NN	O
+Randen	<unknown>	NN	B-de_species
 .	.	$.	O
 
-Nicht	nicht	PTKNEG	O
+Nicht	nicht	PTKNEG	B-de_species
 gut	gut	ADJD	O
 sind	sein	VAFIN	O
 :	:	$.	O
@@ -6968,16 +6956,16 @@ zentralen	zentral	ADJA	O
 )	)	$(	O
 Obst-	Obst-	TRUNC	O
 oder	oder	KON	O
-Nussbaum	Nussbaum	NN	O
+Nussbaum	Nussbaum	NN	B-de_species
 .	.	$.	O
 
 Stickstofffixierer	<unknown>	NN	O
 :	:	$.	O
 Lupinen	Lupine	NN	B-de_species
 ,	,	$,	O
-Erbsen	Erbse	NN	O
+Erbsen	Erbse	NN	B-de_species
 ,	,	$,	O
-Bohnen	Bohne	NN	O
+Bohnen	Bohne	NN	B-de_species
 ,	,	$,	O
 Klee	Klee	NN	B-de_species
 ,	,	$,	O
@@ -6999,7 +6987,7 @@ Gesundheit	Gesundheit	NN	O
 für	für	APPR	O
 Bäume	Baum	NN	O
 :	:	$.	O
-Brennessel	Brennessel	NN	O
+Brennessel	Brennessel	NN	B-de_species
 ,	,	$,	O
 Beinwell	<unknown>	NE	B-de_species
 ,	,	$,	O
@@ -7023,7 +7011,7 @@ Insekten-	Insekten-	TRUNC	O
 und	und	KON	O
 Nektarpflanzen	<unknown>	NN	O
 :	:	$.	O
-Taubnessel	<unknown>	NN	B-de_species
+Taubnessel	<unknown>	NN	O
 ,	,	$,	O
 Wilde	Wilde	NE	B-de_species
 Möhre	<unknown>	NE	I-de_species
@@ -7062,10 +7050,9 @@ Krankheitsbehandlung	Krankheitsbehandlung	NN	O
 ist	sein	VAFIN	O
 .	.	$.	O
 
-Asimina	Asimina	NE	O
-triloba	<unknown>	NE	O
-–	<unknown>	ADJA	O
-Indianerbanane	<unknown>	NN	O
+Asimina	Asimina	NE	B-lat_species
+triloba	<unknown>	NE	I-lat_species
+Indianerbanane	<unknown>	NN	B-de_species
 (	(	$(	O
 nicht	nicht	PTKNEG	O
 günstig	günstig	ADJD	O
@@ -7081,11 +7068,11 @@ wie	wie	KOKOM	O
 eine	eine	ART	O
 Mischung	Mischung	NN	O
 aus	aus	APPR	O
-Mango	Mango	NN	O
+Mango	Mango	NN	B-de_species
 ,	,	$,	O
 Apfel	Apfel	NN	B-de_species
 ,	,	$,	O
-Banane	Banane	NN	O
+Banane	Banane	NN	B-de_species
 und	und	KON	O
 die	die	ART	O
 Pflanze	Pflanze	NN	O
@@ -7114,7 +7101,7 @@ knoblauchartig	<unknown>	ADJD	O
 )	)	$(	O
 .	.	$.	O
 
-Helianthus	<unknown>	NE	O
+Helianthus	<unknown>	NE	B-lat_genus
 tuberosis	<unknown>	NN	O
 –	<unknown>	ADJA	O
 Topinambur	Topinambur	NN	B-de_species
@@ -7137,7 +7124,7 @@ Knollen	Knolle	NN	O
 )	)	$(	O
 .	.	$.	O
 
-Hemerocallis	<unknown>	NE	O
+Hemerocallis	<unknown>	NE	B-lat_genus
 fulva/lilio-asphodelus	<unknown>	NE	O
 –	<unknown>	ADJA	O
 Gelbrote	<unknown>	NN	B-de_species
@@ -7158,7 +7145,7 @@ Pflanzen	Pflanze|Pflanzen	NN	O
 weitervermehren	<unknown>	VVFIN	O
 !	!	$.	O
 
-Hibiscus	<unknown>	NE	O
+Hibiscus	<unknown>	NE	B-de_species
 –	<unknown>	NN	O
 alle	alle	PIAT	O
 Mitglieder	Mitglied	NN	O
@@ -7182,10 +7169,10 @@ kosten	kosten	VVINF	O
 Blüten	Blüte	NN	O
 essbar	essbar	ADJD	O
 für	für	APPR	O
-Salate	Salat	NN	O
+Salate	Salat	NN	B-de_species
 oder	oder	KON	O
 als	als	KOKOM	O
-Tee	Tee	NN	O
+Tee	Tee	NN	B-de_species
 .	.	$.	O
 
 Lycium	<unknown>	NN	B-lat_species
@@ -7193,10 +7180,10 @@ barbarum	<unknown>	ADJA	I-lat_species
 Gemeiner	gemein	ADJA	O
 Bocksdorn	<unknown>	NN	B-de_species
 ,	,	$,	O
-Goji	<unknown>	NE	O
+Goji	<unknown>	NE	B-de_species
 Beere	Beere	NN	O
 ,	,	$,	O
-Wolfsbeere	<unknown>	NN	O
+Wolfsbeere	<unknown>	NN	B-de_species
 .	.	$.	O
 
 Zum	zu	APPRART	O
@@ -7249,9 +7236,9 @@ lat	<unknown>	VVFIN	O
 leguminosae	<unknown>	NE	O
 )	)	$(	O
 wie	wie	KOKOM	O
-Bohnen	Bohne	NN	O
+Bohnen	Bohne	NN	B-de_species
 oder	oder	KON	O
-Erbsen	Erbse	NN	O
+Erbsen	Erbse	NN	B-de_species
 )	)	$(	O
 .	.	$.	O
 
@@ -7265,7 +7252,7 @@ für	für	APPR	O
 Karotten	Karotte	NN	O
 oder	oder	KON	O
 rote	rot	ADJA	O
-Rüben	Rübe	NN	O
+Rüben	Rübe	NN	B-de_species
 ,	,	$,	O
 da	da	KOUS	O
 sie	sie	PPER	O
@@ -7287,17 +7274,17 @@ bilden	bilden	VVFIN	O
 (	(	$(	O
 Karotten	Karotte	NN	O
 ,	,	$,	O
-Pastinaken	<unknown>	NN	O
+Pastinaken	<unknown>	NN	B-de_species
 ,	,	$,	O
 Sellerie	Sellerie	NN	B-de_species
 ,	,	$,	O
-Kümmel	Kümmel	NN	B-de_species
+Kümmel	Kümmel	NN	O
 ,	,	$,	O
 Petersilie	Petersilie	NN	B-de_species
 …	<unknown>	NN	O
 die	die	ART	O
 sogenannten	sogenannt	ADJA	O
-Doldenblütler	<unknown>	NN	B-de_species
+Doldenblütler	<unknown>	NN	B-de_fam
 ,	,	$,	O
 lat	<unknown>	VVFIN	O
 .	.	$.	O
@@ -7352,7 +7339,7 @@ der	die	ART	O
 Geruch	Geruch	NN	O
 ständig	ständig	ADJD	O
 den	die	ART	O
-Garten	Garten	NN	O
+Garten	Garten	NN	B-de_species
 durchströmt	durchströmen	VVPP	O
 .	.	$.	O
 
@@ -7413,7 +7400,7 @@ Pflanze	Pflanze	NN	O
 der	die	ART	O
 Familie	Familie	NN	O
 der	die	ART	O
-Scorzonera	<unknown>	NN	O
+Scorzonera	<unknown>	NN	B-lat_genus
 (	(	$(	O
 Schwarzwurzel	Schwarzwurzel	NN	B-de_species
 )	)	$(	O
@@ -7472,7 +7459,7 @@ mehr	mehr	PIAT	O
 Protein	Protein	NN	O
 beinhalten	beinhalten	VVFIN	O
 als	als	KOKOM	O
-Soja	Soja	NN	O
+Soja	Soja	NN	B-de_species
 .	.	$.	O
 
 Nachdem	nachdem	KOUS	O
@@ -7507,11 +7494,11 @@ Hülsenfrüchte	Hülsenfrucht	NN	B-de_species
 ,	,	$,	O
 zu	zu	APPR	O
 denen	die	PRELS	O
-Bohnen	Bohne	NN	O
+Bohnen	Bohne	NN	B-de_species
 ,	,	$,	O
 Linsen	Linse|Linsen	NN	B-de_species
 ,	,	$,	O
-Erbsen	Erbse	NN	O
+Erbsen	Erbse	NN	B-de_species
 und	und	KON	O
 Kichererbsen	Kichererbse	NN	O
 gehören	gehören	VVFIN	O
@@ -7543,11 +7530,11 @@ andere	andere	PIS	O
 Pflanzengruppen	<unknown>	NN	O
 .	.	$.	O
 
-Nicht	nicht	PTKNEG	O
+Nicht	nicht	PTKNEG	B-de_species
 ohne	ohne	APPR	O
 Grund	Grund	NN	O
 werden	werden	VAFIN	O
-Bohnen	Bohne	NN	O
+Bohnen	Bohne	NN	B-de_species
 auch	auch	ADV	O
 gerne	gerne	ADV	O
 als	als	KOKOM	O
@@ -7565,7 +7552,7 @@ unverwüstlich	unverwüstlich	ADJD	O
 
 Drucktopf	<unknown>	NN	O
 und	und	KON	O
-Bohnen	Bohne	NN	O
+Bohnen	Bohne	NN	B-de_species
 passen	passen	VVFIN	O
 zudem	zudem	ADV	O
 ideal	ideal	ADJD	O
@@ -7573,7 +7560,7 @@ zusammen	zusammen	PTKVZ	O
 ,	,	$,	O
 da	da	KOUS	O
 man	man	PIS	O
-Bohnen	Bohne	NN	O
+Bohnen	Bohne	NN	B-de_species
 –	<unknown>	ADJD	O
 aber	aber	ADV	O
 auch	auch	ADV	O
@@ -7611,7 +7598,7 @@ haben	haben	VAFIN	O
 einen	eine	ART	O
 20kg	<unknown>	ADJA	O
 Sack	Sack	NN	O
-Bohnen	Bohne	NN	O
+Bohnen	Bohne	NN	B-de_species
 ,	,	$,	O
 15kg	<unknown>	ADJA	O
 Linsen	Linse|Linsen	NN	B-de_species
@@ -7662,9 +7649,9 @@ mit	mit	APPR	O
 einer	eine	ART	O
 Beigabe	Beigabe	NN	O
 von	von	APPR	O
-Kümmel	Kümmel	NN	B-de_species
+Kümmel	Kümmel	NN	O
 oder	oder	KON	O
-Schwarzkümmel	<unknown>	NN	B-de_species
+Schwarzkümmel	<unknown>	NN	O
 ,	,	$,	O
 Kamillen-	<unknown>	TRUNC	O
 ,	,	$,	O
@@ -7674,13 +7661,13 @@ Pfefferminze	Pfefferminze	NN	B-de_species
 ,	,	$,	O
 Knoblauch	Knoblauch	NN	B-de_species
 ,	,	$,	O
-Nelken	Nelke	NN	O
+Nelken	Nelke	NN	B-de_species
 ,	,	$,	O
 Pfeffer	Pfeffer	NN	B-de_species
 ,	,	$,	O
 Ingwer	Ingwer	NN	B-de_species
 oder	oder	KON	O
-Zimt	Zimt	NN	O
+Zimt	Zimt	NN	B-de_species
 versuchen	versuchen	VVFIN	O
 .	.	$.	O
 
@@ -7694,11 +7681,11 @@ vor	vor	PTKVZ	O
 :	:	$.	O
 Hülsenfrüchte	Hülsenfrucht	NN	B-de_species
 wie	wie	KOKOM	O
-Bohnen	Bohne	NN	O
+Bohnen	Bohne	NN	B-de_species
 ,	,	$,	O
 Linsen	Linse|Linsen	NN	B-de_species
 ,	,	$,	O
-Erbsen	Erbse	NN	O
+Erbsen	Erbse	NN	B-de_species
 und	und	KON	O
 Kichererbsen	Kichererbse	NN	O
 ,	,	$,	O
@@ -7789,7 +7776,7 @@ Gemüse	Gemüse	NN	O
 wie	wie	KOKOM	O
 Grünkohl	Grünkohl	NN	B-de_species
 ,	,	$,	O
-Wirsingkohl	<unknown>	NN	O
+Wirsingkohl	<unknown>	NN	B-de_species
 ,	,	$,	O
 Brokkoli	<unknown>	TRUNC	B-de_species
 und	und	KON	O
@@ -7799,7 +7786,7 @@ Sesam	Sesam	NN	B-de_species
 und	und	KON	O
 Mohn	Mohn	NN	B-de_species
 ,	,	$,	O
-Mandeln	Mandel	NN	O
+Mandeln	Mandel	NN	B-de_species
 ,	,	$,	O
 mit	mit	APPR	O
 Kalziumchlorid	<unknown>	NN	O
@@ -7854,7 +7841,7 @@ wählen	wählen	VVFIN	O
 :	:	$.	O
 Leinöl	Leinöl	NN	O
 und	und	KON	O
-Leinsamen	Leinsame	NN	O
+Leinsamen	Leinsame	NN	B-de_species
 ,	,	$,	O
 Hanföl	<unknown>	NN	O
 und	und	KON	O
@@ -7866,14 +7853,14 @@ Walnüsse	Walnuss	NN	O
 ,	,	$,	O
 Rapsöl	Rapsöl	NN	O
 und	und	KON	O
-Chiasamen	<unknown>	NN	O
+Chiasamen	<unknown>	NN	B-de_species
 .	.	$.	O
 
 Für	für	APPR	O
 die	die	ART	O
 Jodversorgung	Jodversorgung	NN	O
 gelegentlich	gelegentlich	ADJD	O
-Algen	Alge	NN	O
+Algen	Alge	NN	B-de_species
 ,	,	$,	O
 jodiertes	<unknown>	ADJA	O
 Speisesalz	Speisesalz	NN	O
@@ -7889,33 +7876,32 @@ wie	wie	KOKOM	O
 die	die	ART	O
 Chrysanthemen	Chrysantheme	NN	B-de_species
 (	(	$(	O
-Chrysanthemum	<unknown>	NE	O
+Chrysanthemum	<unknown>	NE	B-lat_genus
 )	)	$(	O
 ,	,	$,	O
 Lilien	Lilie	NN	B-de_species
 (	(	$(	O
-Lilium	<unknown>	NE	O
+Lilium	<unknown>	NE	B-lat_genus
 )	)	$(	O
 ,	,	$,	O
-Lobelien	<unknown>	NE	O
+Lobelien	<unknown>	NE	B-de_species
 (	(	$(	O
-Lobelia	<unknown>	NE	O
+Lobelia	<unknown>	NE	B-lat_genus
 )	)	$(	O
 ,	,	$,	O
 Oleander	Oleander	NN	B-de_species
 (	(	$(	O
-Nerium	<unknown>	NE	O
-oleander	<unknown>	NE	O
-)	)	$(	O
+Nerium	<unknown>	NE	B-lat_species
+oleander	<unknown>	NE	I-lat_species
 und	und	KON	O
 natürlich	natürlich	ADV	O
-Rosen	Rose	NN	O
+Rosen	Rose	NN	B-de_species
 (	(	$(	O
-Rosa	Rosa	NE	O
+Rosa	Rosa	NE	B-lat_genus
 )	)	$(	O
 .	.	$.	O
 
-Rote	rot	ADJA	O
+Rote	rot	ADJA	B-de_species
 Rose	Rose	NN	B-de_species
 ,	,	$,	O
 links	links	ADV	O
@@ -7931,7 +7917,7 @@ Großen	groß	ADJA	O
 Löwenmaul	<unknown>	NN	B-de_species
 .	.	$.	O
 
-Rote	rot	ADJA	O
+Rote	rot	ADJA	B-de_species
 Blüte	Blüte	NN	O
 einer	eine	ART	O
 Lilie	Lilie	NN	B-de_species
@@ -7951,7 +7937,7 @@ Oleander-Blüten	<unknown>	NN	O
 Pinkfarbene	<unknown>	NN	O
 Blüten	Blüte	NN	O
 von	von	APPR	O
-Garten-Chrysanthemen	<unknown>	NN	O
+Garten-Chrysanthemen	<unknown>	NN	B-de_species
 .	.	$.	O
 
 Wer	wer	PWS	O
@@ -7961,7 +7947,7 @@ und	und	KON	O
 Zierstauden	<unknown>	NN	O
 für	für	APPR	O
 den	die	ART	O
-Garten	Garten	NN	O
+Garten	Garten	NN	B-de_species
 sucht	suchen	VVFIN	O
 ,	,	$,	O
 wird	werden	VAFIN	O
@@ -8033,7 +8019,7 @@ Zucchini	<unknown>	NN	B-de_species
 ,	,	$,	O
 eine	eine	ART	O
 gelbblühende	<unknown>	ADJA	O
-Zierpflanze	Zierpflanze	NN	O
+Zierpflanze	Zierpflanze	NN	B-de_species
 ,	,	$,	O
 oder	oder	KON	O
 Fruchtgemüse	<unknown>	NN	O
@@ -8044,7 +8030,7 @@ roten	rot	ADJA	O
 Tomaten	Tomate	NN	B-de_species
 und	und	KON	O
 der	die	ART	O
-Zierpaprika	<unknown>	NN	O
+Zierpaprika	<unknown>	NN	B-de_species
 als	als	KOKOM	O
 Ziergemüse	<unknown>	NN	O
 in	in	APPR	O
@@ -8094,9 +8080,8 @@ wie	wie	KOKOM	O
 die	die	ART	O
 Süßkartoffel	Süßkartoffel	NN	B-de_species
 (	(	$(	O
-Ipomoea	<unknown>	NE	O
-batatas	<unknown>	NE	O
-)	)	$(	O
+Ipomoea	<unknown>	NE	B-lat_species
+batatas	<unknown>	NE	I-lat_species
 in	in	APPR	O
 der	die	ART	O
 Gartengestaltung	Gartengestaltung	NN	O
@@ -8105,14 +8090,14 @@ Gartengestaltung	Gartengestaltung	NN	O
 Seit	seit	APPR	O
 Jahrhunderten	Jahrhundert	NN	O
 gehören	gehören	VVFIN	O
-Rosen	Rose	NN	O
+Rosen	Rose	NN	B-de_species
 zu	zu	APPR	O
 den	die	ART	O
 beliebtesten	beliebt	ADJA	O
 Zierpflanzen	Zierpflanze	NN	O
 für	für	APPR	O
 den	die	ART	O
-Garten	Garten	NN	O
+Garten	Garten	NN	B-de_species
 .	.	$.	O
 
 Unterschieden	Unterschied	NN	O
@@ -8132,7 +8117,7 @@ Sorten	Sorte	NN	O
 Zu	zu	APPR	O
 den	die	ART	O
 historischen	historisch	ADJA	O
-Rosen	Rose	NN	O
+Rosen	Rose	NN	B-de_species
 gehören	gehören	VVFIN	O
 zum	zu	APPRART	O
 Beispiel	Beispiel	NN	O
@@ -8153,13 +8138,13 @@ Florbundarosen	<unknown>	NN	O
 
 Auch	auch	ADV	O
 die	die	ART	O
-Chrysantheme	Chrysantheme	NN	O
+Chrysantheme	Chrysantheme	NN	B-de_species
 darf	dürfen	VMFIN	O
 als	als	KOKOM	O
-Zierpflanze	Zierpflanze	NN	O
+Zierpflanze	Zierpflanze	NN	B-de_species
 in	in	APPR	O
 keinem	keine	PIAT	O
-Garten	Garten	NN	O
+Garten	Garten	NN	B-de_species
 fehlen	fehlen	VVINF	O
 .	.	$.	O
 
@@ -8191,7 +8176,7 @@ sich	sich	PRF	O
 sowohl	sowohl	KON	O
 für	für	APPR	O
 den	die	ART	O
-Garten	Garten	NN	O
+Garten	Garten	NN	B-de_species
 als	als	KOKOM	O
 auch	auch	ADV	O
 für	für	APPR	O
@@ -8202,7 +8187,7 @@ gehören	gehören	VVFIN	O
 zur	zu	APPRART	O
 Familie	Familie	NN	O
 der	die	ART	O
-Korbblütler	<unknown>	NN	B-de_species
+Korbblütler	<unknown>	NN	B-de_fam
 .	.	$.	O
 
 Auch	auch	ADV	O
@@ -8289,7 +8274,7 @@ wichtig	wichtig	ADJD	O
 .	.	$.	O
 
 Auch	auch	ADV	O
-Pfingstrosen	Pfingstrose	NN	O
+Pfingstrosen	Pfingstrose	NN	B-de_species
 gehören	gehören	VVFIN	O
 zu	zu	APPR	O
 den	die	ART	O
@@ -8297,14 +8282,14 @@ beliebtesten	beliebt	ADJA	O
 Zierpflanzen	Zierpflanze	NN	O
 für	für	APPR	O
 den	die	ART	O
-Garten	Garten	NN	O
+Garten	Garten	NN	B-de_species
 .	.	$.	O
 
 Fetthennen	<unknown>	NN	O
 gehören	gehören	VVFIN	O
 zu	zu	APPR	O
 den	die	ART	O
-Dickblattgewächsen	<unknown>	NN	O
+Dickblattgewächsen	<unknown>	NN	B-de_fam
 und	und	KON	O
 sind	sein	VAFIN	O
 krautige	<unknown>	ADJA	O
@@ -8393,7 +8378,7 @@ verwendet	verwenden	VVPP	O
 .	.	$.	O
 
 Diese	dies	PDAT	O
-Zierpflanze	Zierpflanze	NN	O
+Zierpflanze	Zierpflanze	NN	B-de_species
 kann	können	VMFIN	O
 bis	bis	KON	O
 zu	zu	APPR	O
@@ -8455,7 +8440,7 @@ Zierbäume	Zierbaum	NN	O
 .	.	$.	O
 
 Diese	dies	PDAT	O
-Zierpflanze	Zierpflanze	NN	O
+Zierpflanze	Zierpflanze	NN	B-de_species
 ist	sein	VAFIN	O
 sommer-	Sommer-	TRUNC	O
 oder	oder	KON	O
@@ -8482,7 +8467,7 @@ der	die	ART	O
 Zierpflanzen	Zierpflanze	NN	O
 für	für	APPR	O
 den	die	ART	O
-Garten	Garten	NN	O
+Garten	Garten	NN	B-de_species
 macht	machen	VVFIN	O
 .	.	$.	O
 
@@ -8490,7 +8475,7 @@ Am	an	APPRART	O
 verbreitetsten	verbreitet	ADJA	O
 ist	sein	VAFIN	O
 die	die	ART	O
-Tulpen-Magnolie	<unknown>	NN	O
+Tulpen-Magnolie	<unknown>	NN	B-de_species
 .	.	$.	O
 
 Wir	wir	PPER	O
@@ -8500,7 +8485,7 @@ eine	eine	ART	O
 Auswahl	Auswahl	NN	O
 an	an	APPR	O
 empfehlenswerten	empfehlenswert	ADJA	O
-Kletterrosen	Kletterrose	NN	O
+Kletterrosen	Kletterrose	NN	B-de_species
 ,	,	$,	O
 Waldreben	<unknown>	NN	O
 und	und	KON	O
@@ -8525,9 +8510,8 @@ Die	die	ART	O
 Banks-Rose	<unknown>	NN	O
 ,	,	$,	O
 botanisch	botanisch	ADJD	O
-Rosa	Rosa	NE	O
-banksiae	<unknown>	NE	O
-var	<unknown>	VVFIN	O
+Rosa	Rosa	NE	B-lat_species
+banksiae	<unknown>	NE	I-lat_species
 .	.	$.	O
 lutea	<unknown>	NE	O
 genannt	nennen	VVPP	O
@@ -8554,12 +8538,12 @@ eine	eine	PIS	O
 der	die	ART	O
 ersten	erst	ADJA	O
 blühenden	blühend	ADJA	O
-Rosen	Rose	NN	O
+Rosen	Rose	NN	B-de_species
 im	in	APPRART	O
 Jahr	Jahr	NN	O
 .	.	$.	O
 
-Dort	dort	ADV	O
+Dort	dort	ADV	B-de_species
 hängen	hängen	VVFIN	O
 die	die	ART	O
 über	über	APPR	O
@@ -8599,7 +8583,7 @@ steht	stehen	VVFIN	O
 für	für	APPR	O
 einmal	einmal	ADV	O
 blühende	<unknown>	ADJA	O
-Kletterrosen	Kletterrose	NN	O
+Kletterrosen	Kletterrose	NN	B-de_species
 ,	,	$,	O
 die	die	PRELS	O
 sehr	sehr	ADV	O
@@ -8644,7 +8628,7 @@ ist	sein	VAFIN	O
 
 In	in	APPR	O
 ihrer	ihr	PPOSAT	O
-Form	Form	NN	O
+Form	Form	NN	B-de_species
 erinnern	erinnern	VVFIN	O
 sie	sie	PPER	O
 an	an	APPR	O
@@ -8695,7 +8679,7 @@ Stockrosen	<unknown>	NN	O
 ,	,	$,	O
 Holunderbüschen	Holunderbusch	NN	O
 ,	,	$,	O
-Staudenphlox	<unknown>	NN	O
+Staudenphlox	<unknown>	NN	B-de_species
 und	und	KON	O
 anderen	andere	PIS	O
 munteren	munter	ADJA	O
@@ -8759,20 +8743,20 @@ Sommer	Sommer	NN	O
 
 Dies	dies	PDS	O
 können	können	VMFIN	O
-Perlkörbchen	<unknown>	NN	O
+Perlkörbchen	<unknown>	NN	B-de_species
 ,	,	$,	O
 weiss	weiß	ADJD	O
 blühende	<unknown>	ADJA	O
 Kronen-Lichtnelken	<unknown>	NN	O
 ,	,	$,	O
-Blauminze	<unknown>	ADJA	O
+Blauminze	<unknown>	ADJA	B-de_species
 ‘	<unknown>	NN	O
 Six	Six	NE	O
 Hills	<unknown>	NN	O
 Giant	<unknown>	NN	O
 ’	<unknown>	NN	O
 oder	oder	KON	O
-Woll-Ziest	<unknown>	NN	O
+Woll-Ziest	<unknown>	NN	B-de_species
 sein	sein	VAINF	O
 .	.	$.	O
 
@@ -8843,11 +8827,10 @@ die	die	ART	O
 silbrigen	silbrig	ADJA	O
 Zweige	Zweig	NN	O
 der	die	ART	O
-Rosmarinweide	<unknown>	NN	O
+Rosmarinweide	<unknown>	NN	B-de_species
 ,	,	$,	O
-Salix	<unknown>	NE	O
-elaeagnos	<unknown>	NE	O
-‘	<unknown>	NN	O
+Salix	<unknown>	NE	B-lat_species
+elaeagnos	<unknown>	NE	I-lat_species
 Angustifolia	<unknown>	NE	O
 ’	<unknown>	ADJD	O
 ,	,	$,	O
@@ -8938,10 +8921,9 @@ Geissblätter	<unknown>	NN	O
 
 Die	die	ART	O
 Sorte	Sorte	NN	O
-Lonicera	<unknown>	NE	O
-x	x	NE	O
-heckrottii	<unknown>	NE	O
-gehört	gehören	VVFIN	O
+Lonicera	<unknown>	NE	B-lat_species
+x	x	NE	I-lat_species
+heckrottii	<unknown>	NE	I-lat_species
 zu	zu	APPR	O
 den	die	ART	O
 gartenwürdigsten	<unknown>	ADJA	O
@@ -8970,7 +8952,7 @@ Königs-Lilien	<unknown>	NN	O
 ,	,	$,	O
 Storchschnäbeln	<unknown>	NN	O
 und	und	KON	O
-Staudenphlox	<unknown>	NN	O
+Staudenphlox	<unknown>	NN	B-de_species
 .	.	$.	O
 
 Leuchtend	<unknown>	NN	O
@@ -9033,7 +9015,7 @@ Blütenfarbe	Blütenfarbe	NN	O
 .	.	$.	O
 
 Dem	die	ART	O
-Seidelbast	Seidelbast	NN	B-de_species
+Seidelbast	Seidelbast	NN	O
 begegnet	begegnen	VVFIN	O
 man	man	PIS	O
 in	in	APPR	O
@@ -9086,14 +9068,14 @@ und	und	KON	O
 die	die	PRELS	O
 einen	eine	ART	O
 starken	stark	ADJA	O
-Duft	Duft	NN	O
+Duft	Duft	NN	B-de_species
 verbreiten	verbreiten	VVINF	O
 .	.	$.	O
 
 Auf	auf	APPR	O
 den	die	ART	O
 vierblättrigen	vierblättrig	ADJA	O
-Flor	Flor	NN	O
+Flor	Flor	NN	B-de_species
 ,	,	$,	O
 der	die	PRELS	O
 direkt	direkt	ADJD	O
@@ -9113,10 +9095,10 @@ Beeren	Beere	NN	O
 ,	,	$,	O
 die	die	PRELS	O
 von	von	APPR	O
-Form	Form	NN	O
+Form	Form	NN	B-de_species
 und	und	KON	O
 Farbe	Farbe	NN	O
-Johannisbeeren	Johannisbeere	NN	O
+Johannisbeeren	Johannisbeere	NN	B-de_species
 ähneln	ähneln	VVFIN	O
 .	.	$.	O
 
@@ -9130,7 +9112,7 @@ Punkte	Punkt	NN	O
 ,	,	$,	O
 die	die	PRELS	O
 den	die	ART	O
-Seidelbast	Seidelbast	NN	B-de_species
+Seidelbast	Seidelbast	NN	O
 für	für	APPR	O
 Kinder	Kind	NN	O
 gefährlich	gefährlich	ADJD	O
@@ -9156,10 +9138,10 @@ vor	vor	PTKVZ	O
 
 Ihre	ihr	PPOSAT	O
 von	von	APPR	O
-Rosa	Rosa	NE	O
+Rosa	Rosa	NE	B-lat_genus
 bis	bis	APPR	O
 ins	in	APPRART	O
-Lila	lila	ADJA	O
+Lila	lila	ADJA	B-de_species
 gehenden	gehend	ADJA	O
 Blüten	Blüte	NN	O
 kommen	kommen	VVFIN	O
@@ -9306,7 +9288,7 @@ bereits	bereits	ADV	O
 seit	seit	APPR	O
 Jahrhunderten	Jahrhundert	NN	O
 als	als	KOKOM	O
-Zierpflanze	Zierpflanze	NN	O
+Zierpflanze	Zierpflanze	NN	B-de_species
 kultiviert	kultivieren	VVPP	O
 .	.	$.	O
 
@@ -9344,7 +9326,7 @@ Kinder	Kind	NN	O
 ,	,	$,	O
 denn	denn	KON	O
 der	die	ART	O
-Goldregen	Goldregen	NN	B-de_species
+Goldregen	Goldregen	NN	O
 bildet	bilden	VVFIN	O
 seine	sein	PPOSAT	O
 Früchte	Frucht	NN	O
@@ -9353,9 +9335,9 @@ Schoten	Schote	NN	O
 aus	aus	PTKVZ	O
 ,	,	$,	O
 die	die	ART	O
-Erbsen	Erbse	NN	O
+Erbsen	Erbse	NN	B-de_species
 und	und	KON	O
-Bohnen	Bohne	NN	O
+Bohnen	Bohne	NN	B-de_species
 ähneln	ähneln	VVFIN	O
 .	.	$.	O
 
@@ -9506,7 +9488,7 @@ Eine	eine	ART	O
 Vergiftung	Vergiftung	NN	O
 durch	durch	APPR	O
 das	die	ART	O
-Pfaffenhütchen	Pfaffenhütchen	NN	B-de_species
+Pfaffenhütchen	Pfaffenhütchen	NN	O
 zu	zu	PTKZU	O
 erkennen	erkennen	VVINF	O
 ist	sein	VAFIN	O
@@ -9565,7 +9547,7 @@ seiner	sein	PPOSAT	O
 Schnittverträglichkeit	<unknown>	NN	O
 häufig	häufig	ADJD	O
 im	in	APPRART	O
-Garten	Garten	NN	O
+Garten	Garten	NN	B-de_species
 als	als	KOKOM	O
 Hecke	Hecke	NN	O
 oder	oder	KON	O
@@ -9616,7 +9598,7 @@ uns	wir	PPER	O
 zumeist	zumeist	ADV	O
 nur	nur	ADV	O
 als	als	KOKOM	O
-Zierpflanze	Zierpflanze	NN	O
+Zierpflanze	Zierpflanze	NN	B-de_species
 vor	vor	PTKVZ	O
 .	.	$.	O
 
@@ -9758,7 +9740,7 @@ weißen	weiß	ADJA	O
 Blüten	Blüte	NN	O
 gern	gern	ADV	O
 als	als	KOKOM	O
-Zierpflanze	Zierpflanze	NN	O
+Zierpflanze	Zierpflanze	NN	B-de_species
 verwendet	verwenden	VVPP	O
 .	.	$.	O
 
@@ -9846,7 +9828,7 @@ der	die	ART	O
 Eisenhut	Eisenhut	NN	B-de_species
 wegen	wegen	APPR	O
 der	die	ART	O
-Form	Form	NN	O
+Form	Form	NN	B-de_species
 seiner	sein	PPOSAT	O
 Blüten	Blüte	NN	O
 ,	,	$,	O
@@ -9867,9 +9849,9 @@ für	für	APPR	O
 die	die	ART	O
 Pflanze	Pflanze	NN	O
 wie	wie	KOKOM	O
-Ziegentod	<unknown>	NN	O
+Ziegentod	<unknown>	NN	B-de_species
 oder	oder	KON	O
-Würgling	<unknown>	NN	O
+Würgling	<unknown>	NN	B-de_species
 machen	machen	VVFIN	O
 schnell	schnell	ADJD	O
 klar	klar	ADJD	O
@@ -9878,7 +9860,7 @@ dass	dass	KOUS	O
 man	man	PIS	O
 besser	gut	ADJD	O
 die	die	ART	O
-Finger	Finger	NN	O
+Finger	Finger	NN	B-de_species
 von	von	APPR	O
 der	die	ART	O
 Pflanze	Pflanze	NN	O
@@ -9906,7 +9888,7 @@ europäischen	europäisch	ADJA	O
 Raum	Raum	NN	O
 .	.	$.	O
 
-Goldregen	Goldregen	NN	B-de_species
+Goldregen	Goldregen	NN	O
 ist	sein	VAFIN	O
 mit	mit	APPR	O
 Vorsicht	Vorsicht	NN	O
@@ -9918,7 +9900,7 @@ Der	die	ART	O
 im	in	APPRART	O
 Mai	Mai	NN	O
 blühende	<unknown>	ADJA	O
-Goldregen	Goldregen	NN	B-de_species
+Goldregen	Goldregen	NN	O
 (	(	$(	O
 Laburnum	<unknown>	NN	B-lat_species
 anagyroides	<unknown>	ADJA	I-lat_species
@@ -9949,9 +9931,9 @@ an	an	APPR	O
 die	die	ART	O
 Schoten	Schote	NN	O
 von	von	APPR	O
-Bohnen	Bohne	NN	O
+Bohnen	Bohne	NN	B-de_species
 und	und	KON	O
-Erbsen	Erbse	NN	O
+Erbsen	Erbse	NN	B-de_species
 erinnern	erinnern	VVFIN	O
 ,	,	$,	O
 bergen	bergen	VVFIN	O
@@ -9987,7 +9969,7 @@ etwa	etwa	ADV	O
 der	die	ART	O
 Stechapfel	Stechapfel	NN	B-de_species
 (	(	$(	O
-Datura	<unknown>	NN	O
+Datura	<unknown>	NN	B-de_species
 )	)	$(	O
 .	.	$.	O
 
@@ -10037,7 +10019,7 @@ Deko-Zwecke	<unknown>	NN	O
 Da	da	ADV	O
 gibt	geben	VVFIN	O
 es	es	PPER	O
-Himbeeren	Himbeere	NN	O
+Himbeeren	Himbeere	NN	B-de_species
 ,	,	$,	O
 die	die	PRELS	O
 man	man	PIS	O
@@ -10132,7 +10114,7 @@ an	an	APPR	O
 Wegrändern	Wegrand	NN	O
 und	und	KON	O
 auf	auf	APPR	O
-Weiden	Weide|Weiden	NN	O
+Weiden	Weide|Weiden	NN	B-de_species
 und	und	KON	O
 Wiesen	Wiese	NN	O
 findet	finden	VVFIN	O
@@ -10165,7 +10147,7 @@ hervor	hervor	PTKVZ	O
 .	.	$.	O
 
 Das	die	ART	O
-Greiskraut	Greiskraut	NN	B-de_species
+Greiskraut	Greiskraut	NN	O
 ist	sein	VAFIN	O
 in	in	APPR	O
 allen	alle	PIAT	O
@@ -10210,9 +10192,8 @@ Kräutergärten	Kräutergarten	NN	O
 gepflanzte	gepflanzt	ADJA	O
 Weinraute	Weinraute	NN	B-de_species
 (	(	$(	O
-Ruta	Ruta	NE	O
-graveolens	<unknown>	NE	O
-)	)	$(	O
+Ruta	Ruta	NE	B-lat_species
+graveolens	<unknown>	NE	I-lat_species
 zu	zu	APPR	O
 den	die	ART	O
 phototoxischen	<unknown>	ADJA	O
@@ -10243,9 +10224,8 @@ links	links	ADV	O
 und	und	KON	O
 Weinraute	Weinraute	NN	B-de_species
 (	(	$(	O
-Ruta	Ruta	NE	O
-graveolens	<unknown>	NE	O
-,	,	$,	O
+Ruta	Ruta	NE	B-lat_species
+graveolens	<unknown>	NE	I-lat_species
 rechts	rechts	ADV	O
 )	)	$(	O
 .	.	$.	O
@@ -10310,7 +10290,7 @@ Arbeit	Arbeit	NN	O
 mit	mit	APPR	O
 Eisenhut	Eisenhut	NN	B-de_species
 im	in	APPRART	O
-Garten	Garten	NN	O
+Garten	Garten	NN	B-de_species
 immer	immer	ADV	O
 Handschuhe	Handschuh	NN	O
 tragen	tragen	VVFIN	O
@@ -10389,7 +10369,7 @@ dass	dass	KOUS	O
 er	er	PPER	O
 nach	nach	APPR	O
 einem	eine	ART	O
-Verzehr	Verzehr	NN	O
+Verzehr	Verzehr	NN	B-de_species
 in	in	APPR	O
 der	die	ART	O
 Regel	Regel	NN	O
@@ -10403,7 +10383,7 @@ Halten	halten	VVFIN	O
 sich	sich	PRF	O
 Kinder	Kind	NN	O
 im	in	APPRART	O
-Garten	Garten	NN	O
+Garten	Garten	NN	B-de_species
 auf	auf	PTKVZ	O
 ,	,	$,	O
 sollte	sollen	VMFIN	O
@@ -10475,7 +10455,7 @@ Salbei	<unknown>	NN	B-de_species
 ,	,	$,	O
 Rosmarin	Rosmarin	NN	B-de_species
 oder	oder	KON	O
-Strauchbasilikum	<unknown>	NN	O
+Strauchbasilikum	<unknown>	NN	B-de_species
 :	:	$.	O
 Diese	dies	PDAT	O
 frostharten	<unknown>	ADJA	O
@@ -10579,7 +10559,7 @@ Rosmarin	Rosmarin	NN	B-de_species
 oder	oder	KON	O
 das	die	ART	O
 immergrüne	immergrün	ADJA	O
-Olivenkraut	<unknown>	NN	O
+Olivenkraut	<unknown>	NN	B-de_species
 im	in	APPRART	O
 Winter	Winter	NN	O
 beerntet	<unknown>	VVPP	O
@@ -10604,7 +10584,7 @@ und	und	KON	O
 ein	eine	ART	O
 wenig	wenig	ADV	O
 mehr	mehr	ADV	O
-bittere	bitter	ADJA	O
+bittere	bitter	ADJA	B-de_species
 Gerbstoffe	Gerbstoff	NN	O
 enthalten	enthalten	VVPP	O
 ,	,	$,	O
@@ -10635,9 +10615,8 @@ Arten	Art	NN	O
 etwa	etwa	ADV	O
 Currykraut	<unknown>	NN	B-de_species
 oder	oder	KON	O
-Griechischer	griechisch	ADJA	O
-Bergtee	<unknown>	NN	O
-,	,	$,	O
+Griechischer	griechisch	ADJA	B-de_species
+Bergtee	<unknown>	NN	I-de_species
 Temperaturen	Temperatur	NN	O
 bis	bis	APPR	O
 -12	@card@	CARD	O
@@ -10657,7 +10636,7 @@ Gartenkräuter	<unknown>	NN	O
 auch	auch	ADV	O
 sind	sein	VAFIN	O
 :	:	$.	O
-Um	um	APPR	O
+Um	um	APPR	B-de_species
 in	in	APPR	O
 unseren	unser	PPOSAT	O
 Breiten	Breite	NN	O
@@ -10679,7 +10658,7 @@ einen	eine	ART	O
 geschützten	<unknown>	ADJA	O
 Standort	Standort	NN	O
 im	in	APPRART	O
-Garten	Garten	NN	O
+Garten	Garten	NN	B-de_species
 auswählen	auswählen	VVINF	O
 und	und	KON	O
 für	für	APPR	O
@@ -10739,9 +10718,8 @@ noch	noch	ADV	O
 bekömmlicher	bekömmlich	ADJD	O
 als	als	KOKOM	O
 der	die	ART	O
-Echte	echt	ADJA	O
-Salbei	<unknown>	NN	B-de_species
-gilt	gelten	VVFIN	O
+Echte	echt	ADJA	B-de_species
+Salbei	<unknown>	NN	I-de_species
 ,	,	$,	O
 kann	können	VMFIN	O
 von	von	APPR	O
@@ -10793,7 +10771,7 @@ können	können	VMFIN	O
 
 Kresse	Kresse	NN	B-de_species
 und	und	KON	O
-Kerbel	Kerbel	NN	B-de_species
+Kerbel	Kerbel	NN	O
 ,	,	$,	O
 Zitronenmelisse	Zitronenmelisse	NN	B-de_species
 ,	,	$,	O
@@ -10988,7 +10966,7 @@ Kälte	Kälte	NN	O
 
 Selbst	selbst	ADV	O
 das	die	ART	O
-Holz	Holz	NN	O
+Holz	Holz	NN	B-de_species
 wärmeliebender	<unknown>	ADJA	O
 Exoten	Exot	NN	O
 wie	wie	KOKOM	O
@@ -10996,7 +10974,7 @@ Fruchtsalbei	<unknown>	NN	O
 ,	,	$,	O
 Zitronenverbene	<unknown>	NN	B-de_species
 und	und	KON	O
-Strauchbasilikum	<unknown>	NN	O
+Strauchbasilikum	<unknown>	NN	B-de_species
 nimmt	nehmen	VVFIN	O
 erst	erst	ADV	O
 bei	bei	APPR	O
@@ -11069,7 +11047,7 @@ Facebook-Community	<unknown>	NN	O
 
 Ob	ob	APPR	O
 im	in	APPRART	O
-Garten	Garten	NN	O
+Garten	Garten	NN	B-de_species
 ,	,	$,	O
 auf	auf	APPR	O
 der	die	ART	O
@@ -11117,7 +11095,7 @@ geben	geben	VVINF	O
 .	.	$.	O
 
 Von	von	APPR	O
-Beifuss	Beifuß	NN	O
+Beifuss	Beifuß	NN	B-de_species
 bis	bis	KON	O
 Zitronenverbene	<unknown>	NN	B-de_species
 ,	,	$,	O
@@ -11216,7 +11194,7 @@ ist	sein	VAFIN	O
 enorm	enorm	ADJD	O
 .	.	$.	O
 
-Nicht	nicht	PTKNEG	O
+Nicht	nicht	PTKNEG	B-de_species
 nur	nur	ADV	O
 in	in	APPR	O
 der	die	ART	O
@@ -11232,9 +11210,9 @@ Verwendung	Verwendung	NN	O
 zum	zu	APPRART	O
 Beispiel	Beispiel	NN	O
 in	in	APPR	O
-Form	Form	NN	O
+Form	Form	NN	B-de_species
 von	von	APPR	O
-Tee	Tee	NN	O
+Tee	Tee	NN	B-de_species
 .	.	$.	O
 
 Sein	sein	PPOSAT	O
@@ -11302,7 +11280,7 @@ sehr	sehr	ADV	O
 viele	viele	PIAT	O
 Kräuter	Kraut	NN	O
 im	in	APPRART	O
-Garten	Garten	NN	O
+Garten	Garten	NN	B-de_species
 ,	,	$,	O
 aber	aber	KON	O
 letztlich	letztlich	ADV	O
@@ -11342,7 +11320,7 @@ und	und	KON	O
 sich	sich	PRF	O
 an	an	APPR	O
 deren	die	PDAT	O
-Duft	Duft	NN	O
+Duft	Duft	NN	B-de_species
 zu	zu	PTKZU	O
 erfreuen	erfreuen	VVINF	O
 .	.	$.	O
@@ -11375,7 +11353,7 @@ Pfefferminze	Pfefferminze	NN	B-de_species
 ,	,	$,	O
 Kapuzinerkresse	<unknown>	NN	B-de_species
 im	in	APPRART	O
-Garten	Garten	NN	O
+Garten	Garten	NN	B-de_species
 .	.	$.	O
 
 Bei	bei	APPR	O
@@ -11493,7 +11471,7 @@ Giersch	Giersch	NE	B-de_species
 ein	eine	ART	O
 Ärgernis	Ärgernis	NN	O
 ,	,	$,	O
-Gretel	Gretel	NE	O
+Gretel	Gretel	NE	B-de_species
 verwendet	verwenden	VVFIN	O
 ihn	er	PPER	O
 kurzerhand	kurzerhand	ADV	O
@@ -11501,7 +11479,7 @@ in	in	APPR	O
 der	die	ART	O
 Küche	Küche	NN	O
 als	als	KOKOM	O
-Salat	Salat	NN	O
+Salat	Salat	NN	B-de_species
 ,	,	$,	O
 Pesto	<unknown>	NN	O
 oder	oder	KON	O
@@ -11528,7 +11506,7 @@ Apfelsaft	Apfelsaft	NN	O
 Limettenstücke	<unknown>	NN	O
 (	(	$(	O
 oder	oder	KON	O
-Zitrone	Zitrone	NN	O
+Zitrone	Zitrone	NN	B-de_species
 )	)	$(	O
 ,	,	$,	O
 Giersch	Giersch	NE	B-de_species
@@ -11544,17 +11522,17 @@ Blüten	Blüte	NN	O
 zum	zu	APPRART	O
 Beispiel	Beispiel	NN	O
 von	von	APPR	O
-Rosen	Rose	NN	O
+Rosen	Rose	NN	B-de_species
 ,	,	$,	O
 Veilchen	Veilchen	NN	B-de_species
 ,	,	$,	O
-Holunder	Holunder	NN	B-de_species
+Holunder	Holunder	NN	O
 ,	,	$,	O
 Klee	Klee	NN	B-de_species
 ,	,	$,	O
 Schnittlauch	Schnittlauch	NN	B-de_species
 oder	oder	KON	O
-Gänseblümchen	Gänseblümchen	NN	B-de_species
+Gänseblümchen	Gänseblümchen	NN	O
 )	)	$(	O
 hinzugeben	hingeben	VVIZU	O
 und	und	KON	O
@@ -11591,19 +11569,18 @@ arabischen	arabisch	ADJA	O
 Ländern	Land	NN	O
 bevorzugt	bevorzugt	ADJD	O
 als	als	KOKOM	O
-Tee	Tee	NN	O
+Tee	Tee	NN	B-de_species
 getrunken	trinken	VVPP	O
 wird	werden	VAFIN	O
 .	.	$.	O
 
 Die	die	ART	O
-Marokkanische	marokkanisch	ADJA	O
-Minze	Minze	NN	B-de_species
-zählt	zählen	VVFIN	O
+Marokkanische	marokkanisch	ADJA	B-de_species
+Minze	Minze	NN	I-de_species
 zu	zu	APPR	O
 den	die	ART	O
 arabischen	arabisch	ADJA	O
-Minzen	<unknown>	NN	O
+Minzen	<unknown>	NN	B-de_species
 –	<unknown>	ADJD	O
 diese	diese	PDS	O
 enthalten	enthalten	VVFIN	O
@@ -11628,7 +11605,7 @@ die	die	ART	O
 Orangen-Minze	<unknown>	NN	O
 .	.	$.	O
 
-Minzen	<unknown>	NN	O
+Minzen	<unknown>	NN	B-de_species
 sind	sein	VAFIN	O
 mehrjährige	mehrjährig	ADJA	O
 Kräuter	Kraut	NN	O
@@ -11648,7 +11625,7 @@ auch	auch	ADV	O
 als	als	KOKOM	O
 Gewürzkraut	<unknown>	NN	O
 im	in	APPRART	O
-Salat	Salat	NN	O
+Salat	Salat	NN	B-de_species
 .	.	$.	O
 
 Damit	damit	PAV	O
@@ -11732,7 +11709,7 @@ und	und	KON	O
 Salbei	<unknown>	NN	B-de_species
 .	.	$.	O
 
-Um	um	APPR	O
+Um	um	APPR	B-de_species
 die	die	ART	O
 Fläche	Fläche	NN	O
 optimal	optimal	ADJD	O
@@ -11760,9 +11737,9 @@ unterpflanzen	<unknown>	VVINF	O
 
 Stauden	Staude	NN	O
 ,	,	$,	O
-Rosen	Rose	NN	O
+Rosen	Rose	NN	B-de_species
 und	und	KON	O
-Gräser	Gras	NN	O
+Gräser	Gras	NN	B-de_species
 bringen	bringen	VVFIN	O
 Farbe	Farbe	NN	O
 .	.	$.	O
@@ -11805,7 +11782,7 @@ werden	werden	VAFIN	O
 .	.	$.	O
 
 Der	die	ART	O
-Polster-Phlox	<unknown>	NN	O
+Polster-Phlox	<unknown>	NN	B-de_species
 hängt	hängen	VVFIN	O
 mit	mit	APPR	O
 der	die	ART	O
@@ -11817,7 +11794,7 @@ Steinstufen	Steinstufe	NN	O
 und	und	KON	O
 auch	auch	ADV	O
 der	die	ART	O
-Ehrenpreis	Ehrenpreis	NN	B-de_species
+Ehrenpreis	Ehrenpreis	NN	O
 breitet	breiten	VVFIN	O
 sich	sich	PRF	O
 mattenförmig	<unknown>	ADJD	O
@@ -11832,7 +11809,7 @@ Wimper-Perlgras	<unknown>	NN	B-de_species
 bei	bei	PTKVZ	O
 .	.	$.	O
 
-Zwerg-Kiefer	<unknown>	NN	O
+Zwerg-Kiefer	<unknown>	NN	B-de_species
 (	(	$(	O
 Pinus	<unknown>	NE	B-lat_species
 mugo	<unknown>	NE	I-lat_species
@@ -11898,10 +11875,9 @@ wurzelnackt	<unknown>	NE	O
 
 Silberwurz	<unknown>	NE	B-de_species
 (	(	$(	O
-Dryas	<unknown>	NE	O
-x	x	NE	O
-suendermannii	<unknown>	NE	O
-)	)	$(	O
+Dryas	<unknown>	NE	B-lat_species
+x	x	NE	I-lat_species
+suendermannii	<unknown>	NE	I-lat_species
 :	:	$.	O
 Bodendecker	Bodendecker	NE	O
 ,	,	$,	O
@@ -11954,9 +11930,8 @@ Stück	Stück	NN	O
 
 Zwerg-Ehrenpreis	<unknown>	NN	O
 (	(	$(	O
-Veronica	Veronica	NE	O
-spicata	<unknown>	VVFIN	O
-‘	<unknown>	ADJA	O
+Veronica	Veronica	NE	B-lat_species
+spicata	<unknown>	VVFIN	I-lat_species
 Blauteppich	<unknown>	NN	O
 ’	<unknown>	ADJD	O
 )	)	$(	O
@@ -11981,11 +11956,10 @@ Stück	Stück	NN	O
 45	45	CARD	O
 €	<unknown>	NN	O
 
-Purpur-Witwenblume	<unknown>	NN	O
+Purpur-Witwenblume	<unknown>	NN	B-de_species
 (	(	$(	O
-Knautia	<unknown>	NN	O
-macedonica	<unknown>	NE	O
-‘	<unknown>	ADJA	O
+Knautia	<unknown>	NN	B-lat_species
+macedonica	<unknown>	NE	I-lat_species
 Mars	Mars	NN	O
 Midget	<unknown>	NN	O
 ’	<unknown>	ADJD	O
@@ -12009,11 +11983,10 @@ Stück	Stück	NN	O
 55	@card@	CARD	O
 €	<unknown>	NN	O
 
-Polster-Phlox	<unknown>	NN	O
+Polster-Phlox	<unknown>	NN	B-de_species
 (	(	$(	O
-Phlox	<unknown>	NN	O
-subulata	<unknown>	NE	O
-‘	<unknown>	NN	O
+Phlox	<unknown>	NN	B-lat_species
+subulata	<unknown>	NE	I-lat_species
 Candy	Candy	NE	O
 Stripes	<unknown>	NN	O
 ’	<unknown>	ADJD	O
@@ -12044,7 +12017,7 @@ Melica	<unknown>	NE	B-lat_species
 ciliata	<unknown>	NE	I-lat_species
 :	:	$.	O
 heimisches	heimisch	ADJA	O
-Gras	Gras	NN	O
+Gras	Gras	NN	B-de_species
 ,	,	$,	O
 30	30	CARD	O
 bis	bis	KON	O
@@ -12100,7 +12073,7 @@ Ohne	ohne	APPR	O
 Schnitt	Schnitt	NN	O
 kommt	kommen	VVFIN	O
 die	die	ART	O
-Zwerg-Kiefer	<unknown>	NN	O
+Zwerg-Kiefer	<unknown>	NN	B-de_species
 ‘	<unknown>	NN	O
 Benjamin	Benjamin	NE	O
 ’	<unknown>	ADJD	O
@@ -12129,7 +12102,7 @@ breit	breit	ADJD	O
 .	.	$.	O
 
 Gegenüber	Gegenüber	NN	O
-Buchs	Buch	NN	O
+Buchs	Buch	NN	B-de_species
 hat	haben	VAFIN	O
 sie	sie	PPER	O
 noch	noch	ADV	O
@@ -12166,10 +12139,9 @@ Ersatz	Ersatz	NN	O
 Die	die	ART	O
 Garten-Silberwurz	<unknown>	NN	O
 (	(	$(	O
-Dryas	<unknown>	NE	O
-x	x	NE	O
-suendermannii	<unknown>	NE	O
-)	)	$(	O
+Dryas	<unknown>	NE	B-lat_species
+x	x	NE	I-lat_species
+suendermannii	<unknown>	NE	I-lat_species
 ist	sein	VAFIN	O
 polsterbildend	<unknown>	ADJD	O
 und	und	KON	O
@@ -12214,7 +12186,7 @@ niedrige	niedrig	ADJA	O
 und	und	KON	O
 gedrungen	gedrungen	ADJD	O
 wachsende	wachsend	ADJA	O
-Gras	Gras	NN	O
+Gras	Gras	NN	B-de_species
 ist	sein	VAFIN	O
 sein	sein	PPOSAT	O
 horstbildender	<unknown>	ADJA	O
@@ -12288,26 +12260,26 @@ zählen	zählen	VVFIN	O
 der	die	ART	O
 Mauerpfeffer	Mauerpfeffer	NN	B-de_species
 (	(	$(	O
-Sedum	<unknown>	NE	O
+Sedum	<unknown>	NE	B-de_species
 )	)	$(	O
 ,	,	$,	O
 die	die	ART	O
 zahlreichen	zahlreich	ADJA	O
 Hauswurz-Arten	<unknown>	NN	O
 (	(	$(	O
-Sempervivum	<unknown>	NN	O
+Sempervivum	<unknown>	NN	B-lat_genus
 )	)	$(	O
 ,	,	$,	O
 das	die	ART	O
 Steinkraut	<unknown>	NN	B-de_species
 (	(	$(	O
-Alyssum	<unknown>	NE	O
+Alyssum	<unknown>	NE	B-lat_genus
 )	)	$(	O
 und	und	KON	O
 das	die	ART	O
 Seifenkraut	Seifenkraut	NN	B-de_species
 (	(	$(	O
-Saponaria	<unknown>	NE	O
+Saponaria	<unknown>	NE	B-lat_genus
 )	)	$(	O
 .	.	$.	O
 
@@ -12330,23 +12302,22 @@ gedeihen	gedeihen	VVFIN	O
 auch	auch	ADV	O
 Schleifenblume	<unknown>	NN	B-de_species
 (	(	$(	O
-Iberis	<unknown>	NE	O
+Iberis	<unknown>	NE	B-lat_genus
 )	)	$(	O
 ,	,	$,	O
-Polster-Glockenblume	<unknown>	NN	O
+Polster-Glockenblume	<unknown>	NN	B-de_species
 (	(	$(	O
-Campanula	<unknown>	NE	O
-portenschlagiana	<unknown>	NE	O
-)	)	$(	O
+Campanula	<unknown>	NE	B-lat_species
+portenschlagiana	<unknown>	NE	I-lat_species
 ,	,	$,	O
-Hornkraut	<unknown>	NN	B-de_species
+Hornkraut	<unknown>	NN	O
 (	(	$(	O
-Cerastium	<unknown>	NE	O
+Cerastium	<unknown>	NE	B-lat_genus
 )	)	$(	O
 und	und	KON	O
 Zimbelkraut	<unknown>	NN	B-de_species
 (	(	$(	O
-Cymbalaria	<unknown>	NE	O
+Cymbalaria	<unknown>	NE	B-lat_genus
 )	)	$(	O
 .	.	$.	O
 
@@ -12358,17 +12329,16 @@ zum	zu	APPRART	O
 Beispiel	Beispiel	NN	O
 der	die	ART	O
 hübsche	hübsch	ADJA	O
-Streifenfarn	<unknown>	NN	B-de_species
+Streifenfarn	<unknown>	NN	O
 (	(	$(	O
 Asplenium	<unknown>	NN	B-lat_species
 trichomanes	<unknown>	ADJA	I-lat_species
 und	und	KON	O
 der	die	ART	O
-Hirschzungenfarn	<unknown>	NN	O
+Hirschzungenfarn	<unknown>	NN	B-de_species
 (	(	$(	O
-Phyllitis	<unknown>	NN	O
-scolopendrium	<unknown>	NN	O
-)	)	$(	O
+Phyllitis	<unknown>	NN	B-lat_species
+scolopendrium	<unknown>	NN	I-lat_species
 ,	,	$,	O
 wachsen	wachsen	VVFIN	O
 in	in	APPR	O
@@ -12407,7 +12377,7 @@ und	und	KON	O
 Schatten	Schatten	NN	O
 .	.	$.	O
 
-Sedum	<unknown>	NN	O
+Sedum	<unknown>	NN	B-de_species
 fühlt	fühlen	VVFIN	O
 sich	sich	PRF	O
 an	an	APPR	O
@@ -12434,7 +12404,7 @@ während	während	APPR	O
 der	die	ART	O
 Aufschichtung	<unknown>	NN	O
 der	die	ART	O
-Steine	Stein	NN	O
+Steine	Stein	NN	B-de_species
 für	für	APPR	O
 die	die	ART	O
 Trockenmauer	Trockenmauer	NN	O
@@ -12515,11 +12485,11 @@ lieben	lieben	VVFIN	O
 es	es	PPER	O
 Grasnelke	<unknown>	NN	B-de_species
 ,	,	$,	O
-Glockenblume	<unknown>	NN	B-de_species
+Glockenblume	<unknown>	NN	O
 ,	,	$,	O
-Blaukissen	Blaukissen	NN	O
+Blaukissen	Blaukissen	NN	B-de_species
 (	(	$(	O
-Aubrieta	<unknown>	NE	O
+Aubrieta	<unknown>	NE	B-lat_genus
 )	)	$(	O
 ,	,	$,	O
 Johanniskraut	<unknown>	NN	B-de_species
@@ -12530,21 +12500,21 @@ Steinbrech	Steinbrech	NN	B-de_species
 ,	,	$,	O
 Fetthenne	Fetthenne	NN	B-de_species
 ,	,	$,	O
-Küchenschelle	Küchenschelle	NN	O
+Küchenschelle	Küchenschelle	NN	B-de_species
 ,	,	$,	O
 Hungerblümchen	<unknown>	NN	B-de_species
 (	(	$(	O
-Erophila	<unknown>	NE	O
+Erophila	<unknown>	NE	B-lat_genus
 )	)	$(	O
 ,	,	$,	O
-Ehrenpreis	Ehrenpreis	NN	B-de_species
+Ehrenpreis	Ehrenpreis	NN	O
 ,	,	$,	O
 Heide-Nelke	<unknown>	NN	B-de_species
 (	(	$(	O
 Dianthus	<unknown>	NN	B-lat_species
 deltoides	<unknown>	ADJA	I-lat_species
 und	und	KON	O
-Schleierkraut	<unknown>	NN	O
+Schleierkraut	<unknown>	NN	B-de_species
 .	.	$.	O
 
 In	in	APPR	O
@@ -12554,17 +12524,17 @@ können	können	VMFIN	O
 Sie	Sie	PPER	O
 Lerchensporn	Lerchensporn	NN	B-de_species
 (	(	$(	O
-Corydalis	<unknown>	NE	O
+Corydalis	<unknown>	NE	B-de_species
 )	)	$(	O
 ,	,	$,	O
 Leinkraut	<unknown>	NN	B-de_species
 (	(	$(	O
-Linaria	<unknown>	NE	O
+Linaria	<unknown>	NE	B-lat_genus
 )	)	$(	O
 ,	,	$,	O
-Tüpfelfarn	<unknown>	NN	B-de_species
+Tüpfelfarn	<unknown>	NN	O
 ,	,	$,	O
-Waldsteinie	<unknown>	NN	O
+Waldsteinie	<unknown>	NN	B-de_species
 ,	,	$,	O
 Zimbelkraut	<unknown>	NN	B-de_species
 ,	,	$,	O
@@ -12584,7 +12554,7 @@ Steinmauer-Bepflanzung	<unknown>	NN	O
 ,	,	$,	O
 denn	denn	KON	O
 die	die	ART	O
-Steine	Stein	NN	O
+Steine	Stein	NN	B-de_species
 einer	eine	ART	O
 Trockenmauer	Trockenmauer	NN	O
 wärmen	wärmen	VVFIN	O
@@ -12623,7 +12593,7 @@ Thymian	Thymian	NN	B-de_species
 
 Auch	auch	ADV	O
 als	als	KOKOM	O
-Flachs	Flachs	NN	O
+Flachs	Flachs	NN	B-de_species
 bekannt	bekennen	VVPP	O
 ,	,	$,	O
 ist	sein	VAFIN	O
@@ -12645,7 +12615,7 @@ verwendet	verwenden	VVPP	O
 ,	,	$,	O
 aus	aus	APPR	O
 den	die	ART	O
-Leinsamen	Leinsame	NN	O
+Leinsamen	Leinsame	NN	B-de_species
 wird	werden	VAFIN	O
 das	die	ART	O
 Leinöl	Leinöl	NN	O
@@ -12870,7 +12840,7 @@ wirken	wirken	VVFIN	O
 .	.	$.	O
 
 Natürlicher	natürlich	ADJA	O
-Campher	<unknown>	NN	O
+Campher	<unknown>	NN	B-de_species
 wird	werden	VAFIN	O
 aus	aus	APPR	O
 dem	die	ART	O
@@ -12883,7 +12853,7 @@ Campherbaums	<unknown>	NN	O
 gewonnen	gewinnen	VVPP	O
 .	.	$.	O
 
-Campher	<unknown>	NE	O
+Campher	<unknown>	NE	B-de_species
 wird	werden	VAFIN	O
 auch	auch	ADV	O
 synthetisch	synthetisch	ADJD	O
@@ -12903,7 +12873,7 @@ die	die	PRELS	O
 auch	auch	ADV	O
 im	in	APPRART	O
 pflanzlichen	pflanzlich	ADJA	O
-Campher	<unknown>	NN	O
+Campher	<unknown>	NN	B-de_species
 zusammen	zusammen	ADV	O
 mit	mit	APPR	O
 anderen	andere	PIS	O
@@ -12926,7 +12896,7 @@ ihrer	ihr	PPOSAT	O
 Pinen	<unknown>	NN	O
 in	in	APPR	O
 der	die	ART	O
-Kiefer	Kiefer	NN	B-de_species
+Kiefer	Kiefer	NN	O
 ,	,	$,	O
 zum	zu	APPRART	O
 Einsatz	Einsatz	NN	O
@@ -12955,7 +12925,7 @@ Rosmarinblätter	<unknown>	NN	O
 ,	,	$,	O
 Wacholderbeeren	Wacholderbeere	NN	O
 und	und	KON	O
-Wintergrün	Wintergrün	NN	B-de_species
+Wintergrün	Wintergrün	NN	O
 enthalten	enthalten	VVFIN	O
 ebenfalls	ebenfalls	ADV	O
 ätherische	ätherisch	ADJA	O
@@ -12973,7 +12943,7 @@ wieder	wieder	ADV	O
 ,	,	$,	O
 so	so	ADV	O
 wie	wie	KOKOM	O
-Campher	<unknown>	TRUNC	O
+Campher	<unknown>	TRUNC	B-de_species
 und	und	KON	O
 Pinen	<unknown>	NN	O
 auch	auch	ADV	O
@@ -12985,7 +12955,7 @@ sind	sein	VAFIN	O
 Cineol	<unknown>	NN	O
 sowohl	sowohl	KON	O
 im	in	APPRART	O
-Eukalyptus	<unknown>	NN	B-de_species
+Eukalyptus	<unknown>	NN	O
 und	und	KON	O
 Rosmarin	Rosmarin	NN	B-de_species
 .	.	$.	O
@@ -13131,7 +13101,7 @@ Vom	von	APPRART	O
 Ingwer	Ingwer	NN	B-de_species
 wird	werden	VAFIN	O
 die	die	ART	O
-Wurzel	Wurzel	NN	O
+Wurzel	Wurzel	NN	B-de_species
 verwendet	verwenden	VVPP	O
 ,	,	$,	O
 er	er	PPER	O
@@ -13187,10 +13157,10 @@ die	die	ART	O
 frische	frisch	ADJA	O
 ,	,	$,	O
 geschnittene	geschnitten	ADJA	O
-Wurzel	Wurzel	NN	O
+Wurzel	Wurzel	NN	B-de_species
 kann	können	VMFIN	O
 als	als	KOKOM	O
-Tee	Tee	NN	O
+Tee	Tee	NN	B-de_species
 zubereitet	zubereiten	VVPP	O
 werden	werden	VAINF	O
 .	.	$.	O
@@ -13260,9 +13230,9 @@ psychischen	psychisch	ADJA	O
 Begleitbeschwerden	<unknown>	NN	O
 .	.	$.	O
 
-Rotklee	Rotklee	NN	O
+Rotklee	Rotklee	NN	B-de_species
 und	und	KON	O
-Soja	Soja	NN	O
+Soja	Soja	NN	B-de_species
 :	:	$.	O
 auch	auch	ADV	O
 sie	sie	PPER	O
@@ -13286,7 +13256,7 @@ unter	unter	APPR	O
 ihrem	ihr	PPOSAT	O
 botanischen	botanisch	ADJA	O
 Namen	Name	NN	O
-Cimicifuga	<unknown>	NE	O
+Cimicifuga	<unknown>	NE	B-de_species
 bekannt	bekannt	ADJD	O
 ,	,	$,	O
 ist	sein	VAFIN	O
@@ -13325,7 +13295,7 @@ durch	durch	APPR	O
 ihre	ihr	PPOSAT	O
 wie	wie	KOKOM	O
 eine	eine	ART	O
-Silberkerze	<unknown>	NN	O
+Silberkerze	<unknown>	NN	B-de_species
 imponierenden	imponierend	ADJA	O
 und	und	KON	O
 in	in	APPR	O
@@ -13340,7 +13310,7 @@ im	in	APPRART	O
 Sommer	Sommer	NN	O
 blüht	blühen	VVFIN	O
 der	die	ART	O
-Rotklee	Rotklee	NN	O
+Rotklee	Rotklee	NN	B-de_species
 leicht	leicht	ADJD	O
 violett	violett	ADJD	O
 auf	auf	APPR	O
@@ -13388,7 +13358,7 @@ erforschte	erforscht	ADJA	O
 Erkenntnis	Erkenntnis	NN	O
 .	.	$.	O
 
-Soja	Soja	NN	O
+Soja	Soja	NN	B-de_species
 gehört	gehören|hören	VVPP	O
 wie	wie	KOKOM	O
 alle	alle	PIAT	O
@@ -13446,12 +13416,12 @@ Wechseljahrsbeschwerden	<unknown>	NN	O
 
 Melisse	Melisse	NN	B-de_species
 ,	,	$,	O
-Passionsblume	Passionsblume	NN	O
+Passionsblume	Passionsblume	NN	B-de_species
 und	und	KON	O
 Hopfen	Hopfen	NN	B-de_species
 :	:	$.	O
-Um	um	APPR	O
-Unruhe	Unruhe	NN	O
+Um	um	APPR	B-de_species
+Unruhe	Unruhe	NN	B-de_species
 und	und	KON	O
 Schlafstörungen	Schlafstörung	NN	O
 sanft	sanft	ADJD	O
@@ -13479,7 +13449,7 @@ wie	wie	KOKOM	O
 Enzianwurzel	<unknown>	NN	O
 oder	oder	KON	O
 die	die	ART	O
-asiatische	asiatisch	ADJA	O
+asiatische	asiatisch	ADJA	B-de_species
 Ingwerwurzel	Ingwerwurzel	NN	O
 wirken	wirken	VVFIN	O
 appetitsteigernd	<unknown>	ADJD	O
@@ -13511,11 +13481,11 @@ infizierter	infizierter	ADJA	O
 Wunden	Wunde	NN	O
 .	.	$.	O
 
-Zauberstrauchblätter	<unknown>	NN	O
+Zauberstrauchblätter	<unknown>	NN	B-de_species
 und	und	KON	O
 -rinde	<unknown>	NN	O
 (	(	$(	O
-Hamamelis	<unknown>	NE	O
+Hamamelis	<unknown>	NE	B-de_species
 )	)	$(	O
 :	:	$.	O
 Kann	können	VMFIN	O
@@ -13562,7 +13532,7 @@ Wundliegen	Wundliegen	NN	O
 
 Ringelblumenblüten	<unknown>	NN	O
 (	(	$(	O
-Calendula	<unknown>	NE	O
+Calendula	<unknown>	NE	B-lat_genus
 )	)	$(	O
 haben	haben	VAFIN	O
 eine	eine	ART	O
@@ -13586,7 +13556,7 @@ bekannt	bekennen	VVPP	O
 .	.	$.	O
 
 Der	die	ART	O
-Hamamelis	<unknown>	NE	O
+Hamamelis	<unknown>	NE	B-de_species
 sprachen	sprechen	VVFIN	O
 bereits	bereits	ADV	O
 die	die	ART	O
@@ -13626,7 +13596,7 @@ verarbeitet	verarbeiten	VVPP	O
 werden	werden	VAFIN	O
 .	.	$.	O
 
-Hamamelis	<unknown>	NE	O
+Hamamelis	<unknown>	NE	B-de_species
 ist	sein	VAFIN	O
 eine	eine	ART	O
 Gerbstoffdroge	<unknown>	NN	O
@@ -13648,7 +13618,7 @@ sind	sein	VAFIN	O
 im	in	APPRART	O
 Sommer	Sommer	NN	O
 im	in	APPRART	O
-Garten	Garten	NN	O
+Garten	Garten	NN	B-de_species
 sehr	sehr	ADV	O
 schön	schön	ADJD	O
 anzuschauen	anschauen	VVIZU	O
@@ -13677,9 +13647,8 @@ eingesetzt	einsetzen	VVPP	O
 Das	die	ART	O
 Kraut	Kraut	NN	O
 des	die	ART	O
-Echinacea	<unknown>	NE	O
-purpurea	<unknown>	NE	O
-wird	werden	VAFIN	O
+Echinacea	<unknown>	NE	B-lat_species
+purpurea	<unknown>	NE	I-lat_species
 heute	heute	ADV	O
 wegen	wegen	APPR	O
 seiner	sein	PPOSAT	O
@@ -13804,7 +13773,7 @@ Psyche	Psyche	NN	O
 weswegen	weswegen	PWAV	O
 es	es	PPER	O
 „	<unknown>	ADJA	O
-Brahmi	<unknown>	NN	O
+Brahmi	<unknown>	NN	B-de_species
 “	<unknown>	ADJD	O
 genannt	nennen	VVPP	O
 wird	werden	VAFIN	O
@@ -13814,9 +13783,8 @@ Ein	eine	ART	O
 Beispiel	Beispiel	NN	O
 ist	sein	VAFIN	O
 die	die	ART	O
-Große	groß	ADJA	O
-Kapuzinerkresse	<unknown>	NN	B-de_species
-,	,	$,	O
+Große	groß	ADJA	B-de_species
+Kapuzinerkresse	<unknown>	NN	I-de_species
 die	die	PRELS	O
 zur	zu	APPRART	O
 Arzneipflanze	Arzneipflanze	NN	O
@@ -13882,7 +13850,7 @@ Propolis	<unknown>	NN	O
 ,	,	$,	O
 Salbei	<unknown>	NN	B-de_species
 ,	,	$,	O
-Teebaumöl	<unknown>	NN	O
+Teebaumöl	<unknown>	NN	B-de_species
 und	und	KON	O
 Thymian	Thymian	NN	B-de_species
 .	.	$.	O
