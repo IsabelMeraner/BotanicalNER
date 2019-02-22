@@ -7,16 +7,16 @@ This repository contains two subfolders “SCRIPTS” and “RESOURCES”.<br/>
 In the RESOURCES folder, you can find the following sample output material and data resources:
 
 ### TRAINING DATA (path = ‘resources/corpora/training corpora/’)
-# Silver standard training corpora (in IOB-format):
+##### Silver standard training corpora (in IOB-format):
 • plantblog_corpus_{de|en}.tok.pos.iob.txt<br/>
 • wiki_abstractcorpus_{de|en}.tok.pos.iob.txt<br/>
 • TextBerg_subcorpus_{de|en}.tok.pos.iob.txt<br/>
 • botlit_corpus_{de|en}.tok.pos.iob.txt<br/>
 
-# Gold standard fold of combined dataset (in IOB-format):
+##### Gold standard fold of combined dataset (in IOB-format):
 • combined.test.fold1GOLD_{de|en}.txt
 
-# Fungi testset for in-domain evaluation on held-out entities:
+##### Fungi testset for in-domain evaluation on held-out entities:
 • test_fungi_{de|en}.tok.pos.iobGOLD.txt
 
 ### GAZETTEERS (path = ‘resources/gazetteers/’)
