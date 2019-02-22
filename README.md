@@ -1,17 +1,17 @@
 # BotanicalNER
-Project: Neural Entity Recognition for Scientific and Vernacular Plant Names
-Author: Isabel Meraner
+Project: Neural Entity Recognition for Scientific and Vernacular Plant Names<br/>
+Author: Isabel Meraner<br/>
 Institute of Computational Linguistics, University of Zurich (Switzerland), 2019
 
-This repository contains two subfolders “SCRIPTS” and “RESOURCES”.
+This repository contains two subfolders “SCRIPTS” and “RESOURCES”.<br/>
 In the RESOURCES folder, you can find the following sample output material and data resources:
 
 ### TRAINING DATA (path = ‘resources/corpora/training corpora/’)
 # Silver standard training corpora (in IOB-format):
-• plantblog_corpus_{de|en}.tok.pos.iob.txt
-• wiki_abstractcorpus_{de|en}.tok.pos.iob.txt
-• TextBerg_subcorpus_{de|en}.tok.pos.iob.txt
-• botlit_corpus_{de|en}.tok.pos.iob.txt
+• plantblog_corpus_{de|en}.tok.pos.iob.txt<br/>
+• wiki_abstractcorpus_{de|en}.tok.pos.iob.txt<br/>
+• TextBerg_subcorpus_{de|en}.tok.pos.iob.txt<br/>
+• botlit_corpus_{de|en}.tok.pos.iob.txt<br/>
 
 # Gold standard fold of combined dataset (in IOB-format):
 • combined.test.fold1GOLD_{de|en}.txt
@@ -21,66 +21,67 @@ In the RESOURCES folder, you can find the following sample output material and d
 
 ### GAZETTEERS (path = ‘resources/gazetteers/’)
 Due to copyright restrictions, these gazetteers only comprise a subset based on plant names retrieved from Wikipedia of our original gazetteers.
+
 ##### # Vernacular names (German):
-• de_fam.txt
-• de_species.txt
+• de_fam.txt<br/>
+• de_species.txt<br/>
 
 ##### # Vernacular names (English):
-• en_fam.txt
-• en_species.txt
+• en_fam.txt<br/>
+• en_species.txt<br/>
 
 ##### # Scientific names (Latin):
-• lat_fam.txt
-• lat_species.txt
-• lat_genus.txt
-• lat_subfam.txt
-• lat_class.txt
-• lat_order.txt
-• lat_phylum.txt
+• lat_fam.txt<br/>
+• lat_species.txt<br/>
+• lat_genus.txt<br/>
+• lat_subfam.txt<br/>
+• lat_class.txt<br/>
+• lat_order.txt<br/>
+• lat_phylum.txt<br/>
 
 ##### # Lookup tables for vernacular names:
 • {de|en}_lat_referencedatabase.tsv
 
 ### bi-LSTM-CRF MODELS (path = ‘resources/models/’)
 ##### # Best-performing models for German and English (single-dataset evaluation):
-• model_combined_chardim29_de
-• model_wiki_dropout0.3_de
-• model_tb_dropout0.7_de
-• model_plantblog_capdim1_de
-• model_botlit_dropout0.3_de
-• model_combined_dropout0.7_en
-• model_wiki_chardim29_en
-• model_tb_capdim1_en
-• model_plantblog_chardim50_en
-• model_s800_dropout0.7_en
+• model_combined_chardim29_de<br/>
+• model_wiki_dropout0.3_de<br/>
+• model_tb_dropout0.7_de<br/>
+• model_plantblog_capdim1_de<br/>
+• model_botlit_dropout0.3_de<br/>
+• model_combined_dropout0.7_en<br/>
+• model_wiki_chardim29_en<br/>
+• model_tb_capdim1_en<br/>
+• model_plantblog_chardim50_en<br/>
+• model_s800_dropout0.7_en<br/>
 
 ##### # Best-performing models for German and English (cross-dataset evaluation):
-• model_wiki_crosscorpus_de_dropout0.3 (cross-corpus setting)
-• model_wiki_crosscorpus_de_capdim1 (fungi test set)
-• model_wiki_crosscorpus_en_preemb_dropout0.5 (cross-corpus setting)
-• model_wiki_crosscorpus_en_capdim1 (fungi test set)
+• model_wiki_crosscorpus_de_dropout0.3 (cross-corpus setting)<br/>
+• model_wiki_crosscorpus_de_capdim1 (fungi test set)<br/>
+• model_wiki_crosscorpus_en_preemb_dropout0.5 (cross-corpus setting)<br/>
+• model_wiki_crosscorpus_en_capdim1 (fungi test set)<br/>
 
 ### TAGGED DATA (path = ‘resources/sample output/’)
 ##### # Single-dataset model predictions:
-• predictions_wiki_{de|en}.output
-• predictions_textberg_{de|en}.output
-• predictions_blogs_{de|en}.output
-• predictions_botlit_{de|en}.output
+• predictions_wiki_{de|en}.output<br/>
+• predictions_textberg_{de|en}.output<br/>
+• predictions_blogs_{de|en}.output<br/>
+• predictions_botlit_{de|en}.output<br/>
 
 ##### # Cross-dataset model predictions:
-• predictions_model_wiki_test_textberg_{de|en}.output
-• predictions_model_wiki_test_blogs_{de|en}.output
-• predictions_model_wiki_test_botlit_{de|en}.output
+• predictions_model_wiki_test_textberg_{de|en}.output<br/>
+• predictions_model_wiki_test_blogs_{de|en}.output<br/>
+• predictions_model_wiki_test_botlit_{de|en}.output<br/>
 
 ### ENTITY LINKING (path = ‘resources/linked data/’)
 ##### # Vernacular-scientific lookup-table:
 • {de|en}_lat_referencedatabase.tsv
 
 ##### # Example JSON-output per data resource:
-• json_data_wiki_{de|en}.json
-• json_data_textberg_{de|en}.json
-• json_data_blogs_{de|en}.json
-• json_data_botlit_{de|en}.json
+• json_data_wiki_{de|en}.json<br/>
+• json_data_textberg_{de|en}.json<br/>
+• json_data_blogs_{de|en}.json<br/>
+• json_data_botlit_{de|en}.json<br/>
 
 
 In the SCRIPTS folder, you can find all Python and bash scripts that have been used during training:
