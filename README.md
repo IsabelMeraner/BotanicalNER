@@ -1,40 +1,175 @@
 # BotanicalNER
-Named entity recognition for scientific and vernacular plant names.
+Project: Neural Entity Recognition for Scientific and Vernacular Plant Names
+Author: Isabel Meraner
+Institute of Computational Linguistics, University of Zurich (Switzerland), 2019
+
+This repository contains two subfolders “SCRIPTS” and “RESOURCES”.
+In the RESOURCES folder, you can find the following sample output material and data resources:
+
+### TRAINING DATA (path = ‘resources/corpora/training corpora/’)
+# Silver standard training corpora (in IOB-format):
+• plantblog_corpus_{de|en}.tok.pos.iob.txt
+• wiki_abstractcorpus_{de|en}.tok.pos.iob.txt
+• TextBerg_subcorpus_{de|en}.tok.pos.iob.txt
+• botlit_corpus_{de|en}.tok.pos.iob.txt
+
+# Gold standard fold of combined dataset (in IOB-format):
+• combined.test.fold1GOLD_{de|en}.txt
+
+# Fungi testset for in-domain evaluation on held-out entities:
+• test_fungi_{de|en}.tok.pos.iobGOLD.txt
+
+### GAZETTEERS (path = ‘resources/gazetteers/’)
+Due to copyright restrictions, these gazetteers only comprise a subset based on plant names retrieved from Wikipedia of our original gazetteers.
+##### Vernacular names (German):
+• de_fam.txt
+• de_species.txt
+
+##### Vernacular names (English):
+• en_fam.txt
+• en_species.txt
+
+##### Scientific names (Latin):
+• lat_fam.txt
+• lat_species.txt
+• lat_genus.txt
+• lat_subfam.txt
+• lat_class.txt
+• lat_order.txt
+• lat_phylum.txt
+
+##### Lookup tables for vernacular names:
+• {de|en}_lat_referencedatabase.tsv
+
+### bi-LSTM-CRF MODELS (path = ‘resources/models/’)
+##### Best-performing models for German and English (single-dataset evaluation):
+• model_combined_chardim29_de
+• model_wiki_dropout0.3_de
+• model_tb_dropout0.7_de
+• model_plantblog_capdim1_de
+• model_botlit_dropout0.3_de
+• model_combined_dropout0.7_en
+• model_wiki_chardim29_en
+• model_tb_capdim1_en
+• model_plantblog_chardim50_en
+• model_s800_dropout0.7_en
+
+##### Best-performing models for German and English (cross-dataset evaluation):
+• model_wiki_crosscorpus_de_dropout0.3 (cross-corpus setting)
+• model_wiki_crosscorpus_de_capdim1 (fungi test set)
+• model_wiki_crosscorpus_en_preemb_dropout0.5 (cross-corpus setting)
+• model_wiki_crosscorpus_en_capdim1 (fungi test set)
+
+### TAGGED DATA (path = ‘resources/sample output/’)
+##### Single-dataset model predictions:
+• predictions_wiki_{de|en}.output
+• predictions_textberg_{de|en}.output
+• predictions_blogs_{de|en}.output
+• predictions_botlit_{de|en}.output
+
+##### Cross-dataset model predictions:
+• predictions_model_wiki_test_textberg_{de|en}.output
+• predictions_model_wiki_test_blogs_{de|en}.output
+• predictions_model_wiki_test_botlit_{de|en}.output
+
+### ENTITY LINKING (path = ‘resources/linked data/’)
+##### Vernacular-scientific lookup-table:
+• {de|en}_lat_referencedatabase.tsv
+
+##### Example JSON-output per data resource:
+• json_data_wiki_{de|en}.json
+• json_data_textberg_{de|en}.json
+• json_data_blogs_{de|en}.json
+• json_data_botlit_{de|en}.json
 
 
-### Data sets:
-#### Text + Berg corpus:
-The Text + Berg corpus is an annotated linguistic corpus consisting of digitized yearbooks of the Swiss Alpine Club (SAC) with mountaineering reports [Volk et al., 2010]. This repository contains a subset extracted from release no. 151 [Bubenhofer et al., 2015] with a high concentration of botanical entities.
+In the SCRIPTS folder, you can find all Python and bash scripts that have been used during training:
 
-#### Wiki Corpus
-This corpus contains Wikipedia abstracts describing plants of the German vascular plants category.  Wikipedia abstracts usually combine scientific names with vernacular names within one sentence, which makes this resource very interesting.
+### DATA COLLECTION (path = ‘scripts/data collection/’)
+##### create Text+Berg subset of sentences containing plant names:
+'$ python3 get_subset_textberg.py -i ./../TextBerg/SAC/ -o ./subset_textberg_de.txt -g ./../resources/gazetteers/ -l de'
 
-#### PlantBlog Corpus
-This data resource consists of blog articles related to plant descriptions, herbal medicine or similar topics retrieved from the Internet held in a more casual writing style.
+##### generate Latin plant name abbreviations:
+'$ python3 add_latin_abbreviations.py -i ./../resources/gazetteers/lat/lat_species.txt -o ./outfile.txt'
 
-#### BotLit Corpus
-This resource comprises manually selected text passages from historical botanical literature containing a high concentration of either scientific or vernacular plant names. We included text excerpts from Placidus Spescha [2009] containing regional descriptions of Swiss flora and fauna, originally published in 1806.
+##### generate German morpholocical variants:
+'$ python3 add_german_variants.py -i ./../resources/gazetteers/de/de_fam.txt -o ./outfile.txt'
 
-Reference:   
-Spescha, P. (2009). Beschreibung der Val Tujetsch (1806). Zürich, Switzerland: Chronos Verlag. Retrieved from https://doi.org/10.5281/zenodo.1311777.
+##### split German compounds and add name variants:
+'$ python3 add_compound_variants.py -i ./../resources/gazetteers/de/de species.txt -o ./outfileGAZ.txt'
 
-#### Gazetteers:
-Due to copyright issues, we will only make available a small subset of our original collected gazetteers for German and Latin plant names. The plant names listed in these files, were retrieved from Wikipedia using the API. The names are divided into two separate lists per language to ensure that the correct entity label is assigned during the annotation process.
+##### create language-specific gazetteers:
+'$ python3 create_gazetteers.py -i ./../resources/gazetteers/de/de_species.txt -o outfile.txt'
 
-----
+##### add name variants to lookup-table:
+'$ python3 add_variants_database.py -i ./../resources/gazetteers/lookup_table/de_lat_referencedatabase.tsv -o ./outfile'
 
-### Annotating plant names:
-To annotate the input files, please run the following command.
-Please note: When using large gazetteer files or big input files, this may take a while.
+##### create fungi testset from Wikipedia articles:
+'$ python3 get_wiki_fungi_testset.py -o ./outfile.txt -c Pilze -l de'
+
+##### retrieve Wikipedia abstracts and trivial names sections:
+'$ python3 retrieve_wiki_sections.py -i ./../resources/gazetteers/lat/lat_species.txt -t ./outfile_trivialsections.txt -a outfile_wikiabstracts.txt -l de'
+
+##### extract plant names from Catalogue of Life archive:
+'$ python3 extracttaxa_cat_of_life -t ./colarchive/taxa/ -v ./colarchive/vernacular/ -l ./latin.out -d ./german.out -e ./english.out -r rest_vernacular.out'
+
+### PREPROCESSING (path = ‘scripts/preprocessing/’)
+##### tokenization:
+'$ python3 tokenize_corpus.py -d ./raw_data/ -l de'
+
+##### part-of-speech tagging:
+'$ python3 ./treetagger-python_miotto/pos_tag_corpus.py -d ./../resources/corpora/'
+
+### DICTIONARY-BASED ANNOTATION (path = ‘scripts/annotation/’)
+##### German annotation in IOB-format:
+'$ python3 iobannotate_corpus_de.py -d ./../resources/corpora/training_corpora/de/ -v ./../resources/gazetteers/de/ -s ./../resources/gazetteers/lat/ -l de'
+
+##### English annotation in IOB-format:
+'$ python3 iobannotate_corpus_en.py -d ./../resources/corpora/training_corpora/en/ -v ./../resources/gazetteers/en/ -s ./../resources/gazetteers/lat/ -l de:'
 
 
-`$ python3 iobannotate_corpus.py -d ./../data_german -v ./../gazetteers/de -l ./../gazetteers/lat`
+### TRAINING (path = ‘scripts/training/’)
+##### K-fold splitting of training data:
+'$ python3 kfold_crossvalidation.py -d ./../resources/corpora/training corpora/de/'
 
-You can pass in one or multiple input folders for annotation by specifying the directory (-d).
-If you are in possession of large gazetteers, you can pass them using the parameters -v for the vernacular list and -l for the scientific names.
+##### Bashscript 5-fold crossvalidation training (examples):
+'$ bash bashscript_5foldtraining_preemb_en.sh'
+'$ bash bashscript_5foldtraining_preemb_de.sh'
+
+##### Adapted scripts from Lample et al. (2016):
+'$ python2 train_no_dev.py'
+'$ python2 utils.py'
+
+### EVALUATION (path = ‘scripts/evaluation/’)
+##### Averaged evaluation over 5 folds:
+'$ python2 final_eval_kfold.py -d ./../../evaluation/baseline/model_baseline/ -o ./evaluation_files/'
+
+##### Evaluation of silver standard:
+'$ python3 evaluate_gold_silver.py -s ./../resources/corpora/gold_standard/de/alldata.test.fold1SILVER de.txt -g ./../resources/corpora/gold_standard/de/combined.test.fold1GOLD de.txt'
+
+##### Cross-dataset evaluation:
+'$ python3 cross_dataset_evaluation.py -s ./silver_standard/plantblog_corpus.test.fold1.txt -t ./tagged_data/model_wiki_test_blog_f1_dropout5.tsv'
+
+##### File statistics training corpora (size, token, types, averaged length):
+'$ python3 file_statistics.py -i ./../resources/corpora/training_corpora/de/'
+
+##### Transform IOB-format to 1-sentence-per-line (input for tagger.py):
+'$ python3 transform_iob_to_sentences.py -i ./../resources/corpora/training_corpora/de/botlit_corpus_de.tok.pos.iob.txt -o botlit_sentences.txt'
 
 
-References:  
-Volk, M., Bubenhofer, N., Althaus, A., Maya, B., Furrer, L., & Ruef, B. (2010). Challenges in Building a Multilingual Alpine Heritage Corpus. Seventh International Conference on Language Resources and Evaluation (LREC). Retrieved from http://dx.doi.org/10.5167/uzh-34264.  
-Bubenhofer, N., Volk, M., Leuenberger, F., & Wüest, D. (2015). Text+Berg-Korpus (Release 151v012015). Digitale Edition des Jahrbuch des SAC 1864-1923, Echo des Alpes 1872-1924, Die Alpen, Les Alpes, Le Alpi 1925-2014, The Alpine Journal 1969-2008.
-Wikipedia, Liste der Gefäßpflanzen Deutschlands. Retrieved from:https://de.wikipedia.org/w/index.php?title=Liste_der_Gef%C3%A4%C3%9Fpflanzen_Deutschlands&oldid=133647257
+### ENTITY LINKING:
+##### Catalogue of Life entity linking and creation of JSON-output:
+'$ python3 entity_linker.py -i ./../resources/corpora/training_corpora/de/botlit_corpus de.tok.pos.iob.txt -o ./json file.json -f IOB -r ./../resources/gazetteers/lookup_table/de_lat_referencedatabase.tsv -l True'
+
+### WEB INTERFACE:
+##### Start web-application:
+'$ python3 web application.py'
+
+##### Tokenization (function):
+tokenize input(inputText, language)
+
+##### Tagging of tokenised input sentence:
+subprocess.call("python2.7 ./tagger-master/tagger.py -m ./models/{} -i ./output/input_tokenized.txt -o ./output/output_tagged.txt -d ".format(model), shell=True)
+
+##### Linking of entity candidates:
+subprocess.call("python3 ./entity linker jsonoutput.py -i ./output/output tagged.txt -o ./static/output linked.json --language {}".format(language), shell=True)

@@ -1,0 +1,444 @@
+celery family
+carrot family
+periwinkle family
+daisy family
+bignonia family
+forget-me-not family
+cabbage family
+bean family
+bellflower family
+pink family
+st. john's wort family
+bindweed family
+heath family
+geranium family
+african violet family
+waterleaf family
+iris family
+mint family
+nettle family
+lily family
+mallow family
+banana family
+wood sorrel family
+poppy family
+leadwort family
+phlox family
+primrose family
+buttercup family
+rose family
+bedstraw family
+saxifrage family
+figwort family
+potato family
+violet family
+mock orange family
+terebinth family
+valerian family
+trumpet creeper family
+cattail family
+rapatea family
+mustard family
+annona family
+ditch stonecrop family
+triuris family
+crowfoot family
+family of thallose liverworts
+tree fern family
+pitcher-plant family
+bunchflower family
+bromeliad family
+podocarpus family
+maple family
+water plantain family
+umbellifer family
+sweetgum family
+bombax family
+carica family
+onion family
+jewel-weed family
+four-o'clock family
+panama hat family
+guanabana family
+ginkgo family
+plant family
+prayer-plant family
+cacao family
+spiderwort family
+philesia family
+portulaca family
+milkweed family
+buckthorn family
+carpet-weed family
+sweet and soursop family
+alder family
+mesembryanthemum family
+australian pitcher-plant family
+caper family
+eelgrass family
+bulrush family
+nightshade family
+plane tree family
+air plant family
+boxwood family
+purslane family
+legume family
+aralia family
+cephalotus family
+basella family
+screwpine family
+jacob's-ladder family
+aponogeton family
+carrion flower family
+rock brake family
+flacourtia family
+seagrass family
+quillwort family
+filmy fern family
+yellow-alder family
+rhabdodendron family
+spleenwort family
+acharia family
+dogwood family
+shieldfern family
+fumitory subfamily
+maidenhair family
+dutchman's-pipe family
+casuarina family
+ditch grass family
+vervain family
+annatto family
+magnolia family
+scaly tree fern family
+hypoxis family
+pondweed family
+grape family
+pipevine family
+pipewort family
+pigweed family
+teasel family
+climbing fern family
+pickerelweed family
+maidenhair fern family
+sour gum family
+elephant's foot family
+blechnum family
+moonvine family
+spurge family
+ancistrocladus family
+shoestring fern family
+bog-moss family
+gentian family
+four o'clock family
+horned pondweed family
+hornwort family
+peony family
+watershield family
+melastome family
+nasturtium family
+coffee family
+tamarisk family
+arrow-grass family
+barberry family
+bleeding-heart subfamily
+ginseng family
+lardizabala family
+flax family
+alstroemeria family
+logania family
+drimys family
+hanguana family
+lizard's-tail family
+canna family
+heliotrope family
+andreaea family
+cliff fern family
+polipody family
+mimosa family
+rush family
+wild petunia family
+plum yew family
+horsetail family
+protea family
+bloodwort family
+southern beech family
+touch-me-not family
+orchidantha family
+stemona family
+pomegranate family
+ladyfern family
+degeneria family
+member of the papilionaceae family
+waterwort family
+hemp family
+chain fern family
+buddleja family
+birch family
+family of coffee plants
+blackboy family
+deer fern family
+clubmoss family
+sweet-flag family
+pteris family
+fumitory family
+sundew family
+polipod family
+cat's-tail family
+dichapetalum family
+amaryllis family
+crowberry family
+araucaria family
+kapok family
+elm family
+loosestrife family
+sycamore family
+maidenhair tree family
+hippuris family
+pea family
+crucifer family
+birthwort family
+arrowgrass family
+fig family
+globularia family
+borage family
+whisk-fern family
+hyacinth family
+mosquito fern family
+honeysuckle family
+duckweed fern family
+balsam family
+leaf-flower family
+arum family
+ash family
+achiote family
+costus family
+floating-fern family
+madeira-vine family
+aster family
+manatee-grass family
+planetree family
+madeira vine family
+asphodel subfamily
+carnation family
+witch-hazel family
+sandalwood family
+amaranth family
+lotus-lily family
+water-milfoil family
+campanula family
+composite family
+algal family
+gooseberry family
+cucurbit family
+heather family
+forking fern family
+begonia family
+tape-grass family
+bulrush family]
+family]
+dayflower family
+sweet shrub family
+amblystegia family
+lopseed family
+grass family
+duckweed family
+melon family
+mezereum family
+oxalis family
+plantain family
+wood fern family
+beefwood family
+cranesbill family
+box family
+muskroot family
+bur-reed family
+hydrangea family
+elderberry family
+loasa family
+bixa family
+anise-tree family
+myrtle family
+chloranthus family
+chain fern family]
+pittosporum family
+witch hazel family
+trumpetvine family
+bog asphodel family
+batis family
+mahogany family
+cotton family
+cashew family
+palm family
+frog's-bit family
+cyclanthus family
+astelia family
+starvine family
+pentaphylax family
+member of the lily family
+parnassia family
+verbena family
+evening primrose family
+leek family
+ice plant family
+holly family
+arrowhead family
+willow family
+umbrella pine family
+butterfly-bush family
+datisca family
+selaginella family
+moonseed family
+yam family
+oleander family
+reedmace family
+ebony family
+water hawthorn family
+globe-daisy family
+moschatel family
+laurel family
+coca family
+grapevine family
+rock rose family
+gesneria family
+welwitschia family
+persimmon family
+gourd family
+ivy family
+mulberry family
+virginia stonecrop family
+willowherb family
+broomrape family
+yellow-eyed grass family
+wintera family
+century-plant family
+milkwort family
+sand lily family
+storax family
+pansy family
+colchicum family
+sea lavender family
+buckbean family
+balanophora family
+flowering rush family
+olive family
+quassia family
+tofieldia family
+fig marigold family
+custard apple family
+sisal family
+wake-robin family
+vellozia family
+pineapple family
+calla family
+catalpa family
+hernandia family
+winter's bark family
+marcgravia family
+water-nymph family
+soapberry family
+tea family
+bleeding-heart family
+beet family
+piper family
+dogbane family
+mistletoe family
+parnassia subfamily
+horse-chestnut family
+akania family
+stonecrop family
+nutmeg family
+fumewort family
+greenbrier family
+estuary-grass family
+marsh fern family
+sapodilla family
+plumbago family
+incense tree family
+goosefoot family
+daffodil family
+stafftree family
+citrus family
+sterculia family
+st. johnswort family
+mares tail family
+grass of parnassus family
+aloe family
+sword fern family
+trillium family
+dasypogon family
+parsley family
+papaya family
+burmannia family
+linden family
+sesame family
+pokeweed family
+azolla family
+davallia family
+bracken family
+fern family
+water lily family
+bird of paradise family
+walnut family
+cape-pondweed family
+aroid family
+beech family
+sunflower family
+cyanella family
+sumac family
+cherimoya family
+polytrichum family
+riverweed family
+daphniphyllum family
+water-clover family
+dicksonia family
+orchid family
+flagellaria family
+heliconia family
+ginger family
+amborella family
+saltwort family
+chinese gooseberry family
+waterleaf subfamily
+peruvian lily family
+passion flower family
+cycads family
+mignonette family
+cheesewood family
+cypress family
+bayberry family
+morning glory family
+royal fern family
+water-hyacinth family
+goodenia family
+monkey-puzzle tree family
+spiral flag family
+balanops family
+asparagus family
+knotweed family
+bladderwort family
+sedge family
+philydrum family
+water-horn fern family
+alangium family
+squash family
+madder family
+oleaster family
+camellia family
+acanthus family
+bladdernut family
+stemsucker family
+orpine family
+adder's tongue family
+calamus family
+pepper family
+ephedra family
+lotus family
+curly grass family
+cactus family
+carpetweed family
+agave family
+milkweed subfamily
+arrowroot family
+achatocarpus family
+creosote bush family
+pine family
