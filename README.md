@@ -87,83 +87,83 @@ In the SCRIPTS folder, you can find all Python and bash scripts that have been u
 
 ### DATA COLLECTION (path = ‘scripts/data collection/’)
 ##### create Text+Berg subset of sentences containing plant names:
-'$ python3 get_subset_textberg.py -i ./../TextBerg/SAC/ -o ./subset_textberg_de.txt -g ./../resources/gazetteers/ -l de'
+`$ python3 get_subset_textberg.py -i ./../TextBerg/SAC/ -o ./subset_textberg_de.txt -g ./../resources/gazetteers/ -l de`
 
 ##### generate Latin plant name abbreviations:
-'$ python3 add_latin_abbreviations.py -i ./../resources/gazetteers/lat/lat_species.txt -o ./outfile.txt'
+`$ python3 add_latin_abbreviations.py -i ./../resources/gazetteers/lat/lat_species.txt -o ./outfile.txt`
 
 ##### generate German morpholocical variants:
-'$ python3 add_german_variants.py -i ./../resources/gazetteers/de/de_fam.txt -o ./outfile.txt'
+`$ python3 add_german_variants.py -i ./../resources/gazetteers/de/de_fam.txt -o ./outfile.txt`
 
 ##### split German compounds and add name variants:
-'$ python3 add_compound_variants.py -i ./../resources/gazetteers/de/de species.txt -o ./outfileGAZ.txt'
+`$ python3 add_compound_variants.py -i ./../resources/gazetteers/de/de species.txt -o ./outfileGAZ.txt`
 
 ##### create language-specific gazetteers:
-'$ python3 create_gazetteers.py -i ./../resources/gazetteers/de/de_species.txt -o outfile.txt'
+`$ python3 create_gazetteers.py -i ./../resources/gazetteers/de/de_species.txt -o outfile.txt`
 
 ##### add name variants to lookup-table:
-'$ python3 add_variants_database.py -i ./../resources/gazetteers/lookup_table/de_lat_referencedatabase.tsv -o ./outfile'
+`$ python3 add_variants_database.py -i ./../resources/gazetteers/lookup_table/de_lat_referencedatabase.tsv -o ./outfile`
 
 ##### create fungi testset from Wikipedia articles:
-'$ python3 get_wiki_fungi_testset.py -o ./outfile.txt -c Pilze -l de'
+`$ python3 get_wiki_fungi_testset.py -o ./outfile.txt -c Pilze -l de`
 
 ##### retrieve Wikipedia abstracts and trivial names sections:
-'$ python3 retrieve_wiki_sections.py -i ./../resources/gazetteers/lat/lat_species.txt -t ./outfile_trivialsections.txt -a outfile_wikiabstracts.txt -l de'
+`$ python3 retrieve_wiki_sections.py -i ./../resources/gazetteers/lat/lat_species.txt -t ./outfile_trivialsections.txt -a outfile_wikiabstracts.txt -l de`
 
 ##### extract plant names from Catalogue of Life archive:
-'$ python3 extracttaxa_cat_of_life -t ./colarchive/taxa/ -v ./colarchive/vernacular/ -l ./latin.out -d ./german.out -e ./english.out -r rest_vernacular.out'
+`$ python3 extracttaxa_cat_of_life -t ./colarchive/taxa/ -v ./colarchive/vernacular/ -l ./latin.out -d ./german.out -e ./english.out -r rest_vernacular.out`
 
 ### PREPROCESSING (path = ‘scripts/preprocessing/’)
 ##### tokenization:
-'$ python3 tokenize_corpus.py -d ./raw_data/ -l de'
+`$ python3 tokenize_corpus.py -d ./raw_data/ -l de`
 
 ##### part-of-speech tagging:
-'$ python3 ./treetagger-python_miotto/pos_tag_corpus.py -d ./../resources/corpora/'
+`$ python3 ./treetagger-python_miotto/pos_tag_corpus.py -d ./../resources/corpora/`
 
 ### DICTIONARY-BASED ANNOTATION (path = ‘scripts/annotation/’)
 ##### German annotation in IOB-format:
-'$ python3 iobannotate_corpus_de.py -d ./../resources/corpora/training_corpora/de/ -v ./../resources/gazetteers/de/ -s ./../resources/gazetteers/lat/ -l de'
+`$ python3 iobannotate_corpus_de.py -d ./../resources/corpora/training_corpora/de/ -v ./../resources/gazetteers/de/ -s ./../resources/gazetteers/lat/ -l de`
 
 ##### English annotation in IOB-format:
-'$ python3 iobannotate_corpus_en.py -d ./../resources/corpora/training_corpora/en/ -v ./../resources/gazetteers/en/ -s ./../resources/gazetteers/lat/ -l de:'
+`$ python3 iobannotate_corpus_en.py -d ./../resources/corpora/training_corpora/en/ -v ./../resources/gazetteers/en/ -s ./../resources/gazetteers/lat/ -l de:`
 
 
 ### TRAINING (path = ‘scripts/training/’)
 ##### K-fold splitting of training data:
-'$ python3 kfold_crossvalidation.py -d ./../resources/corpora/training corpora/de/'
+`$ python3 kfold_crossvalidation.py -d ./../resources/corpora/training corpora/de/`
 
 ##### Bashscript 5-fold crossvalidation training (examples):
-'$ bash bashscript_5foldtraining_preemb_en.sh'
-'$ bash bashscript_5foldtraining_preemb_de.sh'
+`$ bash bashscript_5foldtraining_preemb_en.sh`
+`$ bash bashscript_5foldtraining_preemb_de.sh`
 
 ##### Adapted scripts from Lample et al. (2016):
-'$ python2 train_no_dev.py'
-'$ python2 utils.py'
+`$ python2 train_no_dev.py`
+`$ python2 utils.py`
 
 ### EVALUATION (path = ‘scripts/evaluation/’)
 ##### Averaged evaluation over 5 folds:
-'$ python2 final_eval_kfold.py -d ./../../evaluation/baseline/model_baseline/ -o ./evaluation_files/'
+`$ python2 final_eval_kfold.py -d ./../../evaluation/baseline/model_baseline/ -o ./evaluation_files/`
 
 ##### Evaluation of silver standard:
-'$ python3 evaluate_gold_silver.py -s ./../resources/corpora/gold_standard/de/alldata.test.fold1SILVER de.txt -g ./../resources/corpora/gold_standard/de/combined.test.fold1GOLD de.txt'
+`$ python3 evaluate_gold_silver.py -s ./../resources/corpora/gold_standard/de/alldata.test.fold1SILVER de.txt -g ./../resources/corpora/gold_standard/de/combined.test.fold1GOLD de.txt`
 
 ##### Cross-dataset evaluation:
-'$ python3 cross_dataset_evaluation.py -s ./silver_standard/plantblog_corpus.test.fold1.txt -t ./tagged_data/model_wiki_test_blog_f1_dropout5.tsv'
+`$ python3 cross_dataset_evaluation.py -s ./silver_standard/plantblog_corpus.test.fold1.txt -t ./tagged_data/model_wiki_test_blog_f1_dropout5.tsv`
 
 ##### File statistics training corpora (size, token, types, averaged length):
-'$ python3 file_statistics.py -i ./../resources/corpora/training_corpora/de/'
+`$ python3 file_statistics.py -i ./../resources/corpora/training_corpora/de/`
 
 ##### Transform IOB-format to 1-sentence-per-line (input for tagger.py):
-'$ python3 transform_iob_to_sentences.py -i ./../resources/corpora/training_corpora/de/botlit_corpus_de.tok.pos.iob.txt -o botlit_sentences.txt'
+`$ python3 transform_iob_to_sentences.py -i ./../resources/corpora/training_corpora/de/botlit_corpus_de.tok.pos.iob.txt -o botlit_sentences.txt`
 
 
 ### ENTITY LINKING:
 ##### Catalogue of Life entity linking and creation of JSON-output:
-'$ python3 entity_linker.py -i ./../resources/corpora/training_corpora/de/botlit_corpus de.tok.pos.iob.txt -o ./json file.json -f IOB -r ./../resources/gazetteers/lookup_table/de_lat_referencedatabase.tsv -l True'
+`$ python3 entity_linker.py -i ./../resources/corpora/training_corpora/de/botlit_corpus de.tok.pos.iob.txt -o ./json file.json -f IOB -r ./../resources/gazetteers/lookup_table/de_lat_referencedatabase.tsv -l True`
 
 ### WEB INTERFACE:
 ##### Start web-application:
-'$ python3 web application.py'
+`$ python3 web application.py`
 
 ##### Tokenization (function):
 tokenize input(inputText, language)
