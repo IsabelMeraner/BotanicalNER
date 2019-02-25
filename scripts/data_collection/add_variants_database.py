@@ -17,7 +17,7 @@ Example:
     Dreizähniges Habichtskraut	Hieracium laevigatum
 
 How to run the code:
-$ python3 add_variants_database.py -i ./../../resources/gazetteers/lookup_table/de_lat_referencedatabase.tsv -o ./outfile
+$ python3 add_variants_database.py -i ./../../resources/gazetteers/lookup_table/de_lat_lookup.tsv -o ./outfile
 
 """
 import argparse

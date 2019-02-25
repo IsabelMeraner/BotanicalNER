@@ -19,7 +19,7 @@ Input:
 
 # How to run the code:
 $ python3 entity_linker.py -i ./../../resources/corpora/training_corpora/de/botlit_corpus_de.tok.pos.iob.txt
-  -o ./json_file.json -f IOB -r ./../../resources/gazetteers/lookup_table/de_lat_referencedatabase.tsv -l True
+  -o ./json_file.json -f IOB -r ./../../resources/gazetteers/lookup_table/de_lat_lookup.tsv -l True
 """
 import argparse
 import json
@@ -320,7 +320,7 @@ def create_json(index_dict, atts, name_occurrence_dict, lookup_table, use_lookup
 
 def main():
     tagged_file_default = "./../../resources/corpora/training_corpora/de/botlit_corpus_de.tok.pos.iob.txt"
-    PATH_REFDB = "./../../resources/gazetteers/lookup_table/de_lat_referencedatabase.tsv"
+    PATH_REFDB = "./../../resources/gazetteers/lookup_table/de_lat_lookup.tsv"
 
     json_output_default = "./linked_output.json"
     parser = argparse.ArgumentParser(
@@ -388,7 +388,7 @@ def main():
                                                                 file=sys.stderr, flush=True)
 
     with open(json_output, 'w', encoding='utf-8') as outfile:
-        json.dump(json_data, outfile)
+        json.dump(json_data, outfile, ensure_ascii=False)
 
     # uncomment this section to write linking statistics to file
     # PATH_OUT_EVAL = "./linking_eval/"

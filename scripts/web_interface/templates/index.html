@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Plant Name Recognition</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.0/css/bootstrap.min.css"
+          integrity="sha384-PDle/QlgIONtM1aqA2Qemk5gPOE7wFq8+Em+G/hmo5Iq0CCmYZLv3fVRDJ4MMwEA" crossorigin="anonymous">
+</head>
+<body>
+
+<!-- Info Button -->
+<button type="button" class="infoButton" id="infoButton"
+        onclick="window.open('https://github.com/IsabelMeraner/BotanicalNER')">
+    Project Information
+</button>
+
+<div class="main-content">
+    <div class="container-fluid content">
+
+        <div class="row">
+            <div class="col">
+                <h1> Plant Tagger </h1>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-6">
+                <h2>Choose input language:</h2>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-6">
+                <button id="deClick" type="submit" class="btn btn-secondary btn-sm langBtn">DE</button>
+                <button id="enClick" type="submit" class="btn btn-secondary btn-sm">EN</button>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <form action="/ask" id="askForm" class="form">
+                    <div class="row">
+                        <div class="col-6">
+                            <textarea id="input" type="text" name="data" placeholder="Paste input text..."
+                              class="input"></textarea>
+                        </div>
+                        <div class="col-6">
+                            <div id="result" class="result">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-6">
+                            <button type="submit" class="btn btn-secondary btn-sm">TAG!</button>
+                        </div>
+                        <div>
+                            <div id="DownloadJson" class="downloadJson">
+                                <a href="/static/output_linked.json" download="linked_output.json">Download JSON! </a>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <h2> Information: </h2>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col-6">
+                <div class="infoSection">
+                    <p> 1. Please choose the language of your input text.
+                        <br>2. Paste your raw text into the blank area above.
+                        <br>3. Click TAG!.
+                        <br>4. Wait... (Note: The neural tagger requires some time to compile)
+                        <br> (The input text is being tokenized, tagged and linked to the <a
+                                href="http://catalogueoflife.org/"
+                                target="_blank"
+                                style="color:greenyellow">
+                            Catalogue of Life </a> database in the background.)
+                        <br>5. Check out the JSON-file in the output window!</p>
+                </div>
+            </div>
+            <div class="col-6">
+            </div>
+        </div>
+
+
+        <footer>
+            &copy; Isabel Meraner - Institut für Computerlinguistik (Universität Zürich), 2019
+            <span class="image-credits">
+                Background Image:  <a href="https://unsplash.com/search/photos/plant" target="_blank"> Annie Spratt </a>
+            </span>
+        </footer>
+    </div>
+</div>
+
+<script src="/static/main.js"></script>
+</body>
+</html>
