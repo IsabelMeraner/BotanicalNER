@@ -81,45 +81,48 @@ def tokenize_input(inputText, language):
     with open("./output/input_tokenized.txt", "w", encoding="utf-8") as tok_file:
         tok_file.write(tokenized_response)
 
-def main():
-    app = Flask(__name__)
 
-    @app.route("/")
-    def home():
-        return render_template("index.html")
+app = Flask(__name__)
 
+@app.route("/")
+def home():
+    return render_template("index.html")
 
-    @app.route("/ask", methods=['POST'])
-    def get_response():
-        inputText = request.form.get('data')
-        language = request.form.get('lang')
-        print(">> RECEIVED USER INPUT:\n {}".format(inputText), file=sys.stderr, flush=True)
-        print(">> INPUT LANGUAGE: '{}'".format(language), file=sys.stderr, flush=True)
+@app.route("/ask", methods=['POST'])
+def get_response():
+    inputText = request.form.get('data')
+    language = request.form.get('lang')
+    print(">> RECEIVED USER INPUT:\n {}".format(inputText), file=sys.stderr, flush=True)
+    print(">> INPUT LANGUAGE: '{}'".format(language), file=sys.stderr, flush=True)
 
-        # TOKENIZE
-        if language == 'de':
-            print("\n>> tokenizing German input text...")
-            tokenize_input(inputText, language)
-            model = "model_wiki_de"
-        else:
-            print("\n>> tokenizing English input text...")
-            tokenize_input(inputText, language)
-            model = "model_wiki_en"
+    # TOKENIZE
+    if language == 'de':
+        print("\n>> tokenizing German input text...")
+        tokenize_input(inputText, language)
+        model = "model_wiki_de"
+    else:
+        print("\n>> tokenizing English input text...")
+        tokenize_input(inputText, language)
+        model = "model_wiki_en"
 
-        # TAGGING
-        print("\n>> tagging tokenized input text...", file=sys.stderr, flush=True)
-        subprocess.call("python2.7 ./tagger-master/tagger.py -m ./models/{} -i ./output/input_tokenized.txt -o ./output/output_tagged.txt -d __".format(model), shell=True)
+    # TAGGING
+    print("\n>> tagging tokenized input text...", file=sys.stderr, flush=True)
+    subprocess.call(
+        "python2.7 ./tagger-master/tagger.py -m ./models/{} -i ./output/input_tokenized.txt -o ./output/output_tagged.txt -d __".format(
+            model), shell=True)
 
-        # LINKING: entity_linker.py
-        print("\n>> linking entity candidates to reference database", file=sys.stderr, flush=True)
-        subprocess.call("python3 ./entity_linker.py -i ./output/output_tagged.txt -o ./static/output_linked.json --language {}".format(language), shell=True)
+    # LINKING: entity_linker.py
+    print("\n>> linking entity candidates to reference database", file=sys.stderr, flush=True)
+    subprocess.call(
+        "python3 ./entity_linker.py -i ./output/output_tagged.txt -o ./static/output_linked.json --language {}".format(
+            language), shell=True)
 
-        # JSON FILE CREATION
-        print("\n>> creating json-file...", file=sys.stderr, flush=True)
-        with open("./static/output_linked.json", "r") as linked_output:
-            data = json.load(linked_output)
-            return json.dumps(data, indent=2, ensure_ascii=False).encode("utf-8")
-    app.run()
+    # JSON FILE CREATION
+    print("\n>> creating json-file...", file=sys.stderr, flush=True)
+    with open("./static/output_linked.json", "r") as linked_output:
+        data = json.load(linked_output)
+        return json.dumps(data, indent=2, ensure_ascii=False).encode("utf-8")
+
 
 if __name__ == "__main__":
-    main()
+    app.run()
