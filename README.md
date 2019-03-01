@@ -166,7 +166,7 @@ In the SCRIPTS folder, you can find all Python and bash scripts that have been u
 ##### # Start web-application:
 `$ python3 web application.py`
 
-##### # Tokenization (function):
+##### # Domain-adapted tokenization (function):
 `tokenize input(inputText, language)`
 
 ##### # Tagging of tokenised input sentence:
