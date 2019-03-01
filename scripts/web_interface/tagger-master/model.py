@@ -5,7 +5,7 @@ import scipy.io
 import theano
 import theano.tensor as T
 import codecs
-import cPickle
+import pickle
 
 from utils import shared, set_values, get_name
 from nn import HiddenLayer, EmbeddingLayer, DropoutLayer, LSTM, forward
@@ -36,7 +36,7 @@ class Model(object):
                 os.makedirs(self.model_path)
             # Save the parameters to disk
             with open(self.parameters_path, 'wb') as f:
-                cPickle.dump(parameters, f)
+                pickle.dump(parameters, f)
         else:
             assert parameters is None and models_path is None
             # Model location
@@ -45,7 +45,7 @@ class Model(object):
             self.mappings_path = os.path.join(model_path, 'mappings.pkl')
             # Load the parameters and the mappings from disk
             with open(self.parameters_path, 'rb') as f:
-                self.parameters = cPickle.load(f)
+                self.parameters = pickle.load(f)
             self.reload_mappings()
         self.components = {}
 
@@ -62,14 +62,14 @@ class Model(object):
                 'id_to_char': self.id_to_char,
                 'id_to_tag': self.id_to_tag,
             }
-            cPickle.dump(mappings, f)
+            pickle.dump(mappings, f)
 
     def reload_mappings(self):
         """
         Load mappings from disk.
         """
         with open(self.mappings_path, 'rb') as f:
-            mappings = cPickle.load(f)
+            mappings = pickle.load(f)
         self.id_to_word = mappings['id_to_word']
         self.id_to_char = mappings['id_to_char']
         self.id_to_tag = mappings['id_to_tag']
@@ -87,7 +87,7 @@ class Model(object):
         """
         Write components values to disk.
         """
-        for name, param in self.components.items():
+        for name, param in list(self.components.items()):
             param_path = os.path.join(self.model_path, "%s.mat" % name)
             if hasattr(param, 'params'):
                 param_values = {p.name: p.get_value() for p in param.params}
@@ -99,7 +99,7 @@ class Model(object):
         """
         Load components values from disk.
         """
-        for name, param in self.components.items():
+        for name, param in list(self.components.items()):
             param_path = os.path.join(self.model_path, "%s.mat" % name)
             param_values = scipy.io.loadmat(param_path)
             if hasattr(param, 'params'):
@@ -163,7 +163,7 @@ class Model(object):
             # Initialize with pretrained embeddings
             if pre_emb and training:
                 new_weights = word_layer.embeddings.get_value()
-                print 'Loading pretrained embeddings from %s...' % pre_emb
+                print('Loading pretrained embeddings from %s...' % pre_emb)
                 pretrained = {}
                 emb_invalid = 0
                 for i, line in enumerate(codecs.open(pre_emb, 'r', 'utf-8')):
@@ -175,12 +175,12 @@ class Model(object):
                     else:
                         emb_invalid += 1
                 if emb_invalid > 0:
-                    print 'WARNING: %i invalid lines' % emb_invalid
+                    print('WARNING: %i invalid lines' % emb_invalid)
                 c_found = 0
                 c_lower = 0
                 c_zeros = 0
                 # Lookup table initialization
-                for i in xrange(n_words):
+                for i in range(n_words):
                     word = self.id_to_word[i]
                     if word in pretrained:
                         new_weights[i] = pretrained[word]
@@ -194,16 +194,16 @@ class Model(object):
                         ]
                         c_zeros += 1
                 word_layer.embeddings.set_value(new_weights)
-                print 'Loaded %i pretrained embeddings.' % len(pretrained)
-                print ('%i / %i (%.4f%%) words have been initialized with '
+                print('Loaded %i pretrained embeddings.' % len(pretrained))
+                print(('%i / %i (%.4f%%) words have been initialized with '
                        'pretrained embeddings.') % (
                             c_found + c_lower + c_zeros, n_words,
                             100. * (c_found + c_lower + c_zeros) / n_words
-                      )
-                print ('%i found directly, %i after lowercasing, '
+                      ))
+                print(('%i found directly, %i after lowercasing, '
                        '%i after lowercasing + zero.') % (
                           c_found, c_lower, c_zeros
-                      )
+                      ))
 
         #
         # Chars inputs
@@ -367,7 +367,7 @@ class Model(object):
             lr_method_parameters = {}
 
         # Compile training function
-        print 'Compiling...'
+        print('Compiling...')
         if training:
             updates = Optimization(clip=5.0).get_updates(lr_method_name, cost, params, **lr_method_parameters)
             f_train = theano.function(

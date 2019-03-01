@@ -44,7 +44,7 @@ class Optimization:
         elif method == 'rmsprop':
             updates = self.rmsprop(cost, params, **kwargs)
         else:
-            raise("Not implemented learning method: %s" % method)
+            raise "Not implemented learning method: %s"
         return updates
 
     def sgd(self, cost, params, lr=0.01):

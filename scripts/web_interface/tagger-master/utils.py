@@ -16,7 +16,7 @@ def get_name(parameters):
     Generate a model name from its parameters.
     """
     l = []
-    for k, v in parameters.items():
+    for k, v in list(parameters.items()):
         if type(v) is str and "/" in v:
             l.append((k, v[::-1][:v[::-1].index('/')][::-1]))
         else:
@@ -73,9 +73,9 @@ def create_mapping(dico):
     Create a mapping (item to ID / ID to item) from a dictionary.
     Items are ordered by decreasing frequency.
     """
-    sorted_items = sorted(dico.items(), key=lambda x: (-x[1], x[0]))
+    sorted_items = sorted(list(dico.items()), key=lambda x: (-x[1], x[0]))
     id_to_item = {i: v[0] for i, v in enumerate(sorted_items)}
-    item_to_id = {v: k for k, v in id_to_item.items()}
+    item_to_id = {v: k for k, v in list(id_to_item.items())}
     return item_to_id, id_to_item
 
 
@@ -276,28 +276,28 @@ def evaluate(parameters, f_eval, raw_sentences, parsed_sentences,
     # CoNLL evaluation results
     eval_lines = [l.rstrip() for l in codecs.open(scores_path, 'r', 'utf8')]
     for line in eval_lines:
-        print line
+        print(line)
 
     # Remove temp files
     # os.remove(output_path)
     # os.remove(scores_path)
 
     # Confusion matrix with accuracy for each tag
-    print ("{: >2}{: >7}{: >7}%s{: >9}" % ("{: >7}" * n_tags)).format(
+    print(("{: >2}{: >7}{: >7}%s{: >9}" % ("{: >7}" * n_tags)).format(
         "ID", "NE", "Total",
-        *([id_to_tag[i] for i in xrange(n_tags)] + ["Percent"])
-    )
-    for i in xrange(n_tags):
-        print ("{: >2}{: >7}{: >7}%s{: >9}" % ("{: >7}" * n_tags)).format(
+        *([id_to_tag[i] for i in range(n_tags)] + ["Percent"])
+    ))
+    for i in range(n_tags):
+        print(("{: >2}{: >7}{: >7}%s{: >9}" % ("{: >7}" * n_tags)).format(
             str(i), id_to_tag[i], str(count[i].sum()),
-            *([count[i][j] for j in xrange(n_tags)] +
+            *([count[i][j] for j in range(n_tags)] +
               ["%.3f" % (count[i][i] * 100. / max(1, count[i].sum()))])
-        )
+        ))
 
     # Global accuracy
-    print "%i/%i (%.5f%%)" % (
+    print("%i/%i (%.5f%%)" % (
         count.trace(), count.sum(), 100. * count.trace() / max(1, count.sum())
-    )
+    ))
 
     # F1 on all entities
     return float(eval_lines[1].strip().split()[-1])
