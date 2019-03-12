@@ -170,7 +170,7 @@ In the SCRIPTS folder, you can find all Python and bash scripts that have been u
 `tokenize input(inputText, language)`
 
 ##### # Tagging of tokenised input sentence:
-`subprocess.call("python2.7 ./tagger-master/tagger.py -m ./models/{} -i ./output/input_tokenized.txt -o ./output/output_tagged.txt -d ".format(model), shell=True)`
+`subprocess.call("python3 ./tagger-master/tagger.py -m ./models/{} -i ./output/input_tokenized.txt -o ./output/output_tagged.txt -d ".format(model), shell=True)`
 
 ##### # Linking of entity candidates:
 `subprocess.call("python3 ./entity linker jsonoutput.py -i ./output/output tagged.txt -o ./static/output linked.json --language {}".format(language), shell=True)`
