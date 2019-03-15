@@ -6,6 +6,10 @@ Institute of Computational Linguistics, University of Zurich (Switzerland), 2019
 This repository contains two subfolders “SCRIPTS” and “RESOURCES”.<br/>
 In the RESOURCES folder, you can find the following sample output material and data resources:
 
+Please note that the bi-LSTM-CRF architecture used for training was developed by Lample et al. (2016):   
+Named Entity Recognition Tool](https://github.com/glample/tagger)   
+Lample et al. (2016). Neural Architectures for Named Entity Recognition. URL= [https://arxiv.org/abs/1603.01360](http://arxiv.org/abs/1603.01360)
+
 ### TRAINING DATA (path = ‘resources/corpora/training corpora/’)
 ##### Silver standard training corpora (in IOB-format):
 • plantblog_corpus_{de|en}.tok.pos.iob.txt<br/>
@@ -138,15 +142,15 @@ In the SCRIPTS folder, you can find all Python and bash scripts that have been u
 `$ bash bashscript_5foldtraining_preemb_de.sh`
 
 ##### # Adapted scripts from Lample et al. (2016):
-`$ python2 train_no_dev.py`
-`$ python2 utils.py`
+`$ python train_no_dev.py`
+`$ python utils.py`
 
 ### EVALUATION (path = ‘scripts/evaluation/’)
 ##### # Averaged evaluation over 5 folds:
-`$ python2 final_eval_kfold.py -d ./../../evaluation/baseline/model_baseline/ -o ./evaluation_files/`
+`$ python final_eval_kfold.py -d ./../../evaluation/baseline/model_baseline/ -o ./evaluation_files/`
 
 ##### # Evaluation of silver standard:
-`$ python3 evaluate_gold_silver.py -s ./../resources/corpora/gold_standard/de/alldata.test.fold1SILVER de.txt -g ./../resources/corpora/gold_standard/de/combined.test.fold1GOLD de.txt`
+`$ python evaluate_gold_silver.py -s ./../resources/corpora/gold_standard/de/alldata.test.fold1SILVER de.txt -g ./../resources/corpora/gold_standard/de/combined.test.fold1GOLD de.txt`
 
 ##### # Cross-dataset evaluation:
 `$ python3 cross_dataset_evaluation.py -s ./silver_standard/plantblog_corpus.test.fold1.txt -t ./tagged_data/model_wiki_test_blog_f1_dropout5.tsv`
@@ -160,17 +164,17 @@ In the SCRIPTS folder, you can find all Python and bash scripts that have been u
 
 ### ENTITY LINKING:
 ##### # Catalogue of Life entity linking and creation of JSON-output:
-`$ python3 entity_linker.py -i ./../resources/corpora/training_corpora/de/botlit_corpus de.tok.pos.iob.txt -o ./json file.json -f IOB -r ./../resources/gazetteers/lookup_table/de_lat_referencedatabase.tsv -l True`
+`$ python3 entity_linker.py -i ./../resources/corpora/training_corpora/de/botlit_corpus de.tok.pos.iob.txt -o ./json_file.json -f IOB -r ./../resources/gazetteers/lookup_table/de_lat_referencedatabase.tsv -l True`
 
 ### WEB INTERFACE:
 ##### # Start web-application:
 `$ python3 web application.py`
 
 ##### # Domain-adapted tokenization (function):
-`tokenize input(inputText, language)`
+`tokenize_input(inputText, language)`
 
 ##### # Tagging of tokenised input sentence:
-`subprocess.call("python2.7 ./tagger-master/tagger.py -m ./models/{} -i ./output/input_tokenized.txt -o ./output/output_tagged.txt -d ".format(model), shell=True)`
+`subprocess.call("python3 ./tagger-master/tagger.py -m ./models/{} -i ./output/input_tokenized.txt -o ./output/output_tagged.txt -d ".format(model), shell=True)`
 
 ##### # Linking of entity candidates:
-`subprocess.call("python3 ./entity linker jsonoutput.py -i ./output/output tagged.txt -o ./static/output linked.json --language {}".format(language), shell=True)`
+`subprocess.call("python3 ./entity_linker.py -i ./output/output_tagged.txt -o ./static/output_linked.json --language {}".format(language), shell=True)`
