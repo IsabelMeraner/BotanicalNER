@@ -7,7 +7,7 @@ This repository contains two subfolders “SCRIPTS” and “RESOURCES”.<br/>
 In the RESOURCES folder, you can find the following sample output material and data resources:
 
 Please note that the bi-LSTM-CRF architecture used for training was developed by Lample et al. (2016):   
-Named Entity Recognition Tool](https://github.com/glample/tagger)   
+[Named Entity Recognition Tool](https://github.com/glample/tagger)   
 Lample et al. (2016). Neural Architectures for Named Entity Recognition. URL= [https://arxiv.org/abs/1603.01360](http://arxiv.org/abs/1603.01360)
 
 The adapted files from the bi-LSTM-CRF tagger by Lample et al. (2016) can be found under
@@ -140,11 +140,11 @@ In the SCRIPTS folder, you can find all Python and bash scripts that have been u
 `$ python3 kfold_crossvalidation.py -d ./../resources/corpora/training corpora/de/`
 
 ##### # Bashscript 5-fold crossvalidation training (examples):
-`$ bash bashscript_5foldtraining_preemb_en.sh`
+`$ bash bashscript_5foldtraining_preemb_en.sh`   
 `$ bash bashscript_5foldtraining_preemb_de.sh`
 
 ##### # Adapted scripts from Lample et al. (2016):
-`$ python train_no_dev.py`
+`$ python train_no_dev.py`   
 `$ python utils.py`
 
 ### EVALUATION (path = ‘scripts/evaluation/’)
