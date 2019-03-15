@@ -10,6 +10,8 @@ Please note that the bi-LSTM-CRF architecture used for training was developed by
 Named Entity Recognition Tool](https://github.com/glample/tagger)   
 Lample et al. (2016). Neural Architectures for Named Entity Recognition. URL= [https://arxiv.org/abs/1603.01360](http://arxiv.org/abs/1603.01360)
 
+The adapted files from the bi-LSTM-CRF tagger by Lample et al. (2016) can be found under
+'scripts/web_interface/tagger-master/'.
 ### TRAINING DATA (path = ‘resources/corpora/training corpora/’)
 ##### Silver standard training corpora (in IOB-format):
 • plantblog_corpus_{de|en}.tok.pos.iob.txt<br/>
