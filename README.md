@@ -4,7 +4,7 @@ Author: Isabel Meraner<br/>
 Institute of Computational Linguistics, University of Zurich (Switzerland), 2019
 
 This repository contains two subfolders “SCRIPTS” and “RESOURCES”.<br/>
-In the RESOURCES folder, you can find the following sample output material and data resources:
+In the RESOURCES folder, you can find sample output material and data resources.
 
 Please note that the bi-LSTM-CRF architecture used for training was developed by Lample et al. (2016):   
 [Named Entity Recognition Tool](https://github.com/glample/tagger)   
