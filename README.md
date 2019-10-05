@@ -1,13 +1,21 @@
 # BotanicalNER
-Project: Neural Entity Recognition for Scientific and Vernacular Plant Names<br/>
+Project: Neural Named Entity Recognition for Scientific and Vernacular Plant Names<br/>
 Author: Isabel Meraner<br/>
 Institute of Computational Linguistics, University of Zurich (Switzerland), 2019
+
+The resources and scripts in this repository have been created for a master thesis project on "Neural Named Entity Recognition for Scientific and Vernacular Plant Name" at the University of Zurich.   
+https://www.cl.uzh.ch/de/studium/theses/lic-master-theses.html    
+The main focus of the project was to identify and disambiguate scientific and vernacular plant names across multiple German and English text genres and to provide a valuable tool in order to extract and preserve (ethno-)botanical knowledge.
+
+If you have any questions or suggestions concerning this project, please don't hesitate to contact me!
+
+---
+
 
 This repository contains two subfolders “SCRIPTS” and “RESOURCES”.<br/>
 In the RESOURCES folder, you can find sample output material and data resources.
 
-Please note that the bi-LSTM-CRF architecture used for training was developed by Lample et al. (2016):   
-[Named Entity Recognition Tool](https://github.com/glample/tagger)   
+Please note that the [bi-LSTM-CRF architecture ](https://github.com/glample/tagger) used for training was developed by Lample et al. (2016):   
 Lample et al. (2016). Neural Architectures for Named Entity Recognition. URL= [https://arxiv.org/abs/1603.01360](http://arxiv.org/abs/1603.01360)
 
 The adapted files from the bi-LSTM-CRF tagger by Lample et al. (2016) can be found under
@@ -168,15 +176,3 @@ In the SCRIPTS folder, you can find all Python and bash scripts that have been u
 ##### # Catalogue of Life entity linking and creation of JSON-output:
 `$ python3 entity_linker.py -i ./../resources/corpora/training_corpora/de/botlit_corpus de.tok.pos.iob.txt -o ./json_file.json -f IOB -r ./../resources/gazetteers/lookup_table/de_lat_referencedatabase.tsv -l True`
 
-### WEB INTERFACE:
-##### # Start web-application:
-`$ python3 web application.py`
-
-##### # Domain-adapted tokenization (function):
-`tokenize_input(inputText, language)`
-
-##### # Tagging of tokenised input sentence:
-`subprocess.call("python3 ./tagger-master/tagger.py -m ./models/{} -i ./output/input_tokenized.txt -o ./output/output_tagged.txt -d ".format(model), shell=True)`
-
-##### # Linking of entity candidates:
-`subprocess.call("python3 ./entity_linker.py -i ./output/output_tagged.txt -o ./static/output_linked.json --language {}".format(language), shell=True)`
