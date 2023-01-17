@@ -4,7 +4,7 @@ Author: Isabel Meraner<br/>
 Institute of Computational Linguistics, University of Zurich (Switzerland), 2019
 
 The resources and scripts in this repository have been created for a master thesis project on "Neural Named Entity Recognition for Scientific and Vernacular Plant Name" at the University of Zurich.   
-https://www.cl.uzh.ch/en/studies/theses/lic-master-theses.html
+https://www.cl.uzh.ch/en/studies/theses/lic-master-theses.html   
 The main focus of the project was to identify and disambiguate scientific and vernacular plant names across multiple German and English text genres and to provide a valuable tool in order to extract and preserve (ethno-)botanical knowledge.
 
 If you have any questions or suggestions concerning this project, please don't hesitate to contact me!
